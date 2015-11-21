@@ -1,0 +1,236 @@
+2015-11-21 16:34:21 [scrapy] INFO: Scrapy 1.0.3 started (bot: wechat)
+2015-11-21 16:34:21 [scrapy] INFO: Optional features available: ssl, http11, boto
+2015-11-21 16:34:21 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'wechat.spiders', 'SPIDER_MODULES': ['wechat.spiders'], 'LOG_FILE': './wechat/log/wechat.log', 'LOG_LEVEL': 'INFO', 'BOT_NAME': 'wechat'}
+2015-11-21 16:34:21 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2015-11-21 16:34:22 [boto] ERROR: Caught exception reading instance data
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/boto/utils.py", line 210, in retry_url
+    r = opener.open(req, timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+2015-11-21 16:34:22 [boto] ERROR: Unable to read instance data, giving up
+2015-11-21 16:34:22 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-11-21 16:34:22 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-11-21 16:34:22 [scrapy] INFO: Enabled item pipelines: 
+2015-11-21 16:34:22 [scrapy] INFO: Spider opened
+2015-11-21 16:34:22 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-11-21 16:34:24 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MzAxNzI0MDQ5NA==&mid=516845137&idx=1&sn=84ba13576818ec7ff7c135f058dda799&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    title = sel.xpath('//title/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:34:26 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MjM5OTM1MTcwMQ==&mid=402033799&idx=1&sn=8e2cc2e570049a317633b29888c032f5&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    title = sel.xpath('//title/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:34:27 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MjM5OTQ4NjA2Ng==&mid=401853200&idx=5&sn=5aa7ddac387329ee7e9d6c69d88f418c&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    title = sel.xpath('//title/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:34:30 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MzA3MTQxODAxOA==&mid=400918780&idx=8&sn=9aeff85a570505f46dad47af5be6a437&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    title = sel.xpath('//title/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:34:40 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MjM5MDA0Mjc0MA==&mid=400316743&idx=1&sn=06b491cb4f7cba856a0ad79c97dff228&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:34:41 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MzAwMTAzMzY3Mg==&mid=400697410&idx=2&sn=53555087257d009881832e234eb7147a&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:34:43 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MzA3MzI4MDUyNw==&mid=400772691&idx=6&sn=cbd9c750122f201ed1f07c29c08f488d&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 58, in parse
+    f.write(''.join(content))
+IOError: [Errno 2] No such file or directory: u'./wechat/articles/2015-11-13/\u7cbe\u81f4\u4f73\u4eba_2015-11-13_\u8fd9\u662f\u4eca\u5e74\u6700\u6d41\u884c\u7684\u4e00\u6b3e\u56f4\u5dfe/\u62ab\u80a9\uff0c\u7f8e\u5230\u6ca1\u670b\u53cb'
+2015-11-21 16:34:45 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MjA0MTg1NjMyMA==&mid=400852549&idx=3&sn=6b888bb7cdd09002b7f96965ce058576&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:34:46 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MzA3MDE1NTgxMA==&mid=400489166&idx=6&sn=6e3ad1fb3682ae5597129c0ef0d46435&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:34:58 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MzA5MTMxMjMyMw==&mid=401240558&idx=6&sn=f8487b0f56b962a97c66f9dccd165fd3&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:34:58 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MjM5NzEyMTUxNg==&mid=401608036&idx=3&sn=4e81c48b532433cdeb800decccc29460&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:34:59 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MjM5OTQ4NjA2Ng==&mid=401853200&idx=6&sn=0950e325d320bb5ac999654046e307b1&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:34:59 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MjM5OTIwNDkwMA==&mid=400846407&idx=1&sn=06bb8c56e900b28dbd5f1029d2bcf6da&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:35:00 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MzA5MTMxMjMyMw==&mid=401240558&idx=8&sn=1fb273a618c4515c6dff1ddb011294ee&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:35:01 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MjM5MzEwNzkyMA==&mid=400531011&idx=1&sn=fd16029908db67c8f86ff5401d9c6d27&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 58, in parse
+    f.write(''.join(content))
+IOError: [Errno 2] No such file or directory: u'./wechat/articles/2015-11-13/TripAdvisor\u732b\u9014\u9e70_2015-11-13_\u300e\u641e\u5b9a\u7b7e\u8bc1\u2461\u300f\xa0\u53f2\u4e0a\u6700\u5168\xb7\u6700\u65b0\xb7\u6700\u9632\u5751\xb7\u514d\u7b7e/\u843d\u5730\u7b7e\u4fe1\u606f'
+2015-11-21 16:35:04 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MzA4Nzc0NTMwOQ==&mid=400340827&idx=1&sn=df08d772c0d773ca5deed096170e19de&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:35:05 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MzAxOTAxMTg0Nw==&mid=401774100&idx=6&sn=a2b99dc434fbf474aaf9abbeaf86968b&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:35:07 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MzAwMTAzMzY3Mg==&mid=400697410&idx=6&sn=e13a64400c436d923ed1f32af9cff98c&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:35:07 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MjM5MjcxMjM2Mw==&mid=400574795&idx=1&sn=786d09f82003e9cec67e88323460414c&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:35:10 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MzA5MDEzOTM3Mg==&mid=400995404&idx=1&sn=aa8d108e48f54e66bab491cae22ae933&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:35:12 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MzAwMTAzMzY3Mg==&mid=400697410&idx=3&sn=d57623ec259e00cef2bc8790a0092808&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:35:13 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MjM5MzU5MjAzNA==&mid=400515887&idx=1&sn=ce7ef3d11188a15e2cd124214b0d8bfc&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:35:13 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MjM5ODIwMDI0NA==&mid=400532448&idx=3&sn=6aeb3b69d7ecf3bd385118c063cdb61b&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:35:20 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MjM5NDQ2OTYwMA==&mid=402105852&idx=1&sn=7798652b353a6eb2d4e33bc2f0675c4a&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:35:21 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MjM5MjMwMzA0MA==&mid=2616790810&idx=2&sn=9981139d1f98b415c9a1540ee16754b3&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:35:21 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MjM5OTQ4NjA2Ng==&mid=401853200&idx=7&sn=2a37edd2a7d75945a4ae48160c39b92d&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:35:22 [scrapy] INFO: Crawled 896 pages (at 896 pages/min), scraped 0 items (at 0 items/min)
+2015-11-21 16:35:25 [scrapy] ERROR: Spider error processing <GET http://mp.weixin.qq.com/s?__biz=MzA5MjA0NDQxMA==&mid=408299729&idx=2&sn=303014650e606f34a20f7c3401eafed7&scene=4#wechat_redirect> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/luobu/workspace/python/scrapy/wechat/wechat/spiders/wechat.py", line 51, in parse
+    arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
+IndexError: list index out of range
+2015-11-21 16:35:29 [scrapy] INFO: Closing spider (finished)
+2015-11-21 16:35:29 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 302001,
+ 'downloader/request_count': 1000,
+ 'downloader/request_method_count/GET': 1000,
+ 'downloader/response_bytes': 15541242,
+ 'downloader/response_count': 1000,
+ 'downloader/response_status_count/200': 1000,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 11, 21, 8, 35, 29, 676332),
+ 'log_count/ERROR': 29,
+ 'log_count/INFO': 8,
+ 'response_received_count': 1000,
+ 'scheduler/dequeued': 1000,
+ 'scheduler/dequeued/memory': 1000,
+ 'scheduler/enqueued': 1000,
+ 'scheduler/enqueued/memory': 1000,
+ 'spider_exceptions/IOError': 2,
+ 'spider_exceptions/IndexError': 25,
+ 'start_time': datetime.datetime(2015, 11, 21, 8, 34, 22, 664407)}
+2015-11-21 16:35:29 [scrapy] INFO: Spider closed (finished)
