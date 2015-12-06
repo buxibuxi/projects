@@ -1,0 +1,65 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/Users/luobu/workspace/projiects/.metadata/.plugins/org.eclipse.core.resources/.projects/calcsim/com.python.pydev.analysis/v2_indexcache
+mynlp.mycorpus|1449323554000000000|/Users/luobu/workspace/projiects/calcsim/src/mynlp/mycorpus.py
+test|1449317937000000000|/Users/luobu/workspace/projiects/calcsim/src/test.py
+test.mytest|1449317937000000000|/Users/luobu/workspace/projiects/calcsim/src/test/mytest.py
+mycorpus|1449317937000000000|/Users/luobu/workspace/projiects/calcsim/src/mycorpus.py
+test.__init__|1449317937000000000|/Users/luobu/workspace/projiects/calcsim/src/test/__init__.py
+mynlp.__init__|1449317937000000000|/Users/luobu/workspace/projiects/calcsim/src/mynlp/__init__.py
+test.haha|1449317937000000000|/Users/luobu/workspace/projiects/calcsim/src/test/haha.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+1=mynlp.mycorpus
+2=test
+4=test.mytest
+7=MyCorpus
+10=MyCorpus.__gendict__
+6=mycorpus
+8=MyCorpus.__init__
+3=test.__init__
+5=test.haha
+9=MyCorpus.__gencorpus__
+-- END DICTIONARY
+-- START TREE 1
+27
+M|1|M!11@
+a|1|a!11@
+art|2|article!19@article!27@
+b|1|b!11@
+cn_|2|cn_stopwords!27@cn_stopwords!19@
+cor|3|corpus!27@corpus!19@corpus_path!11@
+cou|3|courses!19@courses_name!19@coursera!19@
+dic|3|dictionary!27@dictionary!19@dictionary!35@
+e_p|1|e_punctuations!19@
+e_s|1|e_stop!19@
+f|1|f!43@
+fna|2|fname!27@fname!19@
+fpa|2|fpath!19@fpath!27@
+ft|2|ft!27@ft!19@
+ft1|2|ft1!27@ft1!19@
+i|1|i!11@
+ind|1|index!11@
+lsi|1|lsi!11@
+myc|6|mycorpus!11@mycorpus_tfidf!11@MyCorpus!49@MyCorpus!9@mycorpus0!11@MyCorpus!41@
+seg|2|seg_list!19@seg_list!27@
+sim|2|sim!11@simdict!11@
+sor|1|sort_sims!11@
+st|2|st!27@st!19@
+sto|2|stop_ids!19@stop_ids!27@
+tex|2|texts_lower!19@texts_tokenized!19@
+tfi|1|tfidf!11@
+thr|1|thres!11@
+-- END TREE
+-- START TREE 2
+8
+__g|2|__gencorpus__!7&10@__gendict__!7&10@
+__i|4|__init__!7&10@__init__!7&42@__iter__!7&42@__iter__!7&50@
+cn_|1|cn_stopwords!8&11@
+cor|1|corpus!9&11@
+dic|1|dictionary!10&11@
+doc|2|doc_list1!10&11@doc_list!10&11@
+fil|1|file_list!10&11@
+n|1|n!8&43@
+-- END TREE

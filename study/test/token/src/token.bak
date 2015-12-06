@@ -1,0 +1,24 @@
+#encoding=utf-8
+import os
+import jieba
+import os
+from gensim import corpora, models, similarities
+import logging
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+from nltk.corpus import brown
+from nltk.stem.lancaster import LancasterStemmer
+
+logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
+st = LancasterStemmer()
+
+
+fpath = '/Users/luobu/workspace/python/scrapy/wechat/wechat/articles/2015-11-11'
+fname = os.path.join(fpath,'vivo智能手机_2015-11-11_vivo&维密｜维密20周年大秀，除了看身材还有这些“内幕”！')
+with open(fname,'r') as farticle:
+    article = ''.join(farticle.readlines()[1:])
+    print article
+seg_list = list(jieba.cut(article))
+dictionary = corpora.Dictionary(seg_list)
+corpus = dictionary.doc2bow(seg_list)
+print corpus

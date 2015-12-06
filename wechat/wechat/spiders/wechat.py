@@ -21,7 +21,7 @@ class Wechat(Spider):
     def __init__(self, category=None, *args, **kwargs):
         linkpath = './wechat/conf/'
         self.donepath = './wechat/conf_done'
-        self.articlepath= './wechat/articles/'
+        self.articlepath= '/Users/luobu/workspace/data/wechat/articles/'
         self.start_urls = self.geturls(linkpath)
         
     def geturls(self,linkpath):
