@@ -54,16 +54,27 @@ class Wechat(Spider):
         """
         #filename = response.url.split("/")[-2] + '.html'
         sel = Selector(response)
-        content = sel.xpath('//div[@class="rich_media_content "]//p//text()').extract()
+        content = response.xpath('//div[@class="rich_media_content "]//p \
+        | //div[@class="rich_media_content "]//h1 \
+        | //div[@class="rich_media_content "]//h2 \
+        | //div[@class="rich_media_content "]//h3 \
+        | //div[@class="rich_media_content "]//h4 \
+        | //div[@class="rich_media_content "]//h5 \
+        | //div[@class="rich_media_content "]//h6 \
+        | //div[@class="rich_media_content "]//blockquote')
         title = sel.xpath('//title/text()').extract()[0]
         arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
         date = sel.xpath('//em[@id="post-date"]/text()').extract()[0]
         filename = arthur+'_'+date+'_'+title
         filepath = os.path.join(self.articlepath,date,filename)
-        if os.path.exists(os.path.join(self.articlepath,date)) == False:
-            os.makedirs(os.path.join(self.articlepath,date)) 
-        with open(filepath, 'wb') as f:
-            f.write(response.url+'\n')
-            f.write(''.join(content))
+        if len(content)>0:
+            if os.path.exists(os.path.join(self.articlepath,date)) == False:
+                os.makedirs(os.path.join(self.articlepath,date)) 
+            with open(filepath, 'wb') as f:
+                f.write(response.url+'\n')
+                for i in content:
+                    f.write(''.join(i.xpath('.//text()').extract()))
+                    f.write('\r\n')
+                
 #for i in content:
 #	        f.write(i)
