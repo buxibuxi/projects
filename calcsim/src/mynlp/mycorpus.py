@@ -11,18 +11,18 @@ from gensim import corpora, models, similarities
 import logging
 import jieba
 import sys 
+import time
 reload(sys) 
 sys.setdefaultencoding('utf-8') 
 import logging
-logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', filename = 'mycorpus.log',level=logging.INFO)
+logging.basicConfig(format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
+                     filename = 'mycorpus.log',level=logging.INFO)
 
 
 class MyCorpus(object):
     '''
     classdocs
     '''
-
-
     def __init__(self, corpus_path,dic_path):
         self.cn_stopwords = []
         with open('/Users/luobu/workspace/projiects/calcsim/lib/cn_stopwords.txt') as f:
@@ -41,7 +41,8 @@ class MyCorpus(object):
                 doc_cutted = jieba.cut(doc)
                 doc_list.append(doc_cutted)
         
-        self.dictionary = corpora.Dictionary(doc_list)      
+        self.dictionary = corpora.Dictionary(doc_list)   
+        #dictionary.add_documents  
         stop_ids = [self.dictionary.token2id[stopword] for stopword in self.cn_stopwords \
                      if stopword in self.dictionary.token2id]
         once_ids = [tokenid for tokenid, docfreq in self.dictionary.dfs.iteritems() if docfreq == 1]    
@@ -51,7 +52,7 @@ class MyCorpus(object):
 
         #self.dictionary = corpora.Dictionary(line.lower().split() for line in open('mycorpus.txt'))
     def __gencorpus__(self,corpus_path):
-        self.doc_ids = [] 
+        self.docids = [] 
         doc_list = []
         for root, dirs, files in os.walk(corpus_path):
             for f in files:
@@ -59,11 +60,12 @@ class MyCorpus(object):
                     with open(os.path.join(root,f),'r') as fdoc:
                         url = fdoc.readline()
                         doc = fdoc.read()
+                        doc_cutted = jieba.cut(doc)
                         docid = url.split('&')[3].split('=')[1]
                     if len(doc)<1000:
                         continue
                     self.docids.append(docid)                
-                    self.doc_list.append(doc)
+                    doc_list.append(list(doc_cutted))
                 except Exception,e:
                     logging.info(Exception)
                     logging.info(e)
@@ -74,10 +76,15 @@ class MyCorpus(object):
         self.corpus = corpora.MmCorpus('/tmp/corpus.mm')
 
     def gensim(self):
+        t0 = time.time()
         tfidf = models.TfidfModel(self.corpus)
+        t1 = time.time()
         mycorpus_tfidf = tfidf[self.corpus]
+        t2 = time.time()
         lsi = models.LsiModel(mycorpus_tfidf, id2word=self.dictionary, num_topics=400)
+        t3 = time.time()
         index = similarities.MatrixSimilarity(lsi[self.corpus]) 
+        t4 = time.time()
         index.save('/tmp/wechat.index')
         #index = similarities.MatrixSimilarity.load('/tmp/deerwester.index')
         i=0
@@ -86,9 +93,18 @@ class MyCorpus(object):
         for item in index:
             for j in range(i+1,len(item)):
                 if item[j]>thres:
-                    simdict[(self.doc_ids[i],self.doc_ids[j])] = item[j]
+                    simdict[(self.docids[i],self.docids[j])] = item[j]
             i +=1
         print len(simdict)
+        t5 = time.time()
+        #=======================================================================
+        # print 'tfidf_gen time = %f'%(t1-t0)
+        # print 'tfidf_read time = %f'%(t2-t1)
+        # print 'lsi time = %f'%(t3-t2)
+        # print 'simmat time = %f'%(t4-t3)
+        # print 'extract high sim time = %f'%(t5-t4)
+        #=======================================================================
+        
         return simdict
         #=======================================================================
         # sort_sims = sorted(simdict.iteritems(), key=lambda item: item[1],reverse=True)

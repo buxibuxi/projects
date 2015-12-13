@@ -2668,3 +2668,92 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2015-12-13 15:50:39.042
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2015-12-13 16:36:16.113
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.core.resources 4 4 2015-12-13 16:36:20.892
+!MESSAGE Exception occurred while saving project preferences: /calcsim/.settings/org.eclipse.core.resources.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/calcsim/.settings/org.eclipse.core.resources.prefs'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1076)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:322)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:361)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:615)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:643)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:471)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:363)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:366)
+	at org.eclipse.core.internal.resources.CharsetManager.flushPreferences(CharsetManager.java:259)
+	at org.eclipse.core.internal.resources.CharsetManager.setCharsetFor(CharsetManager.java:443)
+	at org.eclipse.core.internal.resources.File.setCharset(File.java:443)
+	at org.python.pydev.editor.PyEdit$4.run(PyEdit.java:920)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2015-12-13 16:36:20.900
+!MESSAGE Resource is out of sync with the file system: '/calcsim/.settings/org.eclipse.core.resources.prefs'.
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-13 16:36:20.912
+!MESSAGE Could not save encoding settings.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/calcsim)[382]: org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /calcsim/.settings/org.eclipse.core.resources.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:658)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:471)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:363)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:366)
+	at org.eclipse.core.internal.resources.CharsetManager.flushPreferences(CharsetManager.java:259)
+	at org.eclipse.core.internal.resources.CharsetManager.setCharsetFor(CharsetManager.java:443)
+	at org.eclipse.core.internal.resources.File.setCharset(File.java:443)
+	at org.python.pydev.editor.PyEdit$4.run(PyEdit.java:920)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 382 2015-12-13 16:36:20.913
+!MESSAGE Could not save encoding settings.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /calcsim/.settings/org.eclipse.core.resources.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:658)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:471)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:363)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:366)
+	at org.eclipse.core.internal.resources.CharsetManager.flushPreferences(CharsetManager.java:259)
+	at org.eclipse.core.internal.resources.CharsetManager.setCharsetFor(CharsetManager.java:443)
+	at org.eclipse.core.internal.resources.File.setCharset(File.java:443)
+	at org.python.pydev.editor.PyEdit$4.run(PyEdit.java:920)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 0 2015-12-13 17:41:34.512
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-13 17:50:45.528
+!MESSAGE Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Slice[lower=null, upper=Attribute[value=Name[id=self, ctx=Load, reserved=false], attr=NameTok[id=num_topics, ctx=Attrib], ctx=Load], step=null]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Slice[lower=null, upper=Attribute[value=Name[id=self, ctx=Load, reserved=false], attr=NameTok[id=num_topics, ctx=Attrib], ctx=Load], step=null]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:105)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:345)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:79)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:933)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:93)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitBinOp(MakeAstValidForPrettyPrintingVisitor.java:206)
+	at org.python.pydev.parser.jython.ast.BinOp.accept(BinOp.java:93)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitCommaSeparated(MakeAstValidForPrettyPrintingVisitor.java:296)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitTuple(MakeAstValidForPrettyPrintingVisitor.java:276)
+	at org.python.pydev.parser.jython.ast.Tuple.accept(Tuple.java:95)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAttribute(MakeAstValidForPrettyPrintingVisitor.java:600)
+	at org.python.pydev.parser.jython.ast.Attribute.accept(Attribute.java:93)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:184)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:90)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitFunctionDef(MakeAstValidForPrettyPrintingVisitor.java:862)
+	at org.python.pydev.parser.jython.ast.FunctionDef.accept(FunctionDef.java:131)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitClassDef(MakeAstValidForPrettyPrintingVisitor.java:722)
+	at org.python.pydev.parser.jython.ast.ClassDef.accept(ClassDef.java:166)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:171)
+	at org.python.pydev.editor.hover.PyTextHover.getDocstringHover(PyTextHover.java:232)
+	at org.python.pydev.editor.hover.PyTextHover.getHoverInfo(PyTextHover.java:144)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
