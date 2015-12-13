@@ -1,0 +1,13 @@
+import scrapy
+
+class DmozSpider(scrapy.Spider):
+    name = "test"
+    allowed_domains = ["mp.weixin.qq.com"]
+    start_urls = [
+        "http://mp.weixin.qq.com/s?__biz=MzIwOTAyNzQzMQ==&mid=401219008&idx=2&sn=a4984fa4ecb09c4e2687b57467eab922&scene=4",
+    ]
+
+    def parse(self, response):
+        filename = response.url.split("/")[-2] + '.html'
+        with open(filename, 'wb') as f:
+            f.write(response.body)

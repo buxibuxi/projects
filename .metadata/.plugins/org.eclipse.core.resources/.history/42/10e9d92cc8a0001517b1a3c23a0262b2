@@ -1,0 +1,42 @@
+#encoding=utf-8
+
+'''
+Created on 2015年12月12日
+
+@author: luobu
+'''
+
+import redis
+import os
+import csv
+
+class WeCheat(object):
+    '''
+    classdocs
+    '''
+
+
+    def __init__(self, params):
+        '''
+        Constructor
+        '''
+        self.r = redis.Redis(db=2)
+        self.p = self.r.pipeline()
+        self.docspath = '/Users/luobu/workspace/projiects/wechat/wechat/conf_done'
+        
+    def save_basicinfo(self):
+        for root,dirs,files in os.walk(self.docspath):
+            for f in files:
+                if os.path.splitext(f)[1]!= '.csv':
+                    continue
+                linkfile = os.path.join(root,f)
+                with open(linkfile,'rb') as csvfile:
+                    reader = csv.reader(csvfile)
+                    num = 0
+                    for line in reader:
+                        num = num +1
+                        if num <= 2:
+                            continue
+                        
+                        url = line[3]
+                        urls.append(url)

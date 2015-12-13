@@ -1,0 +1,23 @@
+# -*- coding:utf-8 -*-
+from scrapy.spiders import Spider
+from scrapy.selector import Selector
+import string
+import sys
+import os
+import shutil
+import csv
+reload(sys)   
+sys.setdefaultencoding('utf8')
+
+class DmozSpider(scrapy.Spider):
+    name = "test"
+    allowed_domains = ["mp.weixin.qq.com"]
+    start_urls = [
+        "http://mp.weixin.qq.com/s?__biz=MzIwOTAyNzQzMQ==&mid=401219008&idx=2&sn=a4984fa4ecb09c4e2687b57467eab922&scene=4",
+    ]
+
+    def parse(self, response):
+        sel = Selector(response)
+        content = sel.xpath('//div[@class="rich_media_content "]//text()').extract()
+        for i in content:
+            print i

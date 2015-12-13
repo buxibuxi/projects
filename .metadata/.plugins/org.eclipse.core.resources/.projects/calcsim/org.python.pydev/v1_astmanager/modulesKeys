@@ -1,8 +1,9 @@
 MODULES_MANAGER_V2
-mycorpus|/Users/luobu/workspace/projiects/calcsim/src/mycorpus.py
 mynlp.__init__|/Users/luobu/workspace/projiects/calcsim/src/mynlp/__init__.py
 mynlp.mycorpus|/Users/luobu/workspace/projiects/calcsim/src/mynlp/mycorpus.py
-test|/Users/luobu/workspace/projiects/calcsim/src/test.py
 test.__init__|/Users/luobu/workspace/projiects/calcsim/src/test/__init__.py
 test.haha|/Users/luobu/workspace/projiects/calcsim/src/test/haha.py
 test.mytest|/Users/luobu/workspace/projiects/calcsim/src/test/mytest.py
+wechat.__init__|/Users/luobu/workspace/projiects/calcsim/src/wechat/__init__.py
+wechat.main|/Users/luobu/workspace/projiects/calcsim/src/wechat/main.py
+wechat.wecheat|/Users/luobu/workspace/projiects/calcsim/src/wechat/wecheat.py

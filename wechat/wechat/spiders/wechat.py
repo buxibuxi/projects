@@ -23,6 +23,14 @@ class Wechat(Spider):
         self.donepath = './wechat/conf_done'
         self.articlepath= '/Users/luobu/workspace/data/wechat/articles/'
         self.start_urls = self.geturls(linkpath)
+        self.filterlist = [u'阅读本文前，请您先点击',u'点击上方蓝色',u'温馨提示：请在WiFi下观看视频']
+        self.endlist = [u'下面是2016最HOT公众号，赶快试试新的关注方法吧！',
+                        u'下面是2015最HOT公众号，赶快试试新的关注方法吧！',
+                        u'有人用微信聊天，有人却在微信中',
+                        u'长按二维码，选择“识别图中二维码”进行关注', 
+                        u'然后选择“识别图中二维码”后一键关注',
+                        u'长按二维码点选' ,                  
+                        u'更多精彩，点此免费订阅！']
         
     def geturls(self,linkpath):
         urls = []
@@ -54,27 +62,45 @@ class Wechat(Spider):
         """
         #filename = response.url.split("/")[-2] + '.html'
         sel = Selector(response)
-        content = response.xpath('//div[@class="rich_media_content "]//p \
-        | //div[@class="rich_media_content "]//h1 \
-        | //div[@class="rich_media_content "]//h2 \
-        | //div[@class="rich_media_content "]//h3 \
-        | //div[@class="rich_media_content "]//h4 \
-        | //div[@class="rich_media_content "]//h5 \
-        | //div[@class="rich_media_content "]//h6 \
-        | //div[@class="rich_media_content "]//blockquote')
+        content = sel.xpath('//div[@class="rich_media_content "]//p' )
+#        | //div[@class="rich_media_content "]//h1')
+#        | //div[@class="rich_media_content "]//h2 \
+#        | //div[@class="rich_media_content "]//h3 \
+#        | //div[@class="rich_media_content "]//h4 \
+#        | //div[@class="rich_media_content "]//h5 \
+#        | //div[@class="rich_media_content "]//h6 \
+#        | //div[@class="rich_media_content "]//blockquote')
+        url = response.url
+        docid = url.split('&')[3].split('=')[1]
         title = sel.xpath('//title/text()').extract()[0]
         arthur = sel.xpath('//a[@id="post-user"]/text()').extract()[0]
         date = sel.xpath('//em[@id="post-date"]/text()').extract()[0]
-        filename = arthur+'_'+date+'_'+title
-        filepath = os.path.join(self.articlepath,date,filename)
+        filename = docid+'_'+arthur+'_'+date+'_'+title
+        filepath = os.path.join(self.articlepath,date,filename+'.txt')
         if len(content)>0:
             if os.path.exists(os.path.join(self.articlepath,date)) == False:
                 os.makedirs(os.path.join(self.articlepath,date)) 
             with open(filepath, 'wb') as f:
                 f.write(response.url+'\n')
                 for i in content:
-                    f.write(''.join(i.xpath('.//text()').extract()))
-                    f.write('\r\n')
+                    text = ''.join(i.xpath('.//text()').extract()).strip()
+                    #print text
+                    flag = 0
+                    for t in self.filterlist:
+                        if text.find(t)>=0:
+                            flag = 1
+                            break
+                    for t in self.endlist:
+                        if text.find(t)>=0:
+                            flag = 2
+                            break
+                    if flag == 1:
+                        continue
+                    elif flag == 2:
+                        break
+                    else:
+                        f.write(text)
+                        f.write('\r\n')
                 
 #for i in content:
 #	        f.write(i)

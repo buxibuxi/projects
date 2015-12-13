@@ -1,0 +1,14 @@
+'''
+Created on 2015年12月12日
+
+@author: luobu
+'''
+
+#encoding=utf-8
+import redis
+
+def save2redis(csvpath):
+    
+
+if __name__ == '__main__':
+    pass

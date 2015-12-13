@@ -1,0 +1,1903 @@
+2015-12-13 11:01:23,051 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2015-12-13 11:01:23,069 : DEBUG : Building prefix dict from /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/jieba/dict.txt ...
+2015-12-13 11:01:23,073 : DEBUG : Loading model from cache /var/folders/w5/htnljvlj6k17skl9kfckrlnm0000gn/T/jieba.cache
+2015-12-13 11:01:23,723 : DEBUG : Loading model cost 0.654 seconds.
+2015-12-13 11:01:23,723 : DEBUG : Prefix dict has been built succesfully.
+2015-12-13 11:02:57,410 : INFO : adding document #10000 to Dictionary(212863 unique tokens: [u'\x00', u'\u6cbb\u8170', u'\u6211\u58f0', u'\u8d64\u5982', u'\u4e0d\u5b66\u65e0\u672f']...)
+2015-12-13 11:04:33,795 : INFO : adding document #20000 to Dictionary(311690 unique tokens: [u'\x00', u'\u6cbb\u8170', u'\u9f88\u6c9f', u'\u6211\u58f0', u'\u8d64\u5982']...)
+2015-12-13 11:06:07,925 : INFO : adding document #30000 to Dictionary(385261 unique tokens: [u'\x00', u'\u6cbb\u8170', u'\u9f88\u6c9f', u'\u98ce\u67f3\u758f', u'\u5218\u4e0d\u5e05']...)
+2015-12-13 11:06:22,320 : INFO : built Dictionary(395678 unique tokens: [u'\x00', u'\u6cbb\u8170', u'\u9f88\u6c9f', u'\u98ce\u67f3\u758f', u'\u5218\u4e0d\u5e05']...) from 31661 documents (total 22654980 corpus positions)
+2015-12-13 11:06:23,438 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,438 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,438 : INFO : 01293a881ff5b132d220efcfd74d3b38_微路况信息电子狗预报_2015-12-04_㊙一位良家少妇的小秘密被公布了，网友们都震惊了！速看！马上要删！.txt
+2015-12-13 11:06:23,440 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,440 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,440 : INFO : 01fc01b8dd2f7195ddf11f2c66c90529_深八影视圈_2015-12-04_林依晨快胖回来吧！让王思聪郭富城小猪去爱锥子脸，我们就爱你的包子脸！.txt
+2015-12-13 11:06:23,441 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,441 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,441 : INFO : 0213ded0e81373f0b4e53ba566fdea60_冷笑话精选_2015-12-04_因为太帅被驱逐出境的男子，女友竟然长这样！.txt
+2015-12-13 11:06:23,442 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,442 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,443 : INFO : 0223491f3ca68276b98a4b4ed9993045_知青网_2015-12-04_2016首届中国知青春晚新闻发布会在京举行  讲述知青故事.txt
+2015-12-13 11:06:23,443 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,443 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,443 : INFO : 02311a019e034e94b3133b49e4fc70ea_小贱鸡_2015-12-04_霸道和尚手把手教你写满分情书.txt
+2015-12-13 11:06:23,445 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,445 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,445 : INFO : 02564d01c3d1b6c62172157e49ebc2e5_全球未解之谜_2015-12-04_♥ 从头发一眼看出你肾脏的好坏，大家都说准！！.txt
+2015-12-13 11:06:23,446 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,446 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,446 : INFO : 02c33c6575b9e353b19218623346f79a_爱奇旅_2015-12-04_熊黛林：为何明知他不配，却还非要爱那么多年？.txt
+2015-12-13 11:06:23,447 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,447 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,447 : INFO : 0318306fb034c647bde4d744672817e1_发现妈妈_2015-12-04_夫妻生理需求一月几次正常？.txt
+2015-12-13 11:06:23,448 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,448 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,449 : INFO : 033b91936d82b2ff399cadc111adea7c_严肃八卦_2015-12-04_芈月传跌到6.5分，服装道具像网购的，编剧玛丽苏之魂熊熊燃烧.txt
+2015-12-13 11:06:23,451 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,451 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,452 : INFO : 03d563ad292a07dcca128112b80f39b3_衣锦夜行的燕公子_2015-12-04_暧昧是人类进步的阶梯.txt
+2015-12-13 11:06:23,453 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,453 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,453 : INFO : 04111f35006d5d6313049441c1ef40ff_电影演出票_2015-12-04_14.9元起抢《极盗者》，还有机会畅游好莱坞.txt
+2015-12-13 11:06:23,455 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,455 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,455 : INFO : 049a0eb5fabfb54098ab36be9d0479e5_心灵美文_2015-12-04_读懂《上善若水》.txt
+2015-12-13 11:06:23,456 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,456 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,456 : INFO : 04ccf3d5ea6e8bd8d421116f669b95f8_十点读书_2015-12-04_也许有一天，我不会再等你.txt
+2015-12-13 11:06:23,457 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,458 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,458 : INFO : 057159449a8587080d214f76a378b003_独立鱼电影_2015-12-04_我不是处女，我睡了全世界（有资源）.txt
+2015-12-13 11:06:23,458 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,458 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,458 : INFO : 05a74c648b88b8cde0a41050b7738d43_每天学点穿衣打扮_2015-12-04_✅离婚，男人说,我能找18的小姑娘，你只能嫁80的老头了,女人的回答绝了 ！.txt
+2015-12-13 11:06:23,460 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,460 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,460 : INFO : 05be5f8e0a76006f0897d97fa967d92b_智慧教育文化_2015-12-04_色难 .........你敢看吗？.txt
+2015-12-13 11:06:23,462 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,462 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,463 : INFO : 064feff40362698448d22195ee93b176_爱情微语录_2015-12-04_☺写给群主的工作报告，看完不许笑~.txt
+2015-12-13 11:06:23,463 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,464 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,464 : INFO : 06fe3250d9811a10178c1da26c8dda58_占豪_2015-12-04_低利率时代来了，房贷一族不得不知的攻略！.txt
+2015-12-13 11:06:23,465 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,466 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,466 : INFO : 075eebe0e595a6dd340b3a70bcd5cc88_读书_2015-12-04_章子怡：凭什么孩子爹成了汪峰？.txt
+2015-12-13 11:06:23,466 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,466 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,466 : INFO : 0780edde454e243e441eb6957eb4678c_每天学点穿衣打扮_2015-12-04_✅女人不会搭配没关系，冬季就该这样穿，美倒整街人.txt
+2015-12-13 11:06:23,468 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,468 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,468 : INFO : 07d243147ba721f3e16fdbae1f39c8c6_赛柏蓝_2015-12-04_又有62家药企倒霉了！.txt
+2015-12-13 11:06:23,469 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,469 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,469 : INFO : 07ee35b312248c890439415742ac05ab_天天炫拍_2015-12-04_狗不嫌家贫……太感人了！.txt
+2015-12-13 11:06:23,470 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,470 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,470 : INFO : 0812ef7cd08cde9e09077be61d7ebdbd_MINISO名创优品_2015-12-04_水果的高逼格吃法！不要问我为什么！有钱就是这么任性！.txt
+2015-12-13 11:06:23,471 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,472 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,472 : INFO : 08281936b70ccf2b9eab9f5caa845eca_央视财经_2015-12-04_证监会今天说了五件大事，或将影响下周股市！.txt
+2015-12-13 11:06:23,472 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,472 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,473 : INFO : 082914ab6f29ba56bb863dabb71f08f0_知心_2015-12-04_人们对偷情的看法！.txt
+2015-12-13 11:06:23,473 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,474 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,474 : INFO : 085ef980226ed4151cb926c25527fe59_视觉志_2015-12-04_得体，比好看重要多了。.txt
+2015-12-13 11:06:23,475 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,475 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,475 : INFO : 09031946f916542b25fb8686504fbe73_新消息报_2015-12-04_【新焦点】银川宁丰餐饮、香渔王子、德水168、尊园都关张了？到底咋回事？.txt
+2015-12-13 11:06:23,476 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,476 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,476 : INFO : 0937c846247d07a2aba922eaa81b9235_视觉志_2015-12-04_圣诞老人真的存在吗？先别急着说NO!.txt
+2015-12-13 11:06:23,477 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,477 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,477 : INFO : 09b4d3e047ea57a63f39a7b391f34cf2_中国农业银行_2015-12-04_一试身手，好礼来拿！.txt
+2015-12-13 11:06:23,478 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,478 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,478 : INFO : 0a8e3189703e5c8e47b20522d4475765_新闻夜航_2015-12-04_【夜航记者暗访】雪天都在忙，这些职能部门工作人员却在打呼噜、打游戏、看电影！很清闲？.txt
+2015-12-13 11:06:23,479 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,479 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,479 : INFO : 0a90e61366f634ee8b64980b0ba1d1f1_纽约君_2015-12-04_24岁的她放弃成为王妃，25岁就走上了成为女王的道路.txt
+2015-12-13 11:06:23,480 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,480 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,480 : INFO : 0aa27a263ed3b514b6f4d444fc4b1b41_人民日报_2015-12-04_【荐读】献给脾气不好的人，不会说话的人.txt
+2015-12-13 11:06:23,481 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,481 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,481 : INFO : 0b2751258884ba1f6536dc2104248ae5_共产党员_2015-12-04_【荐读】当你到了四十岁上......txt
+2015-12-13 11:06:23,483 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,483 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,483 : INFO : 0b78d9146d1ab64f03fba1f10e74e733_粥悦悦_2015-12-04_不是孩子熊，是你根本不懂他！【漫画175】.txt
+2015-12-13 11:06:23,484 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,484 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,484 : INFO : 0bb10eb44be0d5f0c8763b5cb2bc8563_HUGO_2015-12-04_这样恋爱要慢一点.txt
+2015-12-13 11:06:23,485 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,485 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,485 : INFO : 0bc059eb53a2d1ef3f6818a3dfeff259_伊春发布_2015-12-04_伊春市首届“十佳护士”候选人投票开始啦！.txt
+2015-12-13 11:06:23,486 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,486 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,486 : INFO : 0bf3b5dbbf333f2e075c8ea7f8fcb65e_一节瑜伽课_2015-12-04_香蕉泡上醋，奇迹出现了！可惜知道的女人太少！.txt
+2015-12-13 11:06:23,487 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,487 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,487 : INFO : 0c737f4b9eec69fde515232799389ba7_家乐福中国_2015-12-04_家乐福狂欢双十二购任性！尖叫吧少年！.txt
+2015-12-13 11:06:23,488 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,488 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,489 : INFO : 0dc705c37dad17f5e003f7a3db6f242f_成功智慧_2015-12-04_傲雪寒梅为君开.txt
+2015-12-13 11:06:23,490 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,490 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,490 : INFO : 0e7bd7a607b1528d0041de8fc95d5b0a_做个好妈妈_2015-12-04_『我的妻子“没工作”』看哭所有人！！.txt
+2015-12-13 11:06:23,491 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,491 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,491 : INFO : 0e9baed9b1897b65c232b21b5b97f2cf_成功智慧_2015-12-04_这些照片 1000年难见一次.txt
+2015-12-13 11:06:23,492 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,492 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,492 : INFO : 0eac6e3fb7362ff6829315a717119db8_养车屋_2015-12-04_我开着奔驰穿着20元的布鞋，你月入3000却背着LV.txt
+2015-12-13 11:06:23,492 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,493 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,493 : INFO : 0f06f695d7d062ae47f29cc3307cbc8d_十点读书_2015-12-04_见鬼的“认真你就输了”.txt
+2015-12-13 11:06:23,494 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,494 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,494 : INFO : 0f30386ba22ff69d36a68eb78434331d_经典短篇阅读_2015-12-04_得体，比好看重要多了.txt
+2015-12-13 11:06:23,495 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,496 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,496 : INFO : 0f5fd4cf913441a2e2f64d50e39fe80a_优秀妈妈_2015-12-04_每天只问孩子四句话，改变孩子一生.txt
+2015-12-13 11:06:23,497 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,497 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,497 : INFO : 1118d35e2d05a9b9c328fcfed1b27e9a_春天女人_2015-12-04_“你老公有缺点吗?”妻子的回答被男人们传疯了。。。。.txt
+2015-12-13 11:06:23,497 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,498 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,498 : INFO : 1126910fc3d81dfd697b8eecb7122b4c_爱上练瑜伽_2015-12-04_30岁以后女人不要再穿用的19件东西！.txt
+2015-12-13 11:06:23,499 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,499 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,499 : INFO : 11faf11c209fee23c7d816999097039f_果壳网_2015-12-04_掏个鸟窝被判10年半，重吗？.txt
+2015-12-13 11:06:23,500 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,500 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,500 : INFO : 12470a57713bfcff9ece470e96ddd081_央视新闻_2015-12-04_中央经济工作会议本月召开 这些重磅信号值得关注.txt
+2015-12-13 11:06:23,501 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,501 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,501 : INFO : 12bda9fe1debf4ce628362717b7766f7_玩车教授_2015-12-04_价值3万9！教授免费带你去零下40°的内蒙古玩保时捷.txt
+2015-12-13 11:06:23,502 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,502 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,502 : INFO : 131a870921d237f95b636bc101c184b5_妈妈手册_2015-12-04_有孩子的不要太晚看到，让宝贝少受点罪吧！.txt
+2015-12-13 11:06:23,503 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,503 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,503 : INFO : 132ded195bb8d80d3c214776fa88cf52_动图贴贴_2015-12-04_婆媳关系如何处？写得太好了！.txt
+2015-12-13 11:06:23,504 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,505 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,505 : INFO : 13deed17cfd8eebe7faa33d94184f2cd_书法_2015-12-04_人生最高境界，就是这一个字.txt
+2015-12-13 11:06:23,505 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,505 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,506 : INFO : 1436c8e86f2c9e3164e72b1e7789d364_网易梦幻西游手游_2015-12-04_🌟变异宝宝精英班！高书老虎高书羊！.txt
+2015-12-13 11:06:23,506 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,507 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,507 : INFO : 1464bb4b3d0fbe03e48d640b0b2478cb_卡妞微秀_2015-12-04_这一路走来，我变了........txt
+2015-12-13 11:06:23,508 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,508 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,509 : INFO : 149d477a4d355b0d0a55eadc79a8e187_英国那些事儿_2015-12-04_传说中一年减肥36公斤的心。碎。减。肥。法。你们感受一下这过程.txt
+2015-12-13 11:06:23,510 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,510 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,510 : INFO : 14b9f1b068ad6c3fbfcc383fc819334e_人民日报_2015-12-04_【健康】血管越强，寿命越长！一套操、几道菜，让你血管不生锈！.txt
+2015-12-13 11:06:23,511 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,511 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,511 : INFO : 14e6331fa10b622bea349a5b79271237_十点读书_2015-12-04_好的照片都来自于摆拍.txt
+2015-12-13 11:06:23,512 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,512 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,512 : INFO : 15467d68a12614f102ba0f611266e7bb_动图贴贴_2015-12-04_凡事应有度，做人该知足.txt
+2015-12-13 11:06:23,513 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,513 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,513 : INFO : 1570bd9f4f1dae695a9b4cc5a98ce512_联盟的催眠大师JY_2015-12-04_S6蒙多到底强在哪？点进来看不就知道了XD~.txt
+2015-12-13 11:06:23,514 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,514 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,514 : INFO : 15a463f588b884db8e5c84f9bcfaa4c6_交通91.8_2015-12-04_天了噜！85后男生、90后女生，你们摊上大事了！.txt
+2015-12-13 11:06:23,515 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,515 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,515 : INFO : 1647cb74c7a07f342999f83fe968fead_芭莎娱乐_2015-12-04_缺席快本同游泰国，男友力Max的李易峰这次开挂啦.txt
+2015-12-13 11:06:23,516 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,516 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,516 : INFO : 165378ea7ddca93c5f5688a2519ea85b_听是谁在唱歌_2015-12-04_☞ 人活着，有时候真的很累…….txt
+2015-12-13 11:06:23,516 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,517 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,517 : INFO : 1670f8acb4e979cc6d65d28be61910e1_搞笑视频_2015-12-04_▶爸爸，那位阿姨没穿内裤！.txt
+2015-12-13 11:06:23,518 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,518 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,518 : INFO : 174cc4e01e8a6b1a064f01b601e4088d_卡娃微卡_2015-12-04_戴上她，美一个冬天.txt
+2015-12-13 11:06:23,519 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,519 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,520 : INFO : 175ff9ba3a9bbc49d758e525f8472bbe_糗事百科_2015-12-04_下午全宇宙最糗的10大糗事.txt
+2015-12-13 11:06:23,520 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,521 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,521 : INFO : 17686ebefaf384138d1d5b170a14497e_智慧人生_2015-12-04_人品决定财气.txt
+2015-12-13 11:06:23,523 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,523 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,523 : INFO : 17fbe9cb3f55b7ef7f2dd9685dfdea83_中国日报网双语新闻_2015-12-04_中国人怎样起个不错的英文名？.txt
+2015-12-13 11:06:23,524 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,524 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,524 : INFO : 18ba3be6244f4ecccd49911743f39df0_狗与爱的世界_2015-12-04_养了哈士奇，你就拥有了一个强大的表情包！.txt
+2015-12-13 11:06:23,525 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,526 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,526 : INFO : 196f48bad2c9a8d803ad4ddd42c81067_跟我变漂亮_2015-12-04_马云老婆把马云引向首富后，说了这段话，让无数女人沉默了！.txt
+2015-12-13 11:06:23,526 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,526 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,526 : INFO : 19a6b5729694cc5f2fff0edaed2ef165_一节瑜伽课_2015-12-04_这样的女人，才叫做活得聪明！.txt
+2015-12-13 11:06:23,527 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,528 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,528 : INFO : 1b4b6ec2ea446ec6958d03e49eb22ab3_环球旅行_2015-12-04_这才是云南真正的绝世美景，只有1%的人去对了.txt
+2015-12-13 11:06:23,529 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,529 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,529 : INFO : 1bc9f530c22c06dafd02c307716b597b_老中医健康养生_2015-12-04_天然感冒药、降压药、止痛药、抗衰老药、抗癌药... ...太全了，居家必备！.txt
+2015-12-13 11:06:23,530 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,531 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,531 : INFO : 1c00a96e2fbb3baa52cb1df40815c068_55STYLE_2015-12-04_加满分| 知道我为什么比你美吗？因为我有它的助益加扮靓！.txt
+2015-12-13 11:06:23,532 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,532 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,532 : INFO : 1c721e3ad9663bdf0fecdd8ddae3b04c_人民日报_2015-12-04_【夜读】成长比成功更重要.txt
+2015-12-13 11:06:23,533 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,533 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,533 : INFO : 1ccb796522919994b3274072409bb35a_音乐微场景_2015-12-04_♬ 一曲《多情的打扰》，送给我的朋友！.txt
+2015-12-13 11:06:23,534 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,534 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,534 : INFO : 1ccd4290abaf8ff17bf5be0ec043e323_时尚女装搭配_2015-12-04_被子有异味？只要这样做，比晒太阳还强100倍！.txt
+2015-12-13 11:06:23,535 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,535 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,535 : INFO : 1cdcc734fe7c3fd45bb8606615d6afe7_恋上女装_2015-12-04_女人第一次到底有多疼？一张图告诉你！.txt
+2015-12-13 11:06:23,536 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,536 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,536 : INFO : 1d0d2425bc18024b11f12e25191cea63_英雄小助手_2015-12-04_原来撸啊撸还可以这样玩？我简直不能相信自己的嘴巴.txt
+2015-12-13 11:06:23,538 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,538 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,538 : INFO : 1d1665ddac974f0d77fcb30ee34c2d26_贴身小助手_2015-12-04_这个太实用！教你温暖8个最怕冷的身体部位.txt
+2015-12-13 11:06:23,540 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,540 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,540 : INFO : 1e32dbd64169ddd357fba74471a1d595_新北方_2015-12-04_诺如病毒进入高发期 咋治咋预防？.txt
+2015-12-13 11:06:23,542 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,542 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,542 : INFO : 1f2af38ee2d28aaf1e6ffb66a7845bbe_风水点命师_2015-12-04_哪天出生富贵双全？你是这天出生的吗？准到吓人！！.txt
+2015-12-13 11:06:23,542 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,543 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,543 : INFO : 1fb67d8d541e2bf84b92f9285c80e5cd_关爱八卦成长协会_2015-12-04_韩庚女友、杨幂坐飞机、王凯马伊俐黑历史.txt
+2015-12-13 11:06:23,544 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,544 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,544 : INFO : 1fb6e56340095aa4c46f72e514d9aed9_央视财经_2015-12-04_【必看】2016年最赚钱的6大行业！看懂就赚了👇.txt
+2015-12-13 11:06:23,545 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,545 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,545 : INFO : 1fd72ba2cb99b701a582d152bfccd872_爱上练瑜伽_2015-12-04_不管男女，这里长毛，那你就倒霉了！.txt
+2015-12-13 11:06:23,546 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,546 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,546 : INFO : 202c1ade2396ae33db5345c5b340a189_韩国me2day_2015-12-04_好久不见！2NE1完整体MAMA舞台背后的故事.txt
+2015-12-13 11:06:23,547 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,547 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,547 : INFO : 205a399e0fe2156c57beae6861d4c0bd_恋上女装_2015-12-04_短靴没穿对,再美的衣服也白搭!!.txt
+2015-12-13 11:06:23,548 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,548 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,548 : INFO : 20e831c52b9ffcae77e6394afa03b6c4_人民日报_2015-12-04_话题 | 高校普遍“阴盛阳衰”？不服来辩！.txt
+2015-12-13 11:06:23,550 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,550 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,550 : INFO : 22b9af8280339e64bd54d4b9c4443714_精致佳人_2015-12-04_山药配一宝，不看医生身体好！.txt
+2015-12-13 11:06:23,551 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,551 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,551 : INFO : 231a84dbbff729ac2eab6573ee9feaff_精彩语录_2015-12-04_哭给自己听，笑给别人看，这就是人生！.txt
+2015-12-13 11:06:23,552 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,552 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,552 : INFO : 2425002d33fc88a822d9ded7247847c2_冷笑话精选_2015-12-04_天了噜！答不出这些题都不好意思说自己年轻.txt
+2015-12-13 11:06:23,553 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,553 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,553 : INFO : 244e6cdedbeb5aa01f3757d567ac0f1e_家教智慧_2015-12-04_爱老婆的男人都会主动做这件事，你老公做过吗.txt
+2015-12-13 11:06:23,555 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,555 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,555 : INFO : 24d02f55a072a9322f1a04049ee0f812_HUGO_2015-12-04_女人的见识比美貌更重要.txt
+2015-12-13 11:06:23,560 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,560 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,560 : INFO : 25542e2283e67f7c4e3a1a885299e05d_开车技巧_2015-12-04_买这10款车等于把脑袋别在裤腰带上！.txt
+2015-12-13 11:06:23,560 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,561 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,561 : INFO : 2578a54c717e055f6fc99787c59af2aa_点点星光_2015-12-04_这么冷的天，发个笑话给大家开心一下~.txt
+2015-12-13 11:06:23,561 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,561 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,561 : INFO : 259321a12d28bbecfb57d3748b79e397_全球热门生活_2015-12-04_全世界的骗子原来都去这儿了。。。.txt
+2015-12-13 11:06:23,564 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,564 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,565 : INFO : 2662e8ff7e0cbf78609c2808b9b7ebd6_ONE文艺生活_2015-12-04_对亲近的人毒舌是种病.txt
+2015-12-13 11:06:23,567 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,567 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,567 : INFO : 275f5e5e82a50cdf255bd1432f69b856_女装穿衣课堂_2015-12-04_秋冬这样穿大衣，腿长显气场让你美翻天！.txt
+2015-12-13 11:06:23,568 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,568 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,568 : INFO : 2810aa6327fda87656678d8825b369d1_教育百师通_2015-12-04_【干货】2016年最赚钱的6大行业！看懂就赚了！.txt
+2015-12-13 11:06:23,570 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,570 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,570 : INFO : 283e374ae5510d4e3feb8ee1c0edb509_男人装_2015-12-04_一位被侵犯的成人女星教姑娘们如何自保.txt
+2015-12-13 11:06:23,572 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,572 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,572 : INFO : 28ce6d1c3e92d0959cd08c6baa6ce97f_每天一堂理财课_2015-12-04_买房和不买房10年后财富差别有多大，数据说话！.txt
+2015-12-13 11:06:23,573 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,573 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,573 : INFO : 29604a1f1ad18d2855906a05df11968c_电影演出票_2015-12-04_双人看剧超低价，1元众筹鬼吹灯.txt
+2015-12-13 11:06:23,574 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,574 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,574 : INFO : 29706e302015a9cab460b8abb2da34e3_天使爱美丽_2015-12-04_♬ 四十的女人最风流， 四十的女人最韵味.txt
+2015-12-13 11:06:23,575 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,576 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,576 : INFO : 29f75700228e2f66d3c10c5ac06c0da2_投资界_2015-12-04_清科2015中国股权投资年度排名公布.txt
+2015-12-13 11:06:23,576 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,577 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,577 : INFO : 2ac38ecbcc8f0556247df3fb2bddb369_微泰州_2015-12-04_今年128个泰州人染上艾滋病毒！这个26岁的泰州“男同”拿到确诊报告后，全家嚎啕大哭⋯⋯.txt
+2015-12-13 11:06:23,578 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,578 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,578 : INFO : 2b02b295b78950bc184e82d37f47a082_玩车教授_2015-12-04_好开又好停 这俩车停一起只占一个车位.txt
+2015-12-13 11:06:23,579 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,579 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,579 : INFO : 2b98991335162e6ce8a7133d447bad63_爆漫画_2015-12-04_你 少 恶 心 我 啦 ！.txt
+2015-12-13 11:06:23,580 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,580 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,580 : INFO : 2bc32a41c305e96eef354056a5336205_时尚女装搭配_2015-12-04_出轨男人的教训，妻子竟然！.txt
+2015-12-13 11:06:23,581 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,581 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,581 : INFO : 2c19d77e502dc358ff85fa43ccb78883_央视财经_2015-12-04_2015年底补贴、福利、新政一大堆！别错过👇.txt
+2015-12-13 11:06:23,582 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,582 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,582 : INFO : 2c8dd6039d1442ac7fdca787fee039a3_销售与管理_2015-12-04_[微信红包]三步拿到188块！.txt
+2015-12-13 11:06:23,583 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,583 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,583 : INFO : 2cfa05039731368e8f6da9cb1431c247_海报网_2015-12-04_鞋、包包、帽子...红色单品这么美,你能hold住吗?.txt
+2015-12-13 11:06:23,585 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,585 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,585 : INFO : 2d79ed3ab19da2b5ee8655738f49988a_水木文摘_2015-12-04_孙俪的《芈月传》一播，终于不用再忍受傻白甜了.txt
+2015-12-13 11:06:23,586 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,586 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,586 : INFO : 2e0256c9aadbe356132e77c86796fdd5_小红书_2015-12-04_范爷牵着大黑牛，走遍忠孝东路明星店！.txt
+2015-12-13 11:06:23,587 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,587 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,587 : INFO : 2e29cb69920c4fc1631c2ace5a06eff6_妈妈手册_2015-12-04_好夫妻，永远都在装傻.txt
+2015-12-13 11:06:23,588 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,588 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,589 : INFO : 2e69c178fd3f9af950183e3718482c93_母婴育儿问答_2015-12-04_真的，别再逼孩子“分享”了，除非你能保证“take turns”！.txt
+2015-12-13 11:06:23,589 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,589 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,589 : INFO : 2ef2d7eab1d08bb48c45b62b47b9a183_经典人生感悟语录_2015-12-04_☺写给群主的工作报告，看完不许笑~.txt
+2015-12-13 11:06:23,590 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,590 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,590 : INFO : 2f0b343f1412ef833ab23edf1d0b03f6_漫心情_2015-12-04_赶驴，驴被气死了~太搞笑了！.txt
+2015-12-13 11:06:23,591 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,591 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,591 : INFO : 2f6df312267f5978d5abb976807a75df_共产党员_2015-12-04_【学习进行时】习近平改革这三年.txt
+2015-12-13 11:06:23,592 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,592 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,592 : INFO : 2fcbcae482363d58ddfcca2958663fc8_每日精彩_2015-12-04_史上最全的枸杞子知识！.txt
+2015-12-13 11:06:23,593 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,593 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,593 : INFO : 2fd84edb400a76084aea0b87ffd10d43_时光相机_2015-12-04_苦过…痛过…傻过…才懂得人心！.txt
+2015-12-13 11:06:23,595 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,595 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,595 : INFO : 302b4af4dd47eec9ae4bbe6cac901ace_风水易经_2015-12-04_人欠你，天会还你（一定要读）.txt
+2015-12-13 11:06:23,595 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,596 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,596 : INFO : 302c36a1efcff725a5314caa435377b3_可口可乐_2015-12-04_点这里，一秒开启冬日供暖.txt
+2015-12-13 11:06:23,597 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,597 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,597 : INFO : 30a8c31ae5239e5e5c2a5dd838e90e39_教育百师通_2015-12-04_10岁孩子吐槽：我妈让人火冒三丈！.txt
+2015-12-13 11:06:23,597 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,598 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,598 : INFO : 30f91448371af0b23a0d79c4d4358b76_美美家族_2015-12-04_郑爽、杨幂、angelababy把校服穿的这么美！长得丑还敢怪校服吗？.txt
+2015-12-13 11:06:23,598 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,598 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,599 : INFO : 310a8b4a0ebe8beb228a88a5fab776c1_时光相机_2015-12-04_聪明的女人，都会有底线！.txt
+2015-12-13 11:06:23,600 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,600 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,600 : INFO : 316c62719fece18a0ef8bd98580f1d32_医师库_2015-12-04_孙俪：不败家哪来时尚，不花钱哪来漂亮？.txt
+2015-12-13 11:06:23,602 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,602 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,602 : INFO : 320d2bfe01863c9ae1680190b83ab04d_医药魔方数据_2015-12-04_崩盘 · 药企潮水般撤回品种！.txt
+2015-12-13 11:06:23,603 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,603 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,603 : INFO : 32853989d29e0c878f8573dadfcf3375_人民日报_2015-12-04_【提醒】别傻了！房产证上有你的名字≠房子是你的.txt
+2015-12-13 11:06:23,604 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,604 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,604 : INFO : 329d5b63c5d3573e5ebc88545586ba97_圣贤教育_2015-12-04_最大的成功就是健康地活着！.txt
+2015-12-13 11:06:23,605 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,605 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,605 : INFO : 32cba303e8748029ce9162d3a3ab9513_遇见旗袍_2015-12-04_美人姿态里  春色上罗衣.txt
+2015-12-13 11:06:23,606 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,606 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,606 : INFO : 333c83dc83ff128889d39cc336a898b3_占豪_2015-12-04_微股评丨再度逼近3600，投资者要小心了！.txt
+2015-12-13 11:06:23,607 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,607 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,607 : INFO : 33af1d86d51177555db456edfaa2a506_爱上练瑜伽_2015-12-04_晚上睡不着觉的人，或熬夜的人，快看看下面这幅画！.txt
+2015-12-13 11:06:23,608 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,608 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,608 : INFO : 33ce18be2fd535fe1e42e94b96398dbd_新氧_2015-12-04_减肥让她们从女神变成了女蛇精？.txt
+2015-12-13 11:06:23,609 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,609 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,609 : INFO : 33d28b4d31d6c8fcd596b80e0c9897b8_人民日报_2015-12-04_【提醒】这个“小可爱”竟让10岁小姑娘失明！.txt
+2015-12-13 11:06:23,609 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,610 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,610 : INFO : 33d523f098b3c48cf98f378fab167326_Lifehack_2015-12-04_男人戒撸前后对比，吓得我要报警了！.txt
+2015-12-13 11:06:23,611 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,611 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,611 : INFO : 33fbd8d85a6a88da50ff494fa1be055c_精致佳人_2015-12-04_夫妻怎样成为一辈子的情人.txt
+2015-12-13 11:06:23,612 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,612 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,612 : INFO : 34084e0cc3c6d4a6346fa5f2e5493009_幸福人生_2015-12-04_✅一旦男人有外遇，女人这么做，准没错！.txt
+2015-12-13 11:06:23,613 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,613 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,613 : INFO : 34117cfae79413eb1fa281a759dff9e8_新闻哥_2015-12-04_你离网红只有12支玻尿酸的距离！重磅揭秘网红的世界.txt
+2015-12-13 11:06:23,614 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,614 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,614 : INFO : 3434fd3b2f1da8b3a7aa03eab3b73fd0_滴滴出行_2015-12-04_"滴滴打明星"来了 8元出租车券你要不要？.txt
+2015-12-13 11:06:23,615 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,615 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,615 : INFO : 3488605adb9cdd219f2707e85b55329c_读悦文摘_2015-12-04_曲曲《鸿雁》传情，美的难以置信！.txt
+2015-12-13 11:06:23,616 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,616 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,616 : INFO : 34dfaf2381d5e265940d8fe516d579b9_读悦文摘_2015-12-04_人和人之间，不要靠的太近了.txt
+2015-12-13 11:06:23,617 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,617 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,617 : INFO : 352ddf5a5f58684981f6af7b4e895251_被窝阅读_2015-12-04_我为女儿捐不起460亿美刀，但我可以......txt
+2015-12-13 11:06:23,618 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,618 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,618 : INFO : 35a0680dcd4d588df1c94c64420275ad_每天练瑜伽_2015-12-04_✅她21岁背弃父母和一个男人私奔，做了数次人流，最后....txt
+2015-12-13 11:06:23,619 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,619 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,619 : INFO : 35a80cd75bee2218697a87d95586c3e6_钱江晚报_2015-12-04_千万别总去超市了，看了他们你就知道了！.txt
+2015-12-13 11:06:23,621 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,621 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,621 : INFO : 364feb03d8aac255a1e288451298d83f_每天学点穿衣打扮_2015-12-04_✅女性哪个部位最先老？？第一居然是….txt
+2015-12-13 11:06:23,622 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,623 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,623 : INFO : 37ccf46636d43733286583cf0010fac8_国学精粹与生活艺术_2015-12-04_遥遥雁声远过，曲曲《鸿雁》传情.txt
+2015-12-13 11:06:23,624 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,624 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,624 : INFO : 381645daeeef45646252ba5743bfbbc0_财经早餐_2015-12-04_千万别总去超市了，看了他们你就知道了！.txt
+2015-12-13 11:06:23,626 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,626 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,626 : INFO : 393b5d19b6c95f1eebc3abea92c0f72c_我是个妈妈_2015-12-04_夸孩子也是需要方法的，爸妈们做对没.txt
+2015-12-13 11:06:23,627 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,627 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,627 : INFO : 399285826061be848fa79e670cd26c8c_玩车教授_2015-12-04_柔弱贤妻变肌肉猛兽的日产 原因何在.txt
+2015-12-13 11:06:23,629 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,629 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,629 : INFO : 39b67006ecfefc17c3f370ae64eef961_康宝莱微刊_2015-12-04_养成这12个减重小习惯，每天不止瘦一点！.txt
+2015-12-13 11:06:23,630 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,630 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,630 : INFO : 3a6b676f7fde3763a694ba421958351c_漫心情_2015-12-04_聪明的女人，都会有底线！.txt
+2015-12-13 11:06:23,631 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,632 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,632 : INFO : 3a9b2ccfbf58fe6fb9f9754692cbd0cd_每日精彩_2015-12-04_13种退烧方法.txt
+2015-12-13 11:06:23,632 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,633 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,633 : INFO : 3aefbaf71e4dfaa82acd62abd82a39a4_成功智慧_2015-12-04_小小枸杞功效真多！.txt
+2015-12-13 11:06:23,633 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,633 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,634 : INFO : 3b661852fa294faab7bfdcde3aa81e0d_大唐山_2015-12-04_唐山的张静，我回来找你了，你在哪里？.txt
+2015-12-13 11:06:23,634 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,634 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,634 : INFO : 3b7134add969360be5323dcdb69239d0_蒙古丽人_2015-12-04_【今日头条】内蒙古遭遇罕见极端雪灾天气，牧民受灾严重，请全社会关注支援.txt
+2015-12-13 11:06:23,635 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,635 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,635 : INFO : 3b79e648c7d83df9ee4be12f343bc744_天天炫拍_2015-12-04_难言的痛，只有自己最懂.txt
+2015-12-13 11:06:23,636 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,636 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,636 : INFO : 3bd832ecce232da8f9c0d8777d71bbf5_央视新闻_2015-12-04_究竟谁能当活佛？官方有说法.txt
+2015-12-13 11:06:23,637 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,637 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,637 : INFO : 3be5163ed1a9c8052b6bd48f7f4d060e_优秀妈妈_2015-12-04_我的妻子“没有工作”一夜之间看哭所有人！！.txt
+2015-12-13 11:06:23,638 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,638 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,638 : INFO : 3c0b24dce235a451f828d95a95f40737_发现妈妈_2015-12-04_有孩子的不要太晚看到，让宝贝少受点罪吧！.txt
+2015-12-13 11:06:23,638 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,639 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,639 : INFO : 3c24eb6e3b20f5a4adc9c6c7fac3566d_教你会穿衣打扮_2015-12-04_切记！女人在床上时别做这几件事，尤其是第二件！！.txt
+2015-12-13 11:06:23,640 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,640 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,640 : INFO : 3d617f1d0852a03c46712f65aaab3f79_女人帮_2015-12-04_越来越多的女人离婚后选择不再婚，原来是这原因!.txt
+2015-12-13 11:06:23,641 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,641 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,642 : INFO : 3d98544c5cf98ba7c6c7ab5875c0d9ba_每日一读_2015-12-04_亲爱的，让我们私奔吧！.txt
+2015-12-13 11:06:23,643 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,643 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,643 : INFO : 3dd12b521055ef4b7774a521edc94179_腻娃碎碎念_2015-12-04_【Mask狂人】17款贴片式面膜心得.txt
+2015-12-13 11:06:23,644 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,644 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,644 : INFO : 3ddee2c56192a88ac6c2f861326b1bb3_教你会穿衣打扮_2015-12-04_离婚率最高的生肖，要注意了！.txt
+2015-12-13 11:06:23,645 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,645 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,645 : INFO : 3e1066a5c04bc7ff67d16b0a81c9dec2_央视财经_2015-12-04_【提醒】社保缴费中断怎么办？影响的不光是钱！一定要看看👇.txt
+2015-12-13 11:06:23,646 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,646 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,646 : INFO : 3e9bbc543472faf92573a78ecf545c19_经典音乐推荐_2015-12-04_✅写给群主的工作报告，看完不许笑~.txt
+2015-12-13 11:06:23,647 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,647 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,647 : INFO : 3edc68149c311666a274d14be59554b5_女神化妆技巧_2015-12-04_现在穿大衣太早？今年最流行的大衣，对照买吧！.txt
+2015-12-13 11:06:23,648 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,648 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,649 : INFO : 3f50e5c38d85a24addd444dc885d7e22_全球未解之谜_2015-12-04_打开一看，这里全都是你会说不会写的字…….txt
+2015-12-13 11:06:23,650 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,650 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,650 : INFO : 3fe49a3e6359a3a6fab7f024e8310d48_占豪_2015-12-04_18岁女孩同服两种感冒药意外死亡！牢记，这些药一起吃很危险！.txt
+2015-12-13 11:06:23,652 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,652 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,652 : INFO : 4034d4880ad0ff291a79275ab7f0532f_天使爱美丽_2015-12-04_♬ 🌷亲爱的朋友，你还好吗？.txt
+2015-12-13 11:06:23,654 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,654 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,654 : INFO : 4197a45996c91407bc3d004fae255420_时尚女装搭配_2015-12-04_我的妻子“没有工作”一夜之间看哭所有人！！.txt
+2015-12-13 11:06:23,655 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,655 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,655 : INFO : 419f7034d300f3e5b7b853a49b45a6d1_VOGUE中国_2015-12-04_冬天不想穿秋裤？穿对Leggings又瘦又暖.txt
+2015-12-13 11:06:23,656 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,656 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,656 : INFO : 41b30b40ec8820d62faa061b2a710bc5_FM93交通之声_2015-12-04_酒驾为了躲交警，男子竟然装村干部查看民情，下地帮人收白菜！然而…….txt
+2015-12-13 11:06:23,657 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,657 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,657 : INFO : 41fbcfa192be9de12cf54d66ff084765_教你会穿衣打扮_2015-12-04_女人漂不漂亮，发型不是一般的重要！.txt
+2015-12-13 11:06:23,658 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,658 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,658 : INFO : 420b9cc0eb26ba607a7ee7fef8e5bf25_为你读诗_2015-12-04_青丝白发太匆匆 | 王立平为你读诗·第917期.txt
+2015-12-13 11:06:23,660 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,660 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,660 : INFO : 42f9ea42997c7e55f1a991a688035a7f_天天练瑜伽_2015-12-04_女性常吃这些，比用100瓶护肤品效果都好.txt
+2015-12-13 11:06:23,662 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,662 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,662 : INFO : 434156635a9dbbe108345bcfa101d2f8_杭州日报_2015-12-04_女婴被16岁妈连扔两次，这次被扔野外煎熬7天！妈妈竟只知道孩子爸爸的网名....txt
+2015-12-13 11:06:23,663 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,663 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,663 : INFO : 435fb2afbd0bb6a261f9f84af423b512_学做一个好妈妈_2015-12-04_💋每天只问孩子四句话，改变孩子一生.txt
+2015-12-13 11:06:23,663 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,663 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,664 : INFO : 438ccb74b5f2fec623996df0c3b3f674_陕癫侠_2015-12-04_给你两个老婆，你选哪个？.txt
+2015-12-13 11:06:23,665 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,665 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,665 : INFO : 43e50ff854073a1ed22aa5e2f4fb9604_乐享唯美心语_2015-12-04_♬  ☺ 早  安 ☺ ~.txt
+2015-12-13 11:06:23,666 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,666 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,666 : INFO : 4404bb8d1be7ab7472fdf42c58e88b51_全球时尚_2015-12-04_冬天里羽绒服怎么能穿得保暖又好看？！.txt
+2015-12-13 11:06:23,667 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,667 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,667 : INFO : 443c9c88d329b3af2ccf00ab70583f6b_格调_2015-12-04_这篇文章治愈了99%的网购依赖症患者.txt
+2015-12-13 11:06:23,668 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,668 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,668 : INFO : 44fe2cf58459b97f386d252babc98128_中国建设银行_2015-12-04_剁手党们！手机话费免费送，第二波疯狂来袭~Ready ? Go！.txt
+2015-12-13 11:06:23,669 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,669 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,669 : INFO : 461138ac46d31681357f5488c33ffa22_每天学点穿衣打扮_2015-12-04_✅什么年纪就该穿什么衣服，千万别穿错!.txt
+2015-12-13 11:06:23,669 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,669 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,669 : INFO : 46458d3c266d0960ac6e3ae25ea3d347_微信路况_2015-12-04_涨姿势丨教你怎样远离罚单！还能得油卡！.txt
+2015-12-13 11:06:23,670 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,670 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,670 : INFO : 4647d350d53510fa8bf3ff0bcefbf549_冷笑话精选_2015-12-04_为什么很多人化妆后连亲妈都认不出来，给跪了！.txt
+2015-12-13 11:06:23,670 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,671 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,671 : INFO : 465e8a9c10be8b95b4b6dce34b992519_好妈妈必读_2015-12-04_小三当众痛骂妻子，围观者反而拍手叫好！.txt
+2015-12-13 11:06:23,671 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,671 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,671 : INFO : 4673df7f9dfc370186a9b8c2e714e02e_十点读书_2015-12-04_只追求性价比的人生多么无趣呵.txt
+2015-12-13 11:06:23,672 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,672 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,672 : INFO : 46bddc1ece74845493027747e6cfa56c_洞见_2015-12-04_一句善意的提醒，可能改变你的一生.txt
+2015-12-13 11:06:23,673 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,673 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,673 : INFO : 4707c45eef5aeff78ee476f60f0bd7cc_女人心计学_2015-12-04_哥哥娶了弟弟嫌弃的姑娘，若干年后弟弟后悔了，原因是….txt
+2015-12-13 11:06:23,674 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,674 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,674 : INFO : 48123c3c9e0fe93f5fb67356eac32b29_时光相机_2015-12-04_怎么拿手机？暴露了你的各种性格~.txt
+2015-12-13 11:06:23,675 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,675 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,675 : INFO : 4945d42d554a3057f6f3cb2cfbb7ed79_养生固本健康人生_2015-12-04_你以为不口渴就不用喝水了？.txt
+2015-12-13 11:06:23,676 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,676 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,676 : INFO : 49908abd660b0902d9267cb9a86d00eb_时光相机_2015-12-04_全世界最二的货，送给你乐一乐！.txt
+2015-12-13 11:06:23,677 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,677 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,677 : INFO : 49ae6d138c16f8f96bddaec9b2b02fce_南宁圈_2015-12-04_80斤，100斤，120斤的南宁妹，竟然活在三个不同的世界.txt
+2015-12-13 11:06:23,678 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,678 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,678 : INFO : 49cda7dbe9e91707fa69d85512ae170d_和教授_2015-12-04_【和4G 2周年生日趴】200M流量拿不停！.txt
+2015-12-13 11:06:23,679 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,679 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,679 : INFO : 4a3227ae7b555e1e85f2dd4fd659fbe6_悦读_2015-12-04_罗玉凤：我才是中国第一网红，不服来撕.txt
+2015-12-13 11:06:23,681 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,681 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,681 : INFO : 4abc42643381c08115b49fd22f5ac2a7_服装 _2015-12-04_这张偷拍照，男人抱着怀里的女人让多少人看后脸红.......震撼人心的一幕，慢慢看，慢慢领悟.txt
+2015-12-13 11:06:23,683 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,683 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,683 : INFO : 4b56f57fbbce53eb0a8ae7a5f5d55ae3_掌上生活_2015-12-04_☀你手机里有这张照片吗？速看！.txt
+2015-12-13 11:06:23,684 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,684 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,684 : INFO : 4b8cf755901e092772af00deea294522_成长树_2015-12-04_注意这些，孩子“咻咻”多长10公分！.txt
+2015-12-13 11:06:23,685 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,685 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,685 : INFO : 4bf437f4eff33c57c8039e7a2067e5d1_央视新闻_2015-12-04_善良比聪明更难得.txt
+2015-12-13 11:06:23,686 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,687 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,687 : INFO : 4c6a162cbfd400b6841749bf61f386a6_掌上北师_2015-12-04_韩庚新恋情被曝光，女方系北师珠06级校花.txt
+2015-12-13 11:06:23,687 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,687 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,688 : INFO : 4cc68b016ca93d8e06ebb74df8833d28_美厨菜谱_2015-12-04_这12种食物千万别吃，还是花3~5秒看一下吧！.txt
+2015-12-13 11:06:23,689 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,689 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,690 : INFO : 4dff903c524a1e91e25b789c50a8dffe_华夏银行信用卡中心_2015-12-04_华夏精英环球全币种信用卡荣耀上市，境外交易服务费全免还返现！.txt
+2015-12-13 11:06:23,690 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,690 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,690 : INFO : 4e22417722a507619c0b821b9708bc9d_天天炫拍_2015-12-04_得到，未必开心， 失去，未必是祸!.txt
+2015-12-13 11:06:23,691 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,691 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,691 : INFO : 4e2c142406776f2178f4903956307a28_每天一首好音乐_2015-12-04_▶♬  伤一颗心……错一段情…….txt
+2015-12-13 11:06:23,692 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,692 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,692 : INFO : 4e53dd973fe72a42d18f4bf440e9fcb0_卡妞微卡_2015-12-04_♬ 再发个笑话，给大家放松一下~.txt
+2015-12-13 11:06:23,693 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,693 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,693 : INFO : 4ebfed5179bd82cd9a82ef69d9a32741_音乐微场景_2015-12-04_心乱的时候，就看看….txt
+2015-12-13 11:06:23,695 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,695 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,695 : INFO : 5047ce0c4e6095e1f93e8d37f072ae0c_求上_2015-12-04_上海财经大学的30个真相.txt
+2015-12-13 11:06:23,696 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,696 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,696 : INFO : 5067b0190e0ca3f9d5cd88585da51b7e_钱眼_2015-12-04_操盘｜下周不确定因素加大，投操应以谨慎防守为主.txt
+2015-12-13 11:06:23,698 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,698 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,698 : INFO : 5120de128d3e75d320bf78755df57e04_健康圈_2015-12-04_㊣  不 吃 晚 饭 的 奥 妙！你知道会怎么样嘛？受益匪浅。。。.txt
+2015-12-13 11:06:23,698 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,699 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,699 : INFO : 518778d1b7567cce5ed61215e00d02ea_游戏绅士_2015-12-04_2015还剩最后一个月，你今年过得好吗？.txt
+2015-12-13 11:06:23,699 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,700 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,700 : INFO : 5248b8867dea8f6f34864d3cf23d98a7_MIUI米柚_2015-12-04_公告！MIUI 5.12.4 更新日志.txt
+2015-12-13 11:06:23,700 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,700 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,701 : INFO : 527f497890913783a62f195fec9a537b_交通91.8_2015-12-04_38岁男子担心28岁妻子与男网友聊太多，竟干了这事！还说“这下就没人要她了”！.txt
+2015-12-13 11:06:23,701 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,701 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,701 : INFO : 52b356ff0de5deb9b62ec6d7def6c7c8_OPPO江西_2015-12-04_一女子怀孕三年未生，他终于忍不住了！.txt
+2015-12-13 11:06:23,702 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,702 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,702 : INFO : 52d539c0a4446d52294d1d30cff4c97b_萌动上海_2015-12-04_爆笑！有了孩子后，一家三口的睡姿，太形象啦！.txt
+2015-12-13 11:06:23,703 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,703 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,703 : INFO : 533d917c4090a7faa683a56f98bbd909_益盟好股_2015-12-04_★调整后将迎建仓良机.txt
+2015-12-13 11:06:23,704 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,704 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,704 : INFO : 543a7cf66a630ed7476ecaee6681d020_卡妞微秀_2015-12-04_遥知不是雪，为有暗香来.txt
+2015-12-13 11:06:23,705 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,705 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,705 : INFO : 544965a9a68a83c6a6f5ad932d0d6604_丁香园_2015-12-04_把你的手机免费升级为医疗级心电监护仪.txt
+2015-12-13 11:06:23,706 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,706 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,706 : INFO : 544a0721e612ee6dbf13053188029c76_教你说话技巧_2015-12-04_天呐，她可是你女儿啊！才14岁.txt
+2015-12-13 11:06:23,707 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,707 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,707 : INFO : 54c848bbf8b44c358b46bf42f1a10c43_人民日报_2015-12-04_【荐读】我的妻子“没有工作”……感动整个朋友圈.txt
+2015-12-13 11:06:23,709 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,709 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,709 : INFO : 555db0b32fc020b97403f15912f508b5_一节瑜伽课_2015-12-04_老公在你生孩子时做了什么？产科医生打死也不敢说的秘密!.txt
+2015-12-13 11:06:23,710 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,711 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,711 : INFO : 55872eb35761e366ee1dc6f7b25218c6_视觉志_2015-12-04_你在帝都霾头苦干时，他们选择重走丝绸之路，寻找灵魂净土。.txt
+2015-12-13 11:06:23,711 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,711 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,712 : INFO : 559f313862d098fddf11d291745dbd0e_视觉志_2015-12-04_周末甚好，我想和你做点爱做的事。.txt
+2015-12-13 11:06:23,712 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,713 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,713 : INFO : 55ca2dee80ee6c3f289767fb6e51c0c2_中国教育在线_2015-12-04_你抱着我长大，我抱着你就医！今冬最温暖的一幕！一张照片感动全国！.txt
+2015-12-13 11:06:23,713 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,713 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,714 : INFO : 55d321cd90e11118c810737ccbfda0d1_一条_2015-12-04_小县城里一座惊艳的建筑，胜过1000部宣传片.txt
+2015-12-13 11:06:23,714 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,714 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,714 : INFO : 55dbf716a6746e43335dfdc7edeb25ff_卡娃微卡_2015-12-04_这世上，总有属于你的一个角落.....txt
+2015-12-13 11:06:23,715 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,715 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,715 : INFO : 56c58d2e0cdd4b0192464c7aa30f7dab_车头条_2015-12-04_丰田：我不要一时的冒进，我只要稳健的前行.txt
+2015-12-13 11:06:23,716 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,717 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,717 : INFO : 5710dcd87877331340998de0d2eb37b8_圈内扒爷_2015-12-04_激情戏之外的激情，彪悍人生不需解释，扒一扒与职场男人近身肉搏的潘芸.txt
+2015-12-13 11:06:23,718 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,718 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,718 : INFO : 583da1a113ee6e13c71a4f1db0a7fb75_永嘉百事通_2015-12-04_永嘉铂尔曼酒店，一场羊绒大衣的盛典！（发送此信息就送围巾一条）.txt
+2015-12-13 11:06:23,718 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,718 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,719 : INFO : 5890e9915127d7d21cf5c940e4ef7b12_每日精彩_2015-12-04_12个月、12个地方、美醉了.txt
+2015-12-13 11:06:23,720 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,721 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,721 : INFO : 597e7b59868dad8b87d4efde85c5e5cc_中国建设银行_2015-12-04_免费才是硬道理！建行“0元购”，相约周五不见不散！.txt
+2015-12-13 11:06:23,723 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,723 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,723 : INFO : 5afb39a283307b21ac7db4aac8b6e2d4_一读_2015-12-04_得体，比好看重要多了.txt
+2015-12-13 11:06:23,724 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,724 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,724 : INFO : 5b49c05a755252941db2ec41878503dd_每天一首好音乐_2015-12-04_✅唉🌷 我又想你了！.txt
+2015-12-13 11:06:23,725 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,725 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,725 : INFO : 5b6372d73cbb55e314c9bddc02e7b805_无锡移动_2015-12-04_延迟退休真来了，快来看看你还要工作多少年（附良心整理国外人民的退休制度）.txt
+2015-12-13 11:06:23,727 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,727 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,727 : INFO : 5c2811ed60deaa347752b6efd7c24a03_智慧人生_2015-12-04_为人之道.txt
+2015-12-13 11:06:23,729 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,729 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,729 : INFO : 5c5e3bab22aa15ecd4b28ee11e6e9a12_新欧洲_2015-12-04_一场好戏|普京拿出证据了！然而土耳其反咬一口说是俄罗斯在跟IS走私石油....txt
+2015-12-13 11:06:23,730 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,730 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,730 : INFO : 5cb7c3334b296a4f7a122fff944b910e_英国那些事儿_2015-12-04_来看看女王家最不缺的东西。。。大啊啊啊钻石！.txt
+2015-12-13 11:06:23,731 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,731 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,731 : INFO : 5cce486efff878eea71c80087df37cdb_卡妞微秀_2015-12-04_冬天来点“小人参”，雾霾的天气身体健！.txt
+2015-12-13 11:06:23,732 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,732 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,732 : INFO : 5d1e9f815334550cc321e747e005643b_人民日报_2015-12-04_帅！香港高校上演一场痛快打脸！.txt
+2015-12-13 11:06:23,732 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,732 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,732 : INFO : 5d29536f872c62e6ba0b8d5214c0890a_上海热门资讯_2015-12-04_米格天地奥莱| 冬季第二重磅！Kate Spade领衔知名品牌全场1折起！.txt
+2015-12-13 11:06:23,733 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,734 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,734 : INFO : 5d901a4a128a7b4cd38165f996b597f8_妈妈手册_2015-12-04_孩子不听话？教你一句话搞定~.txt
+2015-12-13 11:06:23,734 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,734 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,734 : INFO : 5db083c03f909b6c834130b0d0a5053c_快乐大本营_2015-12-04_【爆炸新闻】李维嘉发飙抡观众！.txt
+2015-12-13 11:06:23,736 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,736 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,736 : INFO : 5db141594659b983062a00c7553a7b46_麦子熟了_2015-12-04_你过度牺牲自己，不会带给任何人幸福.txt
+2015-12-13 11:06:23,736 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,736 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,737 : INFO : 5db1baa4f793ac2254ba8fc44d6e142d_一路风景一路歌_2015-12-04_一组老照片，一段感人的岁月….txt
+2015-12-13 11:06:23,738 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,738 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,738 : INFO : 5e7ecb718c7819bcfb65bec5d3c1ffab_奋言奋语_2015-12-04_三十多位作家五台山遭遇离奇车祸.txt
+2015-12-13 11:06:23,739 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,739 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,739 : INFO : 5e97ea4993ca102a04c18fc4ba12e719_半岛晨报_2015-12-04_我的妻子“没有工作”…….txt
+2015-12-13 11:06:23,740 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,740 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,740 : INFO : 5e98715e6e5f6dafa3e0265277a79e7f_学做一个好妈妈_2015-12-04_💋父子争吵一句气话，年少的儿子当场自杀身亡。最深的伤害永远是：语言！.txt
+2015-12-13 11:06:23,741 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,741 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,741 : INFO : 5eba254854d41816a9ba88a865ebf576_一节瑜伽课_2015-12-04_被子有异味？只要这样做，比晒太阳还强100倍！.txt
+2015-12-13 11:06:23,742 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,743 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,743 : INFO : 5fe8c14a1eda40b22a313c1f4abfb425_微信路况_2015-12-04_果然“伟大，不止”，全新奥迪Q7包座海岛来上市.txt
+2015-12-13 11:06:23,744 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,744 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,744 : INFO : 5ff69cee8acb153bd0ebb7469555420c_丁香园_2015-12-04_头孢致低钾 左氧低血糖：这些不良反应你忽视了吗？.txt
+2015-12-13 11:06:23,745 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,745 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,745 : INFO : 608a24332c2d3441b7f32f487fd82db5_国学文化_2015-12-04_不用水煮鸡蛋，超好吃，谁不学谁后悔！.txt
+2015-12-13 11:06:23,746 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,746 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,747 : INFO : 61830ab9b2d2ba11c6008b0f747d9fc8_科技每日推送_2015-12-04_后悔买16G的iPhone？这样完美解决空间不够用！.txt
+2015-12-13 11:06:23,748 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,748 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,748 : INFO : 62bdd27852a4f21cd77ba69df7617137_国学文化_2015-12-04_这段话抄下来，让你享用终生！.txt
+2015-12-13 11:06:23,750 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,750 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,750 : INFO : 63818b8f21fe6a49559623b492726e99_春天女人_2015-12-04_女人，找错了人，就等于输了全部！.txt
+2015-12-13 11:06:23,751 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,751 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,751 : INFO : 63acd86e669b0a9ac5eec1d35dffcf30_教你盘头发_2015-12-04_广州一漂亮富婆脱下衣服后.......发生的事情男人要看，女人要懂！.txt
+2015-12-13 11:06:23,753 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,753 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,753 : INFO : 64b106cd753e732a1f6128ae390486f4_美誓_2015-12-04_【美誓·美体】站在食物链顶端的女人为什么这么瘦.txt
+2015-12-13 11:06:23,755 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,755 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,755 : INFO : 65f8b6b95f56f2ce8a99daa3fcbcdef1_天使爱美丽_2015-12-04_♬ 一辈子想开了  就那么回事儿（写的真好！）.txt
+2015-12-13 11:06:23,756 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,757 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,757 : INFO : 661c585cf6bd8f80769dbfefaea5f33c_中医养生秘诀_2015-12-04_『我的妻子“没工作”』看哭所有人！！.txt
+2015-12-13 11:06:23,757 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,757 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,758 : INFO : 66263f2d0efc9d9f64b59475f475ae56_毒舌说娱乐_2015-12-04_小成本赢得大口碑，带你走进广告的台前幕后.txt
+2015-12-13 11:06:23,758 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,758 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,758 : INFO : 66300c7c9af893d7aa189a35c46cc7f5_大师励志语录_2015-12-04_写给群主的工作报告，看完不许笑~.txt
+2015-12-13 11:06:23,759 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,759 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,759 : INFO : 667bd24d2f2503a0b8ca199c32c7c469_水木文摘_2015-12-04_那个爱你的男人.txt
+2015-12-13 11:06:23,761 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,762 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,762 : INFO : 67b6846a6a5d37849b23a07724b45712_每天教你弄头发_2015-12-04_睡了吗？在干嘛？.txt
+2015-12-13 11:06:23,763 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,763 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,763 : INFO : 695f2825dc451ec37eaee39b5f78f684_每日精彩_2015-12-04_人生的三把钥匙，写的真好！.txt
+2015-12-13 11:06:23,764 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,764 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,765 : INFO : 6960ec62ecfd3fd790d910794df0f80b_一节瑜伽课_2015-12-04_年底了，老同学你现在好吗？（感动亿万人）.txt
+2015-12-13 11:06:23,765 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,765 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,765 : INFO : 69621e6115c6592aad29df8a832f9368_一起作业家长通_2015-12-04_女童爱喝酸奶，竟导致6岁的身体发育至12岁.txt
+2015-12-13 11:06:23,766 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,766 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,766 : INFO : 69fc0f62da43d84bfdc692204d15f7a2_温州都市报_2015-12-04_母亲刚离世不久 自己又患上尿毒症在ICU抢救 谁能帮帮这个爱唱歌的永嘉姑娘.txt
+2015-12-13 11:06:23,767 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,767 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,768 : INFO : 6a6beee27c2623ab0ea1bcd69d18e66c_金属加工_2015-12-04_机械干了一辈子，螺栓上的8.8是什么意思？.txt
+2015-12-13 11:06:23,769 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,769 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,769 : INFO : 6b21e43536463108ac27e3a20a9e3e27_娱乐新天地_2015-12-04_TFBOYS代言360手机助手 跨界互联网嗨翻乐次元.txt
+2015-12-13 11:06:23,770 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,770 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,770 : INFO : 6b8107db5f801650e5d847d940b9bd22_发现妈妈_2015-12-04_大声吼孩子只会让孩子越来越差劲！这样教既简单又有效！.txt
+2015-12-13 11:06:23,771 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,771 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,771 : INFO : 6bbd67d5a6f6e5b56932c7f7c1e1eb07_冷兔_2015-12-04_【冷兔•槽】每日一冷NO.999.txt
+2015-12-13 11:06:23,772 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,772 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,773 : INFO : 6bf3c98655a7376cd22666e1b0e415ca_21财闻汇_2015-12-04_几十亿资产一夜清零！一个跑路民企老板的生死感悟 震撼整个商圈.txt
+2015-12-13 11:06:23,774 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,774 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,774 : INFO : 6c72f741a9b9a2a400854578837051df_央视新闻_2015-12-04_知识 | 只因名字有个"瓛" 想抢车票遇难题 这些姓氏你都认识吗？.txt
+2015-12-13 11:06:23,776 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,776 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,776 : INFO : 6cefe65568044c0c568d3346fd3d93c5_央视新闻_2015-12-04_一图丨谁在买黑油？普京和埃尔多安的“朋友圈”又炸了！.txt
+2015-12-13 11:06:23,777 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,777 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,777 : INFO : 6d514f7569ab801ff46b84fc1a057f7b_贴贴相册_2015-12-04_旧照，美好回忆~回不去的旧时光.txt
+2015-12-13 11:06:23,778 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,779 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,779 : INFO : 6db400b344a3eeb849f98c496a841579_财经早餐_2015-12-04_【财经早餐】2015.12.4星期五.txt
+2015-12-13 11:06:23,779 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,779 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,779 : INFO : 6e3e861279a43d57613d050caffb64b3_湖北经视_2015-12-04_“双12”马云又给武汉人民发钱啦！海底捞优衣库仟吉…统统五折！.txt
+2015-12-13 11:06:23,780 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,781 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,781 : INFO : 6e5f481becdc5cfb37aa1100a241998f_妈妈手册_2015-12-04_头发多久洗一次头最健康？多年的疑惑解开了！.txt
+2015-12-13 11:06:23,781 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,781 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,782 : INFO : 6e625d850a0431ba55d511bf6bc9ade8_苏珊米勒星座馆_2015-12-04_苏珊米勒1204|金牛务必谨慎；天蝎喜迎变化.txt
+2015-12-13 11:06:23,783 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,783 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,783 : INFO : 6f115708c48818c0f0332248cee01be4_包头新闻网_2015-12-04_你家门口就要通地铁了！包头最全！最新！6条轨道交通线路图出炉啦！.txt
+2015-12-13 11:06:23,784 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,784 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,784 : INFO : 6f269c927f162823b0da9fcd2b38c2a0_每天一首好音乐_2015-12-04_✅ 专 治 各 种 想 不 开！.txt
+2015-12-13 11:06:23,785 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,785 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,785 : INFO : 6fef58684bd91e6decabd7b14542f724_河北交通广播_2015-12-04_【992 | 辟谣】石家庄要查酒驾，还要放假3天，单双号限行？！.txt
+2015-12-13 11:06:23,786 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,786 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,786 : INFO : 703c5316cdeaab169c01c2ef4d856e11_妈妈手册_2015-12-04_老师对学生说了谎，后来她看到一个孩子的档案，大吃一惊….txt
+2015-12-13 11:06:23,787 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,788 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,788 : INFO : 70c4835d1e2f15335c9871053d04e592_感恩生活_2015-12-04_写给群主的工作报告，看完不许笑~.txt
+2015-12-13 11:06:23,788 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,788 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,788 : INFO : 70c956b25daca232878436c463ed0cb3_教你会穿衣打扮_2015-12-04_生了6个儿子后，竟又生了个闺女，然后….txt
+2015-12-13 11:06:23,790 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,790 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,790 : INFO : 71d68688da518618d9a1df133896384d_关爱八卦成长协会_2015-12-04_八一个亲身经历的整容经历，凤姐变AB！.txt
+2015-12-13 11:06:23,791 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,792 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,792 : INFO : 72e4dd9a5f927b97488b28bc4bcb4c7f_幸福人生_2015-12-04_❤牵挂，一种说不清楚的痛！.txt
+2015-12-13 11:06:23,792 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,793 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,793 : INFO : 731f25286497152e65ef8df8c5bf48e0_漫心情_2015-12-04_人活着，别太烦！.txt
+2015-12-13 11:06:23,793 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,793 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,793 : INFO : 7390f7d983ee60e2fea3307056f57e9f_玫琳凯BetterMe我更绽_2015-12-04_听说这样的女人运气都不会差哦！.txt
+2015-12-13 11:06:23,794 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,794 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,794 : INFO : 73efe8ca967a3e26554ad1b169e445c2_中国银行信用卡_2015-12-04_岁末优惠季｜苹果iphone6S、华为Mate8、苹果笔记本年终大促销！.txt
+2015-12-13 11:06:23,795 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,795 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,795 : INFO : 749ff54033cff2069482a8f9d73e4948_广州头条播报_2015-12-04_广州入冬成功！！新天地聚众吃雪糕庆祝.txt
+2015-12-13 11:06:23,796 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,796 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,796 : INFO : 74b3fe9e45dc3097f3b15a8da78a3102_娱乐圈扒姐_2015-12-04_一日小料：众记者采访阿sa，一群人现场怒撕阿sa助理.txt
+2015-12-13 11:06:23,798 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,798 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,798 : INFO : 754c307f4c430b5a8dfa0673322645e0_年糕妈妈_2015-12-04_糕妈优选 | 火火兔早教机，万千妈妈的哄娃神器.txt
+2015-12-13 11:06:23,799 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,799 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,799 : INFO : 761f96c56cb6c3723d3d7f173fdb4672_微女人_2015-12-04_对你老公连发三次“我爱你”！ 笑死人了！.txt
+2015-12-13 11:06:23,800 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,800 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,800 : INFO : 76537911b22e4bbb7ce4921ab3c81951_智慧人生_2015-12-04_✿女人最大的幸福就是找到一个宠你的男人.txt
+2015-12-13 11:06:23,801 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,801 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,801 : INFO : 7729e74102725a5eef1efb7ace1232cc_嘀嗒拼车总号_2015-12-04_这件事，99%的人都会做，但只有1%的人知道为什么要做.txt
+2015-12-13 11:06:23,802 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,803 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,803 : INFO : 773573224f42b3573e4e9def3a53f416_人民日报_2015-12-04_来了！新闻早班车.txt
+2015-12-13 11:06:23,805 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,805 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,805 : INFO : 781b0f65c25484115c5790b6daf931f4_每日精彩_2015-12-04_25道五花肉的滋味.txt
+2015-12-13 11:06:23,806 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,806 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,806 : INFO : 7851066ce67816129f428db0ea0cfebe_地球在线_2015-12-04_差点把我笑岔气了，真不愧是经典！.txt
+2015-12-13 11:06:23,806 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,807 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,807 : INFO : 78b1abe311f5633edcea60390e3d88a7_点点星光_2015-12-04_爱发脾气的老婆，都是好老婆！.txt
+2015-12-13 11:06:23,809 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,809 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,809 : INFO : 7a6406aff088dd3fc55ee62bec558a61_人民日报_2015-12-04_3年，“八项规定”改变中国.txt
+2015-12-13 11:06:23,811 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,811 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,811 : INFO : 7afc1c0872a5675e02895e6979f2b230_伊春发布_2015-12-04_伊春市首届“十大名医”投票开始啦！.txt
+2015-12-13 11:06:23,812 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,812 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,812 : INFO : 7b0a63664e9b0d4c61185ea355f678bc_头发吐槽帮_2015-12-04_常吃这四种坚果，让你头发恢复以前的发量！.txt
+2015-12-13 11:06:23,814 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,814 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,814 : INFO : 7b3f1856b980385a8a0aea92f4bf980d_脉脉养生_2015-12-04_泡脚你以为只是祛寒？看后令人震惊，要告诉全家人！.txt
+2015-12-13 11:06:23,815 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,815 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,815 : INFO : 7b6e4ce88861a23dab8c1b8483ee9152_微信路况_2015-12-04_原来我们每天这么多次都接近死亡，吓尿了.txt
+2015-12-13 11:06:23,816 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,816 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,816 : INFO : 7b8a7a22425ddc9b57c25907e82c82e2_央视财经_2015-12-04_【提醒】房产证上有你的名字=房子是你的？错！.txt
+2015-12-13 11:06:23,816 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,816 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,817 : INFO : 7bca280b6dbd84dde2ef0781166767c5_糗事百科_2015-12-04_今天全宇宙最糗的10大糗图.txt
+2015-12-13 11:06:23,817 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,817 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,818 : INFO : 7c03bb318f012364bc49ae60bc22b2ab_英雄小助手_2015-12-04_一代补丁一代神：探秘史上最强英雄.txt
+2015-12-13 11:06:23,818 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,819 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,819 : INFO : 7c17eb09e17ed114632671b08d931e42_深八深夜八卦_2015-12-04_渣男神抓起来也是一把一把呢.txt
+2015-12-13 11:06:23,819 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,819 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,820 : INFO : 7c22e8764841b74cd92e47362f2c1304_时尚芭莎_2015-12-04_朴信惠没整容，她靠黄瓜把Baby face、小粗腿全减掉了！.txt
+2015-12-13 11:06:23,820 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,820 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,820 : INFO : 7c73704bbcfc714f62956c1da6cfce8d_玩车教授_2015-12-04_7万元买国货家轿 这三辆车我该怎么挑.txt
+2015-12-13 11:06:23,821 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,821 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,821 : INFO : 7e1c92f657db92794626ef08bfeb7f6a_TripAdvisor猫途鹰_2015-12-04_『搞定签证④』弄明白这5个问题，轻松办泰国签证.txt
+2015-12-13 11:06:23,822 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,822 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,822 : INFO : 7e474b2340d62c17c1c54916bd503a9d_滴滴出行_2015-12-04_刘翔携手姚明首次“触电” 两大巨星上演兄弟救驾.txt
+2015-12-13 11:06:23,822 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,823 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,823 : INFO : 7ec5177fdc9586d40c1e9f7c74de6cf1_贴身小助手_2015-12-04_煮米饭时加点它，煮出的米饭香喷喷！很多人都不知道！.txt
+2015-12-13 11:06:23,825 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,825 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,825 : INFO : 7fb3e68402d14a6c59c1c1eaa1dcc2c0_女人该懂得的那些事_2015-12-04_✅很脏很现实，好多女人死在第二条，不信，自己看！.txt
+2015-12-13 11:06:23,826 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,826 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,826 : INFO : 7fed8a4e404cbde035fcef61dcd10ebb_音乐微场景_2015-12-04_♬  再发个笑话，给大家放松一下~.txt
+2015-12-13 11:06:23,827 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,827 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,828 : INFO : 80086cc5ed982e9dfe8e441a69c9eef8_育儿网_2015-12-04_❤妈妈泣血控诉老师：我欠你一个红包，你欠我女儿天理难容的公道！.txt
+2015-12-13 11:06:23,829 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,829 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,829 : INFO : 801f8207f1816e47603349f17625c86e_春天女人_2015-12-04_一女在外面有了别的男人，不想和丈夫同床！一天她问情人…….txt
+2015-12-13 11:06:23,829 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,830 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,830 : INFO : 803b2c96e4ccb41df88dd1a6cefde1aa_励志语录_2015-12-04_☺写给群主的工作报告，看完不许笑~.txt
+2015-12-13 11:06:23,830 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,831 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,831 : INFO : 80a5b71211fb09145fa3dc8147b281c4_风水与养生_2015-12-04_4大名妓、4大美女、4大才子、4大才女...太齐全了，涨知识了.txt
+2015-12-13 11:06:23,832 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,832 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,832 : INFO : 8117913b8652c7c425acbb628948d13a_每天练瑜伽_2015-12-04_✅为了生个儿子，女子第三次剖腹产，手术时医生都惊呆了….txt
+2015-12-13 11:06:23,834 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,835 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,835 : INFO : 824bc6681af11ae3e952d742b2978918_每天教你学做饭_2015-12-04_入冬后这个东西，放床头能让女人变美，男人舒服。.txt
+2015-12-13 11:06:23,837 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,837 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,837 : INFO : 8374ba206f8736c2802a11218f0bb275_凤凰财经_2015-12-04_昨夜，万亿美元级别大屠杀上演，为人民币上位壮行.txt
+2015-12-13 11:06:23,838 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,838 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,838 : INFO : 8380128f1c02df69f61304fe03289140_卡娃微卡_2015-12-04_若放手，请彻底；若真爱，请深爱.txt
+2015-12-13 11:06:23,838 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,839 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,839 : INFO : 8380dbfb9edf18ddd86a84a5514f6239_读悦文摘_2015-12-04_如果你五十几岁了，一定要看看这篇文章.txt
+2015-12-13 11:06:23,839 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,839 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,840 : INFO : 83be6e76661673d4773a8a43997117de_视觉志_2015-12-04_芈月背后的男人原来是他！.txt
+2015-12-13 11:06:23,840 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,841 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,841 : INFO : 83c8147cdaacdbad1a138cbe695570d5_严肃八卦_2015-12-04_谁说基努·里维斯是好莱坞最穷明星的？高帅富就被消费成谣言鸡汤了.txt
+2015-12-13 11:06:23,842 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,842 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,842 : INFO : 846946ce06454809adeab85a5591aaa1_羽毛球_2015-12-04_打羽毛球，你十项全能了吗.txt
+2015-12-13 11:06:23,844 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,844 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,844 : INFO : 84a18fd7a1a43bffeded1a011b116c94_卡娃微卡_2015-12-04_我猜中了开头，却没有猜到这结局。.txt
+2015-12-13 11:06:23,845 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,845 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,845 : INFO : 84abd74f09d0ccd289fd52640e35fa15_英国那些事儿_2015-12-04_单身汪为了给姐姐一份特别的礼物...就这么强行给喵当了个爹....txt
+2015-12-13 11:06:23,846 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,846 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,847 : INFO : 855d9d6ae697472d3d25fc05a61f2add_共产党员_2015-12-04_【励志】44岁被单位开除，遭遇离婚还负债200万，如今成功逆袭！.txt
+2015-12-13 11:06:23,848 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,848 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,848 : INFO : 85798104e90a7c6134f042ae486bc7bf_爸妈营_2015-12-04_《芈月传》开播一周，孙俪没火，她却火了！.txt
+2015-12-13 11:06:23,849 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,849 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,849 : INFO : 8583dbd9b18aa7bef87603ff79f82f97_意林_2015-12-04_你给我爱情就好，面包我自己买.txt
+2015-12-13 11:06:23,851 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,851 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,851 : INFO : 86ab5bb3703af5050387d15b4649f802_中国银行信用卡_2015-12-04_岁末优惠季｜@有你的12月观影时间表，无压贺岁，谈情说案！.txt
+2015-12-13 11:06:23,853 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,853 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,853 : INFO : 86b7367db0e5343e9f77152284db4fb7_姑苏网_2015-12-04_疯了！整个12月！天天6.8折！苏州这家明星火锅店又杀到新区了….txt
+2015-12-13 11:06:23,854 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,854 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,854 : INFO : 875dd6c63a868e75b48b9ccae1bb0b2a_新闻夜航_2015-12-04_黑龙江的男人，大雪天你老婆坐在副驾啥感觉？有7个后患！想死的心都有······.txt
+2015-12-13 11:06:23,854 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,855 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,855 : INFO : 888b1e7f3c6a16a5ec45b70f4d58645a_十点读书_2015-12-04_微小而又确切的幸福，不需要提醒.txt
+2015-12-13 11:06:23,856 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,856 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,856 : INFO : 88b95949b4c4251e6367d0b55efb8838_好妈妈必读_2015-12-04_孩子上学了，为了孩子，请家长每天朗读三遍.txt
+2015-12-13 11:06:23,856 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,857 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,857 : INFO : 88d7250e94022c293e9cbf47bb6493ef_时尚女装搭配_2015-12-04_刘涛又要火了，芈月传里美如画，戏外穿衣更是美爆了！.txt
+2015-12-13 11:06:23,857 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,857 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,858 : INFO : 8944c393ad65c00487119d712275c3a5_生活絮语_2015-12-04_睡了别人的老婆八年，你还有脸自杀….txt
+2015-12-13 11:06:23,859 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,859 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,859 : INFO : 8a46660e05b2d7e925608b9e01c0f6b5_爱上练瑜伽_2015-12-04_每天喝这些，不出一个月，皮肤嫩到滴出水！.txt
+2015-12-13 11:06:23,860 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,860 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,860 : INFO : 8ad670307ac838ab792e761bcb90b360_吴晓波频道_2015-12-04_你以为科比赚够20亿就退役了？他才刚开始呢 | 理财话题.txt
+2015-12-13 11:06:23,861 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,861 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,861 : INFO : 8ad7939148788f85c0f12480571273a3_中国电信客服_2015-12-04_幸运大赚盘 红包天天有.txt
+2015-12-13 11:06:23,862 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,862 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,862 : INFO : 8b30243a906c5fec940319716310756a_每天扎头发_2015-12-04_这才是女人该过的日子！.txt
+2015-12-13 11:06:23,863 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,863 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,863 : INFO : 8b494232e667e8b049c00715608b7ed0_小贱鸡_2015-12-04_《万万没想到》，一部王大锤的时尚进化论.txt
+2015-12-13 11:06:23,864 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,864 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,864 : INFO : 8bfb6f14c7d1f3ce00ff8ea0d4806e1c_占豪_2015-12-04_惊奇丨昔日被弃如今走红，只因对眼···而它值6000万英镑！.txt
+2015-12-13 11:06:23,866 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,866 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,866 : INFO : 8c9477686e74d1c025562a2e513836a7_国学精粹与生活艺术_2015-12-04_不忘初心  方得始终.txt
+2015-12-13 11:06:23,866 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,867 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,867 : INFO : 8c9824339a6ad26b79272040689a5f42_恋上女装_2015-12-04_70后的女人，最美的女人.txt
+2015-12-13 11:06:23,867 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,867 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,868 : INFO : 8cc8620125f11ca06e052d9822347b68_时尚女装搭配_2015-12-04_冬天穿什么裙子不怕冷又时尚？.txt
+2015-12-13 11:06:23,869 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,869 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,869 : INFO : 8ce3dc5f8619c623ac93aa9de2361d94_塔羅星座艾菲爾老師_2015-12-04_都到齐了！12生肖婚配大全.txt
+2015-12-13 11:06:23,871 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,871 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,871 : INFO : 8db5f6cc791b15ada83a7c70ed241547_央视新闻_2015-12-04_交锋 | 普京喊话土耳其：绝不原谅你的背叛 土总统如此回应.txt
+2015-12-13 11:06:23,872 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,872 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,872 : INFO : 8df25a2776152b6b6bd46120bfc5f519_二更_2015-12-04_这个妹纸貌美如花.txt
+2015-12-13 11:06:23,874 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,874 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,874 : INFO : 8f63d58d1ccb14813b6217098b2c7753_龙岩啪啪圈_2015-12-04_🔥【独家新闻】今日凌晨龙岩银河大厦一对夫妻双双跳楼！.txt
+2015-12-13 11:06:23,875 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,876 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,876 : INFO : 8fc95148479533f79a718bf6df9a7725_娱乐圈扒姐_2015-12-04_能和这些演员来一炮，这辈子也值了.txt
+2015-12-13 11:06:23,877 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,877 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,877 : INFO : 906895f9dfb8b9556afe905e72a42167_天使爱美丽_2015-12-04_♬ 快过年了，老同学，聚一聚吧！.txt
+2015-12-13 11:06:23,877 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,877 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,878 : INFO : 90be3792a27808589d7c3147b7ebe4fd_地球在线_2015-12-04_致50多岁的四句话，看完大彻大悟！最好记下来！（必读）.txt
+2015-12-13 11:06:23,878 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,878 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,878 : INFO : 918007608788a5a57600143c13e2feba_大风哥_2015-12-04_图：妹子，确定手机不会掉下来？.txt
+2015-12-13 11:06:23,879 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,879 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,879 : INFO : 9202cde79cf5419a3c83f52fe62c7be3_交通91.8_2015-12-04_杭城两车相撞，车上居然是6人“拼”在一起，1岁孩子还当场….txt
+2015-12-13 11:06:23,880 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,880 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,880 : INFO : 921e3fe8d2325c52c48d2844ff9bf69c_共产党员_2015-12-04_【励志】44岁被单位开除，遭遇离婚还负债200万，如今成功逆袭！.txt
+2015-12-13 11:06:23,881 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,881 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,881 : INFO : 9295ffd4a3312b377997e3e446d9ad19_教你学会穿衣打扮_2015-12-04_6种棉服搭配美翻天，一不小心让你做个暖美人.txt
+2015-12-13 11:06:23,882 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,882 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,882 : INFO : 92c4a704c336fb5017873dc0a03066a8_共产党员_2015-12-04_【荐读】当你到了四十岁上......txt
+2015-12-13 11:06:23,883 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,884 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,884 : INFO : 93733101c5bd5987d68ada7413f5e0a0_触摸重庆_2015-12-04_重庆最美区县地标、景区评选，快为你的家乡投票吧！.txt
+2015-12-13 11:06:23,885 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,885 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,885 : INFO : 93bd4922061cc9c66f2ee6eee896b771_思想聚焦_2015-12-04_你为什么要努力。（好文）.txt
+2015-12-13 11:06:23,886 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,886 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,886 : INFO : 93bf6260b3aceb2dff0ba8c5fa4be858_欢乐斗地主_2015-12-04_【💡快来领豆豆】就是这么靠谱！.txt
+2015-12-13 11:06:23,887 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,887 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,887 : INFO : 94d2fb3fa3b3efb7dd4985b3dab5a747_FitTime睿健时代_2015-12-04_“过晚不食”真的更容易瘦吗？.txt
+2015-12-13 11:06:23,888 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,888 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,888 : INFO : 952d8e70fe6ea62e25dfb02ae35fe92f_时尚女装搭配_2015-12-04_长期吃三七的结果……好处至少有这5种！.txt
+2015-12-13 11:06:23,889 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,890 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,890 : INFO : 965cf3f5b46c31a887238f4a1586403c_肌肉构成_2015-12-04_真猛！72岁！离婚三次！！这个黑金刚让我舔屏了！！.txt
+2015-12-13 11:06:23,891 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,891 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,891 : INFO : 966005e63f6dd272832d77d371988c64_科技美学_2015-12-04_为啥魅族总用三星技术呢(语音).txt
+2015-12-13 11:06:23,892 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,892 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,892 : INFO : 968b5c777eae807c8544813bd378f16a_新闻早餐_2015-12-04_2015.12.4 星期五 农历十月廿三.txt
+2015-12-13 11:06:23,893 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,893 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,893 : INFO : 9704ea4684121932fe62a19ac922305f_天天练瑜伽_2015-12-04_夫妻生理需求一月几次正常？.txt
+2015-12-13 11:06:23,894 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,894 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,894 : INFO : 971d479ac59ad5f66fb970f9f6b6a72c_微赚钱_2015-12-04_❤情人就像睡衣，再华丽，也穿不出去！老婆就像粗布衣，再丑也 . . . 说的真好！！！.txt
+2015-12-13 11:06:23,895 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,895 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,895 : INFO : 9727557ac29f64fba543b62f1e58804c_人民日报_2015-12-04_【健康】最有效的养生竟然是免费的！啥都不说了，自己看！.txt
+2015-12-13 11:06:23,896 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,896 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,896 : INFO : 982094555116bdaedfdb2c83f92090d7_妈妈手册_2015-12-04_如果你四十几岁了，请看看这篇文章，早看早醒！.txt
+2015-12-13 11:06:23,897 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,897 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,897 : INFO : 9940a1733dc66272f1a3a768ff526401_人民日报_2015-12-04_【荐读】儿女五不怨，父母七不责（人人适用）.txt
+2015-12-13 11:06:23,898 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,898 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,898 : INFO : 998b2895dd6b68a253790cb44e4d34ff_天使爱美丽_2015-12-04_♬ 沟通（写得真好）.txt
+2015-12-13 11:06:23,899 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,899 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,900 : INFO : 9a73d6a0118d72f085e0e07a51bccf9a_美美家族_2015-12-04_女人千万不要乱买鞋，要穿就穿这四款秋冬最流行的！.txt
+2015-12-13 11:06:23,900 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,901 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,901 : INFO : 9afaace454f206ae5dd1775d2835e6d2_假博士_2015-12-04_人生不是餐具不是杯具，是件家具.txt
+2015-12-13 11:06:23,902 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,902 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,902 : INFO : 9b63bc210561710f60b97bd243a735bf_小苍mm_2015-12-04_羊刀被削不用慌！超高性价比装备更强势.txt
+2015-12-13 11:06:23,903 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,903 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,903 : INFO : 9bc436371105103d54a7a3ab64fb1d56_春天女人_2015-12-04_儿子杀人坐牢，妈妈却。。。。。。.txt
+2015-12-13 11:06:23,905 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,905 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,905 : INFO : 9be698e94b52f8ef1f03b9fcc2245e2a_新闻哥_2015-12-04_大爷塞2000元给大妈欲发生关系，大妈气不过只好报警！.txt
+2015-12-13 11:06:23,906 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,906 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,907 : INFO : 9be74aa8ce7e9eeec49b6d1fd8bb7f47_好妈妈必读_2015-12-04_入冬后把它放床头，能让女人变美，男人舒服~.txt
+2015-12-13 11:06:23,907 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,908 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,908 : INFO : 9beb5cedcbd296f4d905e7113ca7924a_做一位好妈妈_2015-12-04_☀5岁男童幼儿园午睡时死亡，原因让家长和老师崩溃了!.txt
+2015-12-13 11:06:23,908 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,908 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,909 : INFO : 9c4a1f66b5b90861dd1c769f9daa813d_教你学会穿衣打扮_2015-12-04_当一个男人总想和你上床....txt
+2015-12-13 11:06:23,909 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,910 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,910 : INFO : 9c58506b89fa53b291f1c612bf94f925_她刊_2015-12-04_孙俪、范冰冰、Angelababy如古风画卷般的古典服饰，简直美哭了！.txt
+2015-12-13 11:06:23,910 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,910 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,910 : INFO : 9cef01bf3c2ec5b42d3e3648c2e1ae16_天天炫拍_2015-12-04_精三分、傻三分、留下三分给子孙.txt
+2015-12-13 11:06:23,912 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,912 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,912 : INFO : 9d3963a29196ae7811560104f5f2c161_心灵港湾_2015-12-04_人欠你，天会还你（一定要读）.txt
+2015-12-13 11:06:23,914 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,914 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,914 : INFO : 9da716b5f02eabff7ad90f125cea38ed_爱读童书妈妈小莉_2015-12-04_宝贝，请原谅我再也不能把全部的爱给你.txt
+2015-12-13 11:06:23,915 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,915 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,915 : INFO : 9e23bd9477b75fc93c0ada68f7bf0389_教你学化妆_2015-12-04_迪丽热巴今年火爆了，她都在留这些发型，超漂亮时髦！.txt
+2015-12-13 11:06:23,916 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,916 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,916 : INFO : 9ec46eb41877c666eaf60ab2c650c444_新晚报_2015-12-04_哈尔滨堆雪人大赛：15个雪人最搞怪｜你喜欢哪一个？.txt
+2015-12-13 11:06:23,917 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,917 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,917 : INFO : 9f96837ee0792d4d6cf94d1404a02cdd_卡娃微卡_2015-12-04_泰国最泪奔广告：为了你，她可以变成男人，看到最后彻底哭了！.txt
+2015-12-13 11:06:23,918 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,918 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,918 : INFO : a0384842a2130a6a423e4971bb87280e_生活志_2015-12-04_慢调生活，你不“打”开心房就错过.txt
+2015-12-13 11:06:23,919 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,919 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,919 : INFO : a05f4664795818a1725a3959242ac6b8_环境养生_2015-12-04_1斤这种叶子顶10斤人参！可惜知道的人太少！.txt
+2015-12-13 11:06:23,920 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,920 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,920 : INFO : a0d62882e4a36317ad69597d9090702c_英雄小助手_2015-12-04_不Ban他们能玩？新版本毒瘤英雄盘点.txt
+2015-12-13 11:06:23,921 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,921 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,921 : INFO : a0e5ac2263749170e63b1312fbbf1b87_兴业银行_2015-12-04_兴业携手唯品会12.8周年庆，领1208元惊喜大红包，还有人气抽奖！！.txt
+2015-12-13 11:06:23,922 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,923 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,923 : INFO : a11b6051d987795f4ce9ad64618027fd_爱上练瑜伽_2015-12-04_夫妻致命风水，很多人都不知道，赶紧戒了吧！.txt
+2015-12-13 11:06:23,923 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,923 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,923 : INFO : a1a5ededa19703c6dba8655717860d9e_心情说_2015-12-04_人心能换来人心吗？.txt
+2015-12-13 11:06:23,924 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,924 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,924 : INFO : a1ecb4036e53ccc4ed31d64465cafdab_关爱八卦成长协会_2015-12-04_肯德基找我拍广告了！我要彻底红了！.txt
+2015-12-13 11:06:23,926 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,926 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,926 : INFO : a2f6f71d3f8b89ac5c5bd5245b77f027_华人生活网_2015-12-04_✅太荒淫！她睡遍全队80个男人后，通通染病了...(组图).txt
+2015-12-13 11:06:23,926 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,926 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,927 : INFO : a2faa4b5711dbf56b37578a09efc14c7_NBA篮球实用技巧_2015-12-04_一打五就是干！这才是巨星风采.txt
+2015-12-13 11:06:23,927 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,927 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,927 : INFO : a3ecfda05384318b96d747611de94589_生活小智慧_2015-12-04_智商集体下线？警察蜀黍都要看不下去了…….txt
+2015-12-13 11:06:23,928 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,928 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,928 : INFO : a42f170b55dda62f2ca2e399d35a0688_人民日报_2015-12-04_【提醒】重要！社保断了，一定要这么办！.txt
+2015-12-13 11:06:23,929 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,929 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,929 : INFO : a45e0b04fc1f72997a398617a7ee8142_每日精彩_2015-12-04_一件事，教你一生不再生气.txt
+2015-12-13 11:06:23,930 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,930 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,931 : INFO : a4b9e7b15b3c9ecf3341e0cba27faa01_冯站长之家_2015-12-04_2015年12月4日（星期五）三分钟新闻早餐（综合版）.txt
+2015-12-13 11:06:23,932 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,932 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,932 : INFO : a4cdee2850db7f3be02572c4d69bf560_东莞交警_2015-12-04_触目惊心！这些交通事故就发生在我们身边.txt
+2015-12-13 11:06:23,933 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,933 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,933 : INFO : a50803d0c07c1841badadeed934e17b6_玩车教授_2015-12-04_中国车企在俄销量如何 战斗民族喜欢什么车.txt
+2015-12-13 11:06:23,934 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,934 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,934 : INFO : a5310db2c554fe883eb6333c75d6f2cc_幸福人生_2015-12-04_✅♬12月，祝你天天好心情~.txt
+2015-12-13 11:06:23,935 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,935 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,935 : INFO : a535c00fe3f2e0ee6fd8d2a4df21d310_微信路况_2015-12-04_【警惕】这些药品千万不能用热水送服....txt
+2015-12-13 11:06:23,936 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,936 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,936 : INFO : a60969b2ff6b7ee80ee78958a5f239d1_滴滴出行_2015-12-04_芈月带你穿越回秦朝 探寻宝物赢超值组合大礼包！.txt
+2015-12-13 11:06:23,937 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,937 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,937 : INFO : a645c6426beef1cd45c3de5afe125b62_幸福人生_2015-12-04_✅人生就是：1-2-3-4-5-6-7-8-9-10.txt
+2015-12-13 11:06:23,938 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,938 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,938 : INFO : a6ade63ff5ae2ad4de5db2397fef5187_成功智慧_2015-12-04_心若相知，无言也默契.txt
+2015-12-13 11:06:23,939 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,939 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,939 : INFO : a714505248fe64e069d8cf01242f972a_教育百师通_2015-12-04_雪地靴也会致残？死穿一双的危害你不得不防！.txt
+2015-12-13 11:06:23,940 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,940 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,940 : INFO : a72881a8a909c3d9d2c731f3ac091334_SUV大师_2015-12-04_国产山寨SUV就没面子？这几款绝对是泡妞神器.txt
+2015-12-13 11:06:23,941 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,941 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,941 : INFO : a787c34321f043375d345e951ddc97d6_THLDL_2015-12-04_让你大彻大悟的3句话（经典）.txt
+2015-12-13 11:06:23,941 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,942 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,942 : INFO : a7cce6829b86bbece1e336e7861ecd88_智慧人生_2015-12-04_你绝没看过的花.txt
+2015-12-13 11:06:23,943 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,943 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,943 : INFO : a817ff516ca2b16c60f587434c1abf09_教你学会穿衣打扮_2015-12-04_这六种手型的女人最不缺钱花，有你吗？.txt
+2015-12-13 11:06:23,944 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,945 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,945 : INFO : a847f87e1f5323678dcec70c4e7a7578_全球未解之谜_2015-12-04_那场夺走12000人生命的雾霾.txt
+2015-12-13 11:06:23,946 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,946 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,946 : INFO : a87c0662cd88f16f5a5c80b545e0b337_新闻夜航_2015-12-04_别睡了！悲催的80后90后······你们摊上大事了！你还要为国家多干5-10年！.txt
+2015-12-13 11:06:23,946 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,947 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,947 : INFO : a88d42d95f142417289fbd657f0bb5ac_乐享唯美心语_2015-12-04_♬  再发个笑话，给大家放松一下~.txt
+2015-12-13 11:06:23,948 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,948 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,948 : INFO : a8cea8c6067649e25160573605572149_东方财富网_2015-12-04_重磅消息突袭！房地产要变天？.txt
+2015-12-13 11:06:23,949 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,949 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,949 : INFO : a8ebd33b98967ce4596cb50b2937eb3e_圈内扒爷_2015-12-04_天王表，要配小，百人磨完鞋正好，扒一扒渣男配婊，岁月绿好。.txt
+2015-12-13 11:06:23,950 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,950 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,950 : INFO : a9466dc2bfe781bffdc2c43765ae2bf2_精致佳人_2015-12-04_四十以后的醒悟，改变你的一生！.txt
+2015-12-13 11:06:23,951 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,951 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,951 : INFO : a9523fc0e69b7974d5594715cf183ae2_微场景_2015-12-04_✅发个笑话，给大家解解压~.txt
+2015-12-13 11:06:23,952 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,952 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,952 : INFO : a9544d5e511078c22d30f6d36986ba8d_新闻哥_2015-12-04_答网友问：孕妇插我的队还呼我巴掌，难道就只能忍了吗？.txt
+2015-12-13 11:06:23,953 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,953 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,953 : INFO : a955e895dc9336c513bf2a218ea79bdf_天使爱美丽_2015-12-04_♬ 聪明的女人永远莫做情人 !.txt
+2015-12-13 11:06:23,954 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,954 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,954 : INFO : aa5a6633c64bfbe9999f0b656683ece0_上海发布_2015-12-04_上海迪士尼6大园区的景点位置图公布啦！.txt
+2015-12-13 11:06:23,955 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,956 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,956 : INFO : aa9c7843c99805d3bd99c133245f3f70_北京微生活_2015-12-04_北京apm儿童区圣诞穿搭攻略.txt
+2015-12-13 11:06:23,957 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,957 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,957 : INFO : aabd8fbd46ac54254f9e5a4d88b3fc33_卡娃微卡_2015-12-04_道理谁都懂，人生却难走.....txt
+2015-12-13 11:06:23,958 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,958 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,958 : INFO : aafa49b48ae4325e1b10daa6e8055df3_爱儿康_2015-12-04_满月男婴活活“热死”，竟因父母做错这件事！这36个育儿法都是错的！.txt
+2015-12-13 11:06:23,959 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,959 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,959 : INFO : ab52d3485a7fa53daf7ff52d74108694_时尚COSMO_2015-12-04_高跟鞋冻雪地靴丑？那机车靴喂饱你的贪心咯.txt
+2015-12-13 11:06:23,961 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,961 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,961 : INFO : abbdb0eb3e593764f361f3cadf079801_星座秘语_2015-12-04_很全的十二星座爱情观，看过的人90%都脱单了！.txt
+2015-12-13 11:06:23,962 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,962 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,962 : INFO : ac8b68e3771516f5b53056d96838a45d_地球在线_2015-12-04_🌺这顺.口溜谁写的，全.国人.民都在看，太有才了！.txt
+2015-12-13 11:06:23,964 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,964 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,964 : INFO : ad7e551606f367defa808db2134a4026_狗与爱的世界_2015-12-04_狗狗贪玩咬了主人手机，主人对它的惩罚让人不寒而栗！.txt
+2015-12-13 11:06:23,965 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,965 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,965 : INFO : ad840f91002da5b14c0b3aec1cc5165f_任真天_2015-12-04_拥抱你 做完一场美梦 #5.txt
+2015-12-13 11:06:23,966 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,966 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,967 : INFO : adb6ebf3ae8c9ac4489d4ae3da49d8c6_游戏百晓生_2015-12-04_【百晓生の眼】2015还剩最后一个月，你今年过得好吗？.txt
+2015-12-13 11:06:23,967 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,967 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,968 : INFO : ae6ebca71b7d2b22d5f2bd42bde98b33_潮音乐_2015-12-04_女声版《一次就好》超级暖心.txt
+2015-12-13 11:06:23,968 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,969 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,969 : INFO : ae7c9ea679491609b365348658fb4bf2_当时我就震惊了_2015-12-04_一脱成名，扒一扒那些Y星出道的明星，还都是由同一人捧红！.txt
+2015-12-13 11:06:23,969 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,969 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,969 : INFO : ae82c7282d80e5aab17b6955f65156a4_教女人扎头发_2015-12-04_✅小三当众痛骂妻子，围观者反而拍手叫好挺小三！女人都要看看，太现实了~.txt
+2015-12-13 11:06:23,971 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,971 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,971 : INFO : af1d1db0aa7f83b865342c85a1703ca5_一节瑜伽课_2015-12-04_一家不知一家难（写的真好）.txt
+2015-12-13 11:06:23,971 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,972 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,972 : INFO : af30b184b2e73ae8c0e73e9fa3d0a357_HKChannel_2015-12-04_给赌王公子戴绿帽 Yumi反咬遭背叛！.txt
+2015-12-13 11:06:23,972 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,973 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,973 : INFO : af7bf44413c154105eba851c5b4b189a_张德芬_2015-12-04_不解释的人生，才是真正强大的人生.txt
+2015-12-13 11:06:23,973 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,973 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,973 : INFO : affcafce3bebc5955a16b090e129feea_每日菜谱分享_2015-12-04_五种菜绝不能放味精！除非你想伤害谁！.txt
+2015-12-13 11:06:23,975 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,975 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,975 : INFO : b1134c01dcc53022fccf2886b19e8814_二更食堂_2015-12-04_这是朋友圈最想晒的地下情.txt
+2015-12-13 11:06:23,976 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,977 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,977 : INFO : b20987314303b96b5aa6c28afc1421e3_恋上女装_2015-12-04_明年十二属相将走什么运？ 准到吓人.txt
+2015-12-13 11:06:23,977 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,977 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,978 : INFO : b29391b69d5491b1f8b4e3f7713be026_每日精彩_2015-12-04_心若静，风奈何（深度好文）.txt
+2015-12-13 11:06:23,978 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,978 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,978 : INFO : b29776b38f3301b67d5a62220bd86400_QQ会员_2015-12-04_一大波红包又砸过来了！.txt
+2015-12-13 11:06:23,979 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,979 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,979 : INFO : b2ecdb861c8418540b5ffda07fa84cf5_微场景_2015-12-04_♬ 一曲《多情的打扰》，送给我的朋友！.txt
+2015-12-13 11:06:23,982 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,982 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,983 : INFO : b3f57f95f98232228f6f0a3c98a149e8_洞见_2015-12-04_敢于批评你的人，才是你的贵人.txt
+2015-12-13 11:06:23,983 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,983 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,983 : INFO : b4219bdc16d184e2a5f9fa16780034db_中国建设银行_2015-12-04_借你一双“惠”眼，微信粉丝专享等你来抢.txt
+2015-12-13 11:06:23,984 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,984 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,984 : INFO : b465c8c69f50433a5b6c4332cbf525d8_MINISO名创优品_2015-12-04_优米巨惠日：10点！1元闪购MINISO男士羽绒裤！.txt
+2015-12-13 11:06:23,985 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,986 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,986 : INFO : b56299b94c58ca649039fa4d08e3c90b_晓玲有话说_2015-12-04_我想要的爱情，要么不要，要么最好.txt
+2015-12-13 11:06:23,987 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,987 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,987 : INFO : b5bcfe37b606e8fd7fe771cc62ba5b77_贴贴相册_2015-12-04_女人就这样老了……（看完心好疼）.txt
+2015-12-13 11:06:23,988 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,988 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,989 : INFO : b5d871da9a8e0be39dce848a2589a4a6_时尚女装搭配_2015-12-04_一个女人的皮肤好不好，跟这9件事有很大的关系！.txt
+2015-12-13 11:06:23,989 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,989 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,989 : INFO : b61e7ad6f1e5f6b4c1faa39082fa3dbc_健康生活妙招_2015-12-04_✅女人每天必须洗的部位竟是它！！！.txt
+2015-12-13 11:06:23,991 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,991 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,991 : INFO : b65927c1a28c3d9474b06ea2e0f2b49b_钱江晚报_2015-12-04_我的妻子“没有工作”…….txt
+2015-12-13 11:06:23,992 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,992 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,992 : INFO : b6a5343c10be7ed823308ae499223012_益盟好股_2015-12-04_【强者恒强1204】初选8只个股.txt
+2015-12-13 11:06:23,992 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,993 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,993 : INFO : b743538a196aa99dec103a7526a92742_每日精彩_2015-12-04_祝 你 今 天 有 个 好 心 情.txt
+2015-12-13 11:06:23,994 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,994 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,994 : INFO : b75e7e8fc5716ce8421162750dd32cbe_央视新闻_2015-12-04_热点 | 大学生掏鸟窝被判10年半 究竟冤不冤？原来大家都有一个误区.txt
+2015-12-13 11:06:23,995 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,995 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,995 : INFO : b761b3601a27c9713da5c02ae0b3f6e3_跑赢大盘的王者_2015-12-04_收评：不炒股在中国没有其它投资之路.txt
+2015-12-13 11:06:23,996 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,996 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,996 : INFO : b7b5d5ccc5bfe29f42ae1e211ab9ecc8_超神助手_2015-12-04_专治各种挂机！未来一人掉线可重开游戏！避免4打5！.txt
+2015-12-13 11:06:23,997 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,998 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,998 : INFO : b9f55af75908a4214b45d078408da89b_医学界_2015-12-04_痛心！四天内又两名医生不幸离世.txt
+2015-12-13 11:06:23,999 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:23,999 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:23,999 : INFO : ba3c1eea91dd275139c801101324f1c8_英国那些事儿_2015-12-04_还记得他么?网友给他筹的19万美元.他用更有意义的方式做出了回报...txt
+2015-12-13 11:06:24,000 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,000 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,000 : INFO : bac53a0c0b7b43ea94b8c5dbc845ff09_好报_2015-12-04_是怎样的女人可以收了世界级好男人扎克伯格？.txt
+2015-12-13 11:06:24,002 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,002 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,002 : INFO : baeb4b019e4fcbfb53bbdb507127a4e3_iEVER美课美妆_2015-12-04_专供维密宝宝，那些能把人吓瘦的减肥法！.txt
+2015-12-13 11:06:24,003 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,003 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,003 : INFO : bb0265980037cf40c029e1c43a06c88c_FM93交通之声_2015-12-04_高速路上同归于尽，太惨烈了！竟只因为….txt
+2015-12-13 11:06:24,005 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,006 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,006 : INFO : bbb843b77c8552400514eee63b97ad2b_FM93交通之声_2015-12-04_心寒！女子让座给孕妇，瞬间遭遇以怨报德.txt
+2015-12-13 11:06:24,007 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,007 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,007 : INFO : bbd24d6e0ff5833185175de99407f206_瑞丽服饰美容_2015-12-04_2015MAMA怒刷屏！最时髦的女明星都在这儿！.txt
+2015-12-13 11:06:24,008 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,008 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,008 : INFO : bc7e80314bae4bb76003e5611110a537_漫心情_2015-12-04_人贵五品：你有几品？.txt
+2015-12-13 11:06:24,010 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,010 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,010 : INFO : bcd97926f4b402b9e8745cf6bc9e2850_腾讯好莱坞影院_2015-12-04_#辞职体#正流行，看看腾讯小编年末咋辞职！.txt
+2015-12-13 11:06:24,010 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,011 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,011 : INFO : bde690ad03ba73d678e44825ea257a54_视觉志_2015-12-04_七言|感情里最心酸的是，有那么一瞬间，你突然不确定是不是就是他了。.txt
+2015-12-13 11:06:24,011 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,011 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,011 : INFO : beb7b023484b3cefd075502a5d9183c5_无限极微刊_2015-12-04_无限极通过国际食品安全管理体系认证.txt
+2015-12-13 11:06:24,012 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,012 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,012 : INFO : becc3af0e324e5f99e768dd00ab06bf2_成功智慧_2015-12-04_一个人，可以穷....但不能.....txt
+2015-12-13 11:06:24,013 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,013 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,013 : INFO : bed3cf15508866677d23e3379d154ab6_幽默大王_2015-12-04_🔴写给群主的工作报告，看完不许笑~.txt
+2015-12-13 11:06:24,014 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,014 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,014 : INFO : bed6bef8d48a9f2e204e6ace0d362684_新闻哥_2015-12-04_男子为躲交警查酒驾 假装微服私访的“干部”下地帮老乡砍白菜.txt
+2015-12-13 11:06:24,016 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,016 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,016 : INFO : bfa5f43ae56bee180c10145dd0f6bf24_央视新闻_2015-12-04_事关每个人的权利！今天这个日子值得纪念.txt
+2015-12-13 11:06:24,017 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,017 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,017 : INFO : bfc0ef548ba6ec700b4e4d901cf74d44_经典音乐推荐_2015-12-04_✅遇到这样的人，你千万要珍惜，他们是你一生的贵人！.txt
+2015-12-13 11:06:24,018 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,019 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,019 : INFO : bfd08fb6cd3a9b194aec53c335f691e0_十点读书_2015-12-04_吴淡如：我相信有一种女人嫁给谁都幸福.txt
+2015-12-13 11:06:24,020 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,020 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,021 : INFO : c07b49af55362528430a216f9884dcf6_成功智慧_2015-12-04_45度做人，90度做事，180度为人，360度处世.txt
+2015-12-13 11:06:24,021 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,021 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,021 : INFO : c0999f038c6319fc547abe345adb1507_居家小妙招_2015-12-04_马上检查一下家里厨房，发现这个赶紧扔掉！.txt
+2015-12-13 11:06:24,022 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,022 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,023 : INFO : c0e22c38b46f0f49b31195fb6c940e77_央视新闻_2015-12-04_实用 | 社保缴费中断怎么办？影响的不光是钱！一定要看看！.txt
+2015-12-13 11:06:24,024 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,024 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,024 : INFO : c16acaabd68d0e6b4c936c913035acde_卡妞微卡_2015-12-04_♬ ☺早安~.txt
+2015-12-13 11:06:24,025 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,025 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,025 : INFO : c1cb3b801364a00699e4949fa85086ea_北京微口袋_2015-12-04_北京买套房子的钱，出国能干啥？看完惊呆了！.txt
+2015-12-13 11:06:24,026 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,026 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,026 : INFO : c266056ce3d4057b271beb9e0fd1a63b_中国电信客服_2015-12-04_400W感恩答谢，每日摇奖赢iPhone！.txt
+2015-12-13 11:06:24,028 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,028 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,028 : INFO : c31779ca60e7c1b13beceb6ffc586612_小小包麻麻_2015-12-04_穿的多是种病，得治！.txt
+2015-12-13 11:06:24,029 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,029 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,029 : INFO : c3c1668aa7a5b002c02953ee435fc886_奔波儿灞与灞波儿奔_2015-12-04_揭秘同时泡三个妞的秘诀.txt
+2015-12-13 11:06:24,031 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,031 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,031 : INFO : c4513a12804eec3554e2125c3bfe6939_严肃八卦_2015-12-04_《她很漂亮》再现野猪变美女；咬唇妆果然是少女感救星！.txt
+2015-12-13 11:06:24,032 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,032 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,032 : INFO : c53d55a25bba570ddf240543fc29a2db_阳江移动_2015-12-04_好多阳江人下个月可能无车开了！快看过来！.txt
+2015-12-13 11:06:24,033 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,033 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,033 : INFO : c53de492c6ef430bcbfd675dd2974152_学点做人做事_2015-12-04_明年就做这三件事，不要瞎忙！.txt
+2015-12-13 11:06:24,034 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,035 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,035 : INFO : c5b832d6c9e813309c0227ea88e992f3_爱上练瑜伽_2015-12-04_知道你男人在外面是怎么评论你的吗？.txt
+2015-12-13 11:06:24,036 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,036 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,036 : INFO : c5c6c3dfdc06d3920f1bd636f958499d_男人装_2015-12-04_才貌双绝的真人芭比被人当成了碧池…….txt
+2015-12-13 11:06:24,037 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,037 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,037 : INFO : c67fe7a8a18b2a82852e9a77035f5ffb_商务范_2015-12-04_100斤和140斤的生活，到底有什么不同？.txt
+2015-12-13 11:06:24,038 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,038 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,039 : INFO : c706314bbeff77b6c00c2d144ff64c55_美文阅读_2015-12-04_☺写给群主的工作报告，看完不许笑~.txt
+2015-12-13 11:06:24,039 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,039 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,039 : INFO : c7168b12c017fc64787a1a1170b4e107_全球未解之谜_2015-12-04_定了！人民币正式成为世界货币.txt
+2015-12-13 11:06:24,040 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,040 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,040 : INFO : c78418e1fa264dcf269b66aac6afe8c6_春天女人_2015-12-04_唉🌷 我又想你了！.txt
+2015-12-13 11:06:24,042 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,042 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,042 : INFO : c919e9f842441c3a265558a0fb12cd2c_内涵段子_2015-12-04_今日精选段子：女神给我发了张照片，这什么意思？！.txt
+2015-12-13 11:06:24,043 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,043 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,043 : INFO : c9c1619e76e5d7ced82ee2fd153f9e21_天使爱美丽_2015-12-04_♬ 真正的朋友，一生的感动.txt
+2015-12-13 11:06:24,044 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,044 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,044 : INFO : c9d4b4ca61dfb7a465f9438f97390cc0_遇见旗袍_2015-12-04_女人为什么一定要去旅行，答案都在这里！.txt
+2015-12-13 11:06:24,045 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,045 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,045 : INFO : c9eb9eea155a4fc7fa7b0d6147b100f8_玩车教授_2015-12-04_4s防骗指南 汽车配置上优先级排行榜.txt
+2015-12-13 11:06:24,046 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,046 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,046 : INFO : c9f6a327f0b4dbbc1b94ce5100a4fcc1_环渤海新闻网_2015-12-04_唐山：去石家庄只要2个半小时，一天有12趟车！.txt
+2015-12-13 11:06:24,047 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,047 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,047 : INFO : ca772ba7fc0c881f12d4726570bb4fac_王亚伟_2015-12-04_市场观望气氛浓厚.txt
+2015-12-13 11:06:24,048 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,048 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,048 : INFO : cb47737f8aae647b017b95c97ea6ed90_读悦文摘_2015-12-04_丰子恺：看淡世事沧桑，内心安然无恙.txt
+2015-12-13 11:06:24,050 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,050 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,050 : INFO : cd5701102f666392a5d83d12284e9e5c_春天女人_2015-12-04_亲爱的朋友，你还好吗？.txt
+2015-12-13 11:06:24,052 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,052 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,052 : INFO : cd7c71f6d351b1471a756ed0eec0d3ba_每日股市精选_2015-12-04_又要变盘了，这四大因素决定下周方向！.txt
+2015-12-13 11:06:24,053 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,053 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,053 : INFO : ce764f1abaddb932652df325a6aded0c_天天练瑜伽_2015-12-04_我的妻子“没有工作”一夜之间看哭所有人！！.txt
+2015-12-13 11:06:24,054 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,054 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,054 : INFO : cead84b1fae2e06549e7f9ff1ce8f672_读史_2015-12-04_人民日报再推极简主义生活方式！醍醐灌顶！.txt
+2015-12-13 11:06:24,055 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,055 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,055 : INFO : cebcfa0319ef52935fbdb94a73ea7188_天天练瑜伽_2015-12-04_经常戴围巾的朋友一定要看看！太可怕了！.txt
+2015-12-13 11:06:24,055 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,055 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,056 : INFO : cec3f20b2188f2dfcd9eda92b168f724_传统节日祝福_2015-12-04_🐴夫妻和驴，太经典！~.txt
+2015-12-13 11:06:24,056 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,056 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,056 : INFO : cfeec3a44c50794064990ecc0b2e2ce1_卡妞微卡_2015-12-04_♬ 一曲《多情的打扰》，送给我的朋友！.txt
+2015-12-13 11:06:24,058 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,058 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,058 : INFO : d03822269bbc7e7f058cd593e0649045_每日一禅_2015-12-04_坐着千万不要抖腿，否则会家破人亡.txt
+2015-12-13 11:06:24,058 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,059 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,059 : INFO : d0627e2a19101ac1c9b654b0e9767516_零点创意_2015-12-04_保存好，晚上偷偷看吧.txt
+2015-12-13 11:06:24,059 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,060 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,060 : INFO : d08d180a95ec65b0c9573352854d0e71_北京干嘛_2015-12-04_一起去蓝港灯光节，是这个冬天我能想到最浪漫的事.txt
+2015-12-13 11:06:24,061 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,061 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,061 : INFO : d0fbe1ebd0385fbe008051ce66053de8_张德芬_2015-12-04_懂得放弃和改变的女人，可以一辈子做女孩.txt
+2015-12-13 11:06:24,062 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,062 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,062 : INFO : d0fe26485f0e46174a6040c9ee33d251_南都娱乐周刊_2015-12-04_高圆圆晒贾静雯女儿萌照 but不老女神的梗还是被法令纹给破了.txt
+2015-12-13 11:06:24,063 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,064 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,064 : INFO : d120567997629e5824439bcbf0ac4844_政商内参_2015-12-04_黄晓明+李冰冰+任泉+章子怡+黄渤+蚂蚁金服，他们在酝酿什么大计划？.txt
+2015-12-13 11:06:24,065 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,065 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,065 : INFO : d1471633492ffe91dccd6c8f12b36710_娱乐圈扒姐_2015-12-04_一日一扒，正宫pk前任，娱乐圈中那些前任现任大撕逼，是时候来站队了.txt
+2015-12-13 11:06:24,066 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,066 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,066 : INFO : d20fe5a1661a3f54b1f7f911ef3624f1_腾讯公益_2015-12-04_请老兵吃饭，让老兵有范.txt
+2015-12-13 11:06:24,067 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,067 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,067 : INFO : d28fce6d2ee540b05fdfa42cf3346df3_海报网_2015-12-04_怎样出街保暖又时髦？.txt
+2015-12-13 11:06:24,068 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,068 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,068 : INFO : d2a2f775179dbcba8cb2a808d7205522_教您做好女人_2015-12-04_『我的妻子“没工作”』看哭所有人！！.txt
+2015-12-13 11:06:24,070 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,070 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,070 : INFO : d2bcf7d09fcacc1fa19525222729df56_慈怀读书会_2015-12-04_是怎样的女人可以收了世界级好男人扎克伯格？.txt
+2015-12-13 11:06:24,071 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,071 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,071 : INFO : d2ef1f560c019327a31d4c7f81384afc_沙黾农_2015-12-04_12.04股市早8点：有些大票要比小票贵上十几倍,优质的小市值的股票才是股票中的精品.txt
+2015-12-13 11:06:24,072 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,073 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,073 : INFO : d35f29f266bb4909f911622db7727044_Voicer_2015-12-04_Pantone 2016年度色彩公布 两款“舒压色”上榜.txt
+2015-12-13 11:06:24,073 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,074 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,074 : INFO : d3983c5a576e1aefb8f204882563e076_六点半_2015-12-04_一秒更新女友.txt
+2015-12-13 11:06:24,075 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,075 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,075 : INFO : d449183004607d0aa439e703c9e74832_黎贝卡的异想世界_2015-12-04_N年前被我扔掉的这件衣服居然火了！.txt
+2015-12-13 11:06:24,076 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,076 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,076 : INFO : d48a120090bb5e37433b622ac3046d7b_传统节日祝福_2015-12-04_☺写给群主的工作报告，看完不许笑~.txt
+2015-12-13 11:06:24,077 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,078 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,078 : INFO : d4efd300da180dc86d0f0980a076a6ec_教你学会穿衣打扮_2015-12-04_男女晚上的欲望不能太强，看看就明白了！.txt
+2015-12-13 11:06:24,078 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,079 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,079 : INFO : d57c01147c20bce1a2311247ee6b187b_微信路况_2015-12-04_遇见剐蹭事故别慌，这么处理就对了！.txt
+2015-12-13 11:06:24,079 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,080 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,080 : INFO : d5e1a4dc4eaea5a5c432a8576bf21198_诗词天地_2015-12-04_这，就是幸福.txt
+2015-12-13 11:06:24,081 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,081 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,081 : INFO : d6684de253803b6f1795db9afc16121e_家教智慧_2015-12-04_9岁孩子从差生变优秀好学生，全靠妈妈这样辅导！.txt
+2015-12-13 11:06:24,082 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,082 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,082 : INFO : d6de4cd65bf3bf9d325903a61733ed22_天使爱美丽_2015-12-04_♬ 写给群主的工作报告，看完不许笑~.txt
+2015-12-13 11:06:24,083 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,083 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,083 : INFO : d75a91115a56a9c2771573abc2ac7ff0_一节瑜伽课_2015-12-04_女人穷的时候，要少在家里！知道为什么？.txt
+2015-12-13 11:06:24,084 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,084 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,084 : INFO : d7f9bbe3241a9ab04863a462bd1121f4_央视财经_2015-12-04_【健康】记住，这些药不能一起吃！18岁女孩因此丧命.txt
+2015-12-13 11:06:24,085 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,085 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,085 : INFO : d81f604c68c24bdb46312ee2a99900ea_新老人_2015-12-04_上了年纪后，藏钱不如聪明地花钱！(必读).txt
+2015-12-13 11:06:24,087 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,087 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,087 : INFO : d87c176e78f866181d7a080d758da290_IF_2015-12-04_你想象中的富豪生活VS扎克夫妇的富豪生活.txt
+2015-12-13 11:06:24,087 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,088 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,088 : INFO : d890da85f3680ca7d11badf0efb90910_美食健康顾问_2015-12-04_柠檬，只用来泡水喝，你就亏大了！.txt
+2015-12-13 11:06:24,089 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,089 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,089 : INFO : d8bdf0aa7922fb99551f8f90e6790334_二货村_2015-12-04_🔥写给群主的工作报告，看完不许笑~.txt
+2015-12-13 11:06:24,091 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,091 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,091 : INFO : d9b65911485fc6b948d1326a205cb998_神秘震惊事件_2015-12-04_中国史上唯一的裸.体战争！震惊全世界!.txt
+2015-12-13 11:06:24,092 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,092 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,093 : INFO : d9ea6281de489f241d7d8e6eafcc6619_深圳潮生活_2015-12-04_深圳人，醒醒吧！别再被深圳最大势力——”丐帮“给坑了！.txt
+2015-12-13 11:06:24,094 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,094 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,094 : INFO : da8575501cb8b219c9c982ad2e068f86_央视新闻_2015-12-04_早啊！新闻来了〔2015.12.04〕.txt
+2015-12-13 11:06:24,096 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,096 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,096 : INFO : daedd6a41ee431ca901810db598ab7ac_共产党员_2015-12-04_【学习进行时】习近平改革这三年.txt
+2015-12-13 11:06:24,097 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,097 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,097 : INFO : db682d024fdd77e84ef2d194bdf6aa61_格调_2015-12-04_新美式范儿该怎么凹？.txt
+2015-12-13 11:06:24,098 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,098 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,098 : INFO : db7307e60e8b257239cf66ad6181b752_微杂志_2015-12-04_饥饿是很好的锻炼。.txt
+2015-12-13 11:06:24,098 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,099 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,099 : INFO : db9fb99456234a4fa6245e117a41c730_视觉志_2015-12-04_爱一个人时的眼神是怎样的？.txt
+2015-12-13 11:06:24,100 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,101 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,101 : INFO : dcb9762f356e3de42012288dee741f42_经典音乐推荐_2015-12-04_▶一个家的风水好坏，竟是由女人决定的？不信，你看看！.txt
+2015-12-13 11:06:24,102 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,102 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,102 : INFO : ddeae47f7d018ff1022e257c7e1344f1_动图贴贴_2015-12-04_有小三了？不是男人的错！是你没出息！（很现实）.txt
+2015-12-13 11:06:24,103 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,103 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,103 : INFO : de952de7603c471e983621094983a92d_政事儿_2015-12-04_“上面有人”照样被查的八位落马官员.txt
+2015-12-13 11:06:24,105 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,105 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,105 : INFO : df29a8c470c05c368294303ad11a560e_占豪_2015-12-04_原创丨普京死掐土耳其命门，奥巴马为何急了？.txt
+2015-12-13 11:06:24,106 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,106 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,107 : INFO : df36bdbc4bf85df6f015e57d4b5744f4_晓玲有话说_2015-12-04_他是限量版文艺男兼一个大写的暖，曾炸裂无数少女心，现在又来刷屏了！.txt
+2015-12-13 11:06:24,107 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,107 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,108 : INFO : dfa8fad494e395624576a20be721763b_智慧人生_2015-12-04_痛过、苦过，人生才没有白过.txt
+2015-12-13 11:06:24,108 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,108 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,109 : INFO : dfc10d2cff96ce6addaf1c2838f11234_爱上旗袍_2015-12-04_旗袍告诉你，什么叫女人味.txt
+2015-12-13 11:06:24,109 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,109 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,110 : INFO : e0195fe4121643fdcb98d07c5a677a18_洞见_2015-12-04_能够自处的女人，最美！.txt
+2015-12-13 11:06:24,111 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,111 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,111 : INFO : e031a88865c40bee3e8b9bba390101d5_视觉志_2015-12-04_这个和尚画的寺庙美到窒息，看过的人都想出家！.txt
+2015-12-13 11:06:24,113 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,113 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,113 : INFO : e0f7ed80b00328cedabad4a3d2eae369_贴贴相册_2015-12-04_千万别说你有钱！.txt
+2015-12-13 11:06:24,114 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,114 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,114 : INFO : e1e6410755d6deda7a6ca849b6177100_幸福人生_2015-12-04_✅♬ 我❤好❤想❤你.txt
+2015-12-13 11:06:24,115 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,115 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,115 : INFO : e2281835b38adb0a7e91686c3600562c_智慧人生_2015-12-04_做个快乐的女人，比什么都重要 ！.txt
+2015-12-13 11:06:24,116 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,116 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,116 : INFO : e2cc99f40072e1e04663e1c05c722205_Police_2015-12-04_公安局各部门领导表情大全，不要笑！.txt
+2015-12-13 11:06:24,117 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,117 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,118 : INFO : e2e26c7adae8f20672a237ee3eeb8286_教你会穿衣打扮_2015-12-04_男人病危 ,情人和妻子一前一后进入病房，竟然....txt
+2015-12-13 11:06:24,119 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,120 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,120 : INFO : e484608b83369ef1729dc31f5e908b63_丁香医生_2015-12-04_阴道松弛，要不要「紧」呢？.txt
+2015-12-13 11:06:24,120 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,121 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,121 : INFO : e52e90664908038a97d5b9514ccaf5d3_芭莎娱乐_2015-12-04_从奥运冠军到被霍启刚捧在手心的公主，郭晶晶的人生全是完美！.txt
+2015-12-13 11:06:24,122 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,122 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,122 : INFO : e5af50214c1f9a4851bb388b723a8947_心情相册_2015-12-04_不忘掉恩人，不计较小人.txt
+2015-12-13 11:06:24,124 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,124 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,124 : INFO : e699056b707fa725d0c6db9bbe6fd372_广州日报_2015-12-04_广州下月起要限外了？独生子女津贴马上要取消？听听他们怎么说.txt
+2015-12-13 11:06:24,125 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,125 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,125 : INFO : e73d02d3bffa4e4a2cb0bcd892a66fb9_关爱八卦成长协会_2015-12-04_L姓小鲜肉险遭某台封杀！恋爱真人秀里某男星隐婚！.txt
+2015-12-13 11:06:24,126 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,126 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,126 : INFO : e7d10cbd38542cc5e5ba11433bd3e5ae_达达兔_2015-12-04_2015还剩最后一个月，你今年过得好吗？.txt
+2015-12-13 11:06:24,128 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,128 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,128 : INFO : e89010eaf86f090e7fc492f3b60d653b_冷笑话_2015-12-04_小时候吃过的那些奇怪的东西，现在想想也是够了！.txt
+2015-12-13 11:06:24,129 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,129 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,129 : INFO : e8f015876275d7800fa34203aa60ece8_FM93交通之声_2015-12-04_太快了吧！上午离婚，下午就带年轻姑娘领证，结果呵呵了....txt
+2015-12-13 11:06:24,130 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,130 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,130 : INFO : e943a8bddbfa1151040601c870d16d39_汉方圣宝养生_2015-12-04_一家四口全得癌症，竟然祸起菜板，这样的菜板小心溜进你家厨房…….txt
+2015-12-13 11:06:24,131 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,131 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,131 : INFO : e9ea9634c0f40df4119a7160b8bb2003_电影演出票_2015-12-04_0元抽奖看演出  1元秒杀CBA.txt
+2015-12-13 11:06:24,132 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,132 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,132 : INFO : eaa0c4b6fcf618f2a4c3e5192004da48_我们爱健身_2015-12-04_总经理碰到一个扫地的老太太，老太太一开口结果震惊了………真人真事！.txt
+2015-12-13 11:06:24,133 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,133 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,133 : INFO : eac9672d41777540ec0c623bba6764d1_一起作业家长通_2015-12-04_冬天风干物燥孩子爱流鼻血，父母切勿大意.txt
+2015-12-13 11:06:24,134 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,135 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,135 : INFO : eb26329a360e32efaadcd71653e9425f_教你会穿衣打扮_2015-12-04_女人就这样老了（看完心好疼）.txt
+2015-12-13 11:06:24,135 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,135 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,136 : INFO : eb5abeee5b86de6d68f8d7e6ed2bfde2_读悦文摘_2015-12-04_要是喜欢，总会有时间.txt
+2015-12-13 11:06:24,136 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,137 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,137 : INFO : eb9f9a9c689808481fc108aa3b9d375e_Miss_2015-12-04_一大波皮肤活动来袭！小编倾力推荐各英雄值得入手的皮肤（中单篇）.txt
+2015-12-13 11:06:24,138 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,138 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,138 : INFO : ebd4221c8db481094a42bf6ad1664b00_名医话养生_2015-12-04_所有有银行卡的，请快点紧急处置..txt
+2015-12-13 11:06:24,139 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,139 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,139 : INFO : ec77eb14f5ee696e07227ecb631ce918_学点穿衣打扮_2015-12-04_跟杨幂学穿黑色，瞬间星味十足！(实用技巧).txt
+2015-12-13 11:06:24,140 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,140 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,140 : INFO : ecfa55fc997d0ca9fbce7d6c3188946e_爱上练瑜伽_2015-12-04_一个月入万元的小女孩，看完我沉默了.......txt
+2015-12-13 11:06:24,141 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,141 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,141 : INFO : ed13316ccd093118009e55d8b2923774_教你学会穿衣打扮_2015-12-04_一漂亮富婆脱下衣服后.......发生的事情男人要看，女人要懂！.txt
+2015-12-13 11:06:24,142 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,142 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,142 : INFO : ed15a5b78657eeba3228ea4a12f30b6e_有车以后_2015-12-04_贷款买车猫腻多，究竟选择哪种车贷最靠谱？.txt
+2015-12-13 11:06:24,143 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,143 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,143 : INFO : ed25effaaa551ef3da3f532bed468bbd_糗事百科_2015-12-04_上午全宇宙最糗的10大糗事.txt
+2015-12-13 11:06:24,144 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,144 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,145 : INFO : ed995f2ac5f6b1632020dabd7152098c_二更食堂_2015-12-04_「顺其自然」其实就是无所谓.txt
+2015-12-13 11:06:24,145 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,146 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,146 : INFO : ee6b80781850b42a030ee66318cf6b87_人民日报_2015-12-04_【健康】长期晚睡的危害一览表，今天起拒绝晚睡！.txt
+2015-12-13 11:06:24,146 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,146 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,147 : INFO : ee8b7f0d3b61cec70f5ca0c3e617bc02_每日精彩_2015-12-04_心若不动，风又奈何。 你若不伤，岁月无恙。.txt
+2015-12-13 11:06:24,148 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,148 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,148 : INFO : eedf488fb0428eb4c2e42a0b85416a0e_人民日报_2015-12-04_时局｜在非洲最火的中国产品竟然是…（兼答关于中非关系的6个质疑）.txt
+2015-12-13 11:06:24,149 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,149 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,149 : INFO : eee661327b62dad8de50722a1ea3c5ec_发现妈妈_2015-12-04_出轨男人的教训，妻子竟然！.txt
+2015-12-13 11:06:24,150 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,150 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,150 : INFO : eef6fc18b02b3f3205876b736b81686c_幸福人生_2015-12-04_✅偷听小朋友的谈话，笑死人了~.txt
+2015-12-13 11:06:24,151 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,151 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,151 : INFO : ef9de093454a0b785a59767c7695c423_男人装_2015-12-04_8个鲜为人知的特殊癖好.txt
+2015-12-13 11:06:24,152 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,152 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,152 : INFO : efee7dc87e1ecf4f76ecff368bc588a3_崔玉涛家庭育儿_2015-12-04_【崔玉涛谈养育】抗生素不是退热药，小儿反复发热要慎用！.txt
+2015-12-13 11:06:24,153 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,153 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,153 : INFO : f06ca101266f65d393d36bbcd0ca4984_读悦文摘_2015-12-04_这，就是幸福！！.txt
+2015-12-13 11:06:24,154 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,154 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,154 : INFO : f0828fe31c58f2885d9f711274b99533_男人装_2015-12-04_金卡戴珊的新果照又引起争议了......txt
+2015-12-13 11:06:24,155 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,155 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,155 : INFO : f0b12d06deac89f0477190ef29c22d51_幸福人生_2015-12-04_✅人生，不过一杯茶！何必太计较？.txt
+2015-12-13 11:06:24,156 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,156 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,157 : INFO : f0da6221838e1f2db5bcb470d6c345fb_FM93交通之声_2015-12-04_去饭店最好别点这三个菜了！互相提醒！！.txt
+2015-12-13 11:06:24,157 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,158 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,158 : INFO : f0e34c879439086c2230222c14166bd6_新浪娱乐_2015-12-04_林依晨瘦成了大头宝宝，脑袋大就不好看不美了吗？.txt
+2015-12-13 11:06:24,159 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,159 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,159 : INFO : f142d1c04cc2d9992220bdbeac17e0b6_微信路况_2015-12-04_天价玛莎拉蒂2分钟被盗…惊天内幕让人意想不到！.txt
+2015-12-13 11:06:24,160 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,160 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,160 : INFO : f15950c7b91b34dc593506b1f9e6c7d9_经典音乐推荐_2015-12-04_▶聪明的女人永远莫做情人 !.txt
+2015-12-13 11:06:24,161 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,161 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,161 : INFO : f1fd56dc4a887ba6be639c458ad28cff_中国建设银行_2015-12-04_放开那个公举，让我来！.txt
+2015-12-13 11:06:24,162 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,162 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,162 : INFO : f319d2da1774eec196b3264c610719b6_卡娃微卡_2015-12-04_普通锅一秒变不粘锅，小技能~.txt
+2015-12-13 11:06:24,163 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,163 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,163 : INFO : f384a0c4cfe58aa6a7f367d93467cd5e_传统节日祝福_2015-12-04_照  片，照  片，照  片，照  片.txt
+2015-12-13 11:06:24,164 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,164 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,164 : INFO : f394bcc3b7814f977c2c672d4837bd22_FashionWeek_2015-12-04_比利时模特颜值逆天，网友称堪比仙女.txt
+2015-12-13 11:06:24,164 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,164 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,165 : INFO : f39cb304278f4f4f55b917005b3c208a_星期六散文_2015-12-04_三毛： 如果有来生.txt
+2015-12-13 11:06:24,165 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,165 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,165 : INFO : f529282c11350c99a6fe95a9716ed5d2_占豪_2015-12-04_微观点丨2016年中国房价会断崖式下跌吗？.txt
+2015-12-13 11:06:24,166 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,166 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,166 : INFO : f53a3aa824c1cc8c1b4af7991ab41154_时光相机_2015-12-04_深不过真情，凉不过人心.txt
+2015-12-13 11:06:24,167 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,167 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,167 : INFO : f54a73f8b8086e6e783e507ce7d568d1_教子有方_2015-12-04_我的妻子“没有工作”……看哭所有人！.txt
+2015-12-13 11:06:24,168 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,168 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,169 : INFO : f6402eadd02459184f7ff69e375a036b_财经国家周刊_2015-12-04_几十亿资产一夜清零！一个跑路民企老板的生死感悟 震撼整个商圈.txt
+2015-12-13 11:06:24,169 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,170 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,170 : INFO : f648d96e3e4829414874e8a4f5017a3b_不正常人类研究中心_2015-12-04_每天只要临到睡觉前都会.txt
+2015-12-13 11:06:24,170 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,171 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,171 : INFO : f6b77edb56dfd22dc495d4b2bbb79920_微信路况_2015-12-04_国人购车的六大误区 看你中招了吗？.txt
+2015-12-13 11:06:24,172 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,172 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,172 : INFO : f733302fd66967ba33c59aa51861a33e_新闻哥_2015-12-04_以为当女子团体的经纪人是美差？拜托！这哪是人干事？.txt
+2015-12-13 11:06:24,173 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,173 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,173 : INFO : f7cdc1071e88648b066bd734f700ba30_穿衣潮搭配_2015-12-04_黑色丝袜冬天别乱穿，性感漂亮都是这样穿的！.txt
+2015-12-13 11:06:24,174 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,174 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,174 : INFO : f7e424f4d8616361c766276fd79adfde_新疆949交通广播_2015-12-04_惨烈！高速路上同归于尽，只是因为….txt
+2015-12-13 11:06:24,176 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,176 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,176 : INFO : f8b0c7181e4a1dd67364338e4bef00fa_央视新闻_2015-12-04_评论丨3年处理近14万人！它真的不是一阵风…….txt
+2015-12-13 11:06:24,177 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,178 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,178 : INFO : f95c71d28d0ca5dfde923a8ab9a961fe_政治内幕_2015-12-04_遇难者生前的照片，震惊世界！有国才有家！.txt
+2015-12-13 11:06:24,178 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,178 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,179 : INFO : f97ec55f8f88f644a7c74d1b23358bbd_名医养生_2015-12-04_白头发变黑有方法了，别再去染发了对身体不好.txt
+2015-12-13 11:06:24,179 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,179 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,180 : INFO : f99fa1a377c6405024c023ab8b5b0e1c_十点读书_2015-12-04_那些好看的姑娘，并非真的貌若女神.txt
+2015-12-13 11:06:24,180 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,181 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,181 : INFO : f9e38835eb67ceee6ba7e2941c879fd1_苏珊米勒星座馆_2015-12-04_64条星座秘密，我只想告诉你.txt
+2015-12-13 11:06:24,181 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,182 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,182 : INFO : fa662393f9ce8edcb6d94b13f167ce30_女儿国_2015-12-04_如果你四十几岁了，请看看这篇文章，早看早醒！.txt
+2015-12-13 11:06:24,182 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,183 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,183 : INFO : faf4623528076dc93276764062c3271c_新闻夜航_2015-12-04_悲剧！刚满月的孩子被“热死”了！黑龙江当爸当妈的，千万别再这么做······.txt
+2015-12-13 11:06:24,184 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,184 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,184 : INFO : fb23b427c479b132e1b2030fc735f9a5_HKChannel_2015-12-04_郭富城晒恩爱合照 苟芸慧也晒拖手相.txt
+2015-12-13 11:06:24,185 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,185 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,185 : INFO : fb73115750b797584130fe6b142f65ba_幸福人生_2015-12-04_❤ 致自己，这句话永不过期！.txt
+2015-12-13 11:06:24,185 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,186 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,186 : INFO : fb8580eec74b1b370ac99e825fa75ff2_这里是美国_2015-12-04_睡遍全队80个男人，色诱17岁学生，她成了美国的话题女王....txt
+2015-12-13 11:06:24,187 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,187 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,187 : INFO : fbc6db51c68a5d9a4810a58854336965_民歌中国_2015-12-04_是的，王二妮结婚了！婚纱照首度曝光.txt
+2015-12-13 11:06:24,188 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,188 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,188 : INFO : fc0edfe3037a1eeeb8fbdc50689bfe26_新年贺卡_2015-12-04_♬ 这副对联送给认识我的所有朋友~~.txt
+2015-12-13 11:06:24,189 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,189 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,189 : INFO : fc2a8f1834f09dd825917ec20d6400a2_陈安之_2015-12-04_别站在你的角度看我，我怕你看不懂！.txt
+2015-12-13 11:06:24,190 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,190 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,190 : INFO : fc95e661796bac9f02343397bba2f138_娱乐圈扒姐_2015-12-04_今日爆料：心疼，那些因为演反派走在街上被打的明星！来扒姐怀里！.txt
+2015-12-13 11:06:24,191 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,191 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,191 : INFO : fceaf7202b09b2292a33714283a7357c_微场景_2015-12-04_♬ 如果你还放不下某个人，请看看！.txt
+2015-12-13 11:06:24,192 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,193 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,193 : INFO : fd4915c6dea360623efde0c81a6a595b_芜湖民生网_2015-12-04_致芜湖24路公交车上的一位女孩，希望你能看到…….txt
+2015-12-13 11:06:24,193 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,194 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,194 : INFO : fd694acda701cd915e5fae793fdabf6a_每天学点穿衣打扮_2015-12-04_✅马云的老婆，值得每个女性学习！！.txt
+2015-12-13 11:06:24,195 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,195 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,195 : INFO : fda2d907b3f988e352c816e4d8111a10_正能量_2015-12-04_36岁，她依然是中国拍照最好看的姑娘.txt
+2015-12-13 11:06:24,198 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,199 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,199 : INFO : fe38fb0b2c70d916c3f92d2e35c2d8f5_发现妈妈_2015-12-04_告诉家里做饭的人，这些食物一起吃才是大补！.txt
+2015-12-13 11:06:24,201 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,201 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,201 : INFO : febbf0682ab91d235acc9f5c5a7f8d1a_黄生看金融_2015-12-04_耶伦发狠话，中国房价断崖式下跌真要来了.txt
+2015-12-13 11:06:24,201 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,202 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,202 : INFO : ff4f8363ce18783a07c762a2e04c7526_二更食堂_2015-12-04_哪些表现说明TA爱你.txt
+2015-12-13 11:06:24,202 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,203 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,203 : INFO : ff56b61947e42d620094aae3f01de9c2_人民日报_2015-12-04_注意！年底补贴、福利、新政一大堆，赶紧看抓紧办！.txt
+2015-12-13 11:06:24,203 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,203 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,203 : INFO : ffae88f88d818e66d80ab7bb12fcccb1_丁香医生_2015-12-04_冬日暖阳莫浪费：换冬装、用棉被，请记得先除螨.txt
+2015-12-13 11:06:24,204 : INFO : <type 'exceptions.Exception'>
+2015-12-13 11:06:24,204 : INFO : 'MyCorpus' object has no attribute 'docids'
+2015-12-13 11:06:24,204 : INFO : ffc51cd76820c4f54b87e2e25cfa805b_贴贴相册_2015-12-04_【爆笑】来看最牛原配如何逼退小三~~.txt
+2015-12-13 11:06:24,205 : INFO : storing corpus in Matrix Market format to /tmp/corpus.mm
+2015-12-13 11:06:24,207 : INFO : saving sparse matrix to /tmp/corpus.mm
+2015-12-13 11:06:24,208 : INFO : saving MmCorpus index to /tmp/corpus.mm.index
+2015-12-13 11:06:24,209 : INFO : loaded corpus index from /tmp/corpus.mm.index
+2015-12-13 11:06:24,209 : INFO : initializing corpus reader from /tmp/corpus.mm
+2015-12-13 11:06:24,209 : INFO : accepted corpus with 0 documents, 0 features, 0 non-zero entries
+2015-12-13 11:06:24,210 : INFO : collecting document frequencies
+2015-12-13 11:06:24,210 : INFO : calculating IDF weights for 0 documents and 0 features (0 matrix non-zeros)
+2015-12-13 11:06:24,248 : INFO : using serial LSI version on this node
+2015-12-13 11:06:24,249 : INFO : updating model with new documents

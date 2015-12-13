@@ -1559,6 +1559,9 @@ grp|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload/
 gzip|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/gzip.py
 hashlib|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/hashlib.py
 heapq|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/heapq.py
+hiredis.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/hiredis/__init__.py
+hiredis.hiredis|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/hiredis/hiredis.so
+hiredis.version|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/hiredis/version.py
 hmac|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/hmac.py
 hotshot.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/hotshot/__init__.py
 hotshot.log|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/hotshot/log.py
@@ -2765,6 +2768,14 @@ quopri|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/quopri.py
 random|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/random.py
 re|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py
 readline|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload/readline.so
+redis.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/redis/__init__.py
+redis._compat|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/redis/_compat.py
+redis.client|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/redis/client.py
+redis.connection|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/redis/connection.py
+redis.exceptions|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/redis/exceptions.py
+redis.lock|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/redis/lock.py
+redis.sentinel|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/redis/sentinel.py
+redis.utils|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/redis/utils.py
 repr|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/repr.py
 requests.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/requests/__init__.py
 requests.adapters|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/requests/adapters.py
