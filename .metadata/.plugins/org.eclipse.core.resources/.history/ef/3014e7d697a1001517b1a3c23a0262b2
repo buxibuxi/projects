@@ -1,0 +1,137 @@
+#encoding=utf-8
+
+'''
+Created on 2015年12月2日
+
+@author: luobu
+'''
+
+import os
+from gensim import corpora, models, similarities
+import logging
+import jieba
+import sys 
+import time
+reload(sys) 
+sys.setdefaultencoding('utf-8') 
+import logging
+logging.basicConfig(format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
+                     filename = 'mycorpus.log',level=logging.INFO)
+
+
+class MyCorpus(object):
+    '''
+    classdocs
+    '''
+    def __init__(self, savepath):
+        self.cn_stopwords = []
+        with open('/Users/luobu/workspace/projiects/calcsim/lib/cn_stopwords.txt') as f:
+            for line in f.readlines():
+                self.cn_stopwords.append(line.strip().decode('utf-8'))
+        self.simthres = 0.95    #相似度阈值，高于该阈值判定为两篇文章为抄袭关系
+        self.savepath = 
+    def add_documents(self,corpus_path):
+#        self.__gendict__(dic_path)
+#        self.__gencorpus__(corpus_path)
+            
+    def __gendict__(self,dic_path):
+        doc_list = []
+        for root, dirs, files in os.walk(dic_path):
+            for f in files:
+                with open(os.path.join(root,f),'r') as fdoc:
+                    doc = fdoc.read()
+                doc_cutted = jieba.cut(doc)
+                doc_list.append(doc_cutted)
+        
+        self.dictionary = corpora.Dictionary(doc_list)   
+        #dictionary.add_documents  
+        stop_ids = [self.dictionary.token2id[stopword] for stopword in self.cn_stopwords \
+                     if stopword in self.dictionary.token2id]
+        once_ids = [tokenid for tokenid, docfreq in self.dictionary.dfs.iteritems() if docfreq == 1]    
+        self.dictionary.filter_tokens(stop_ids+once_ids)
+        self.dictionary.compactify()
+        #print self.dictionary
+
+        #self.dictionary = corpora.Dictionary(line.lower().split() for line in open('mycorpus.txt'))
+    def __gencorpus__(self,corpus_path):
+        self.docids = [] 
+        doc_list = []
+        for root, dirs, files in os.walk(corpus_path):
+            for f in files:
+                try:
+                    with open(os.path.join(root,f),'r') as fdoc:
+                        url = fdoc.readline()
+                        doc = fdoc.read()
+                        doc_cutted = jieba.cut(doc)
+                        docid = url.split('&')[3].split('=')[1]
+                    if len(doc)<1000:
+                        continue
+                    self.docids.append(docid)                
+                    doc_list.append(list(doc_cutted))
+                except Exception,e:
+                    logging.info(Exception)
+                    logging.info(e)
+                    logging.info(f)
+                    
+        corpustmp = (self.dictionary.doc2bow(doc) for doc in doc_list)
+        corpora.MmCorpus.serialize('/tmp/corpus.mm', corpustmp)
+        self.corpus = corpora.MmCorpus('/tmp/corpus.mm')
+
+    def gensim(self):
+        t0 = time.time()
+        tfidf = models.TfidfModel(self.corpus)
+        t1 = time.time()
+        mycorpus_tfidf = tfidf[self.corpus]
+        t2 = time.time()
+        lsi = models.LsiModel(mycorpus_tfidf, id2word=self.dictionary, num_topics=400)
+        t3 = time.time()
+        index = similarities.MatrixSimilarity(lsi[self.corpus]) 
+        t4 = time.time()
+        index.save('/tmp/wechat.index')
+        #index = similarities.MatrixSimilarity.load('/tmp/deerwester.index')
+        i=0
+        thres = self.simthres
+        simdict = {}
+        for item in index:
+            for j in range(i+1,len(item)):
+                if item[j]>thres:
+                    simdict[(self.docids[i],self.docids[j])] = item[j]
+            i +=1
+        print len(simdict)
+        t5 = time.time()
+        #=======================================================================
+        # print 'tfidf_gen time = %f'%(t1-t0)
+        # print 'tfidf_read time = %f'%(t2-t1)
+        # print 'lsi time = %f'%(t3-t2)
+        # print 'simmat time = %f'%(t4-t3)
+        # print 'extract high sim time = %f'%(t5-t4)
+        #=======================================================================
+        
+        return simdict
+        #=======================================================================
+        # sort_sims = sorted(simdict.iteritems(), key=lambda item: item[1],reverse=True)
+        # for item in sort_sims[:1000]:
+        #     a = item[0][0]
+        #     b = item[0][1]
+        #     sim = item[1]
+        #     result.write(M.file_list[a]+'\n')
+        # #    print M.doc_list1[a]
+        # #    print M.dictionary.doc2bow(M.doc_list1[a])
+        #     result.write(M.file_list[b]+'\n')
+        # #    print M.doc_list1[b]
+        # #    print M.dictionary.doc2bow(M.doc_list1[b])    
+        #     result.write('%f+\n'%sim)
+        #     result.write('****************************\n')
+        # result.close()
+        # print len(simdict)
+        #=======================================================================
+                    
+            
+            #===========================================================================
+            # def __iter__(self):
+            #     for doc in self.doc_list1:
+            #         yield self.dictionary.doc2bow(doc)
+            #             
+            #===========================================================================
+        
+

@@ -19,11 +19,24 @@ logging.basicConfig(format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelnam
                      level=logging.INFO)               
 
 if __name__ == '__main__':
-    docspath = '/Users/luobu/workspace/projiects/wechat/wechat/conf_done'
+    savepath1 = '/tmp/wechat/'
+    savepath2 = '/tmp/wechat2'
+    
+    docstatpath = '/Users/luobu/workspace/projiects/wechat/wechat/conf_done'
     corpus_path ='/Users/luobu/workspace/data/wechat/articles/2015-12-04'
     dic_path = '/Users/luobu/workspace/data/wechat/articles/'
 
-    cheatcase = wecheat.WeCheat(docspath,corpus_path,dic_path)
+#    cheatcase = wecheat.WeCheat(docstatpath,savepath1)
+#    cheatcase.add_documents(corpus_path)
     #cheatcase.save_basicinfo()
-    cheatcase.calccheatdocs()
+#    cheatcase.calc_cheatdocs()
+    
+    corpus_path1 ='/Users/luobu/workspace/data/wechat/articles/t1'
+    corpus_path2 ='/Users/luobu/workspace/data/wechat/articles/t2'
+
+    cheatcase = wecheat.WeCheat(docstatpath,savepath2)
+    cheatcase.add_documents(corpus_path1)
+    cheatcase.add_documents(corpus_path2)
+    #cheatcase.save_basicinfo()
+#    cheatcase.calc_cheatdocs()
     

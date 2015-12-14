@@ -16,95 +16,176 @@ reload(sys)
 sys.setdefaultencoding('utf-8') 
 import logging
 logging.basicConfig(format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
-                     filename = 'mycorpus.log',level=logging.INFO)
+                     filename = '../../log/mycorpus.log',level=logging.DEBUG)
 
 
 class MyCorpus(object):
     '''
     classdocs
     '''
-    def __init__(self, corpus_path,dic_path):
+    def __init__(self, savepath):
         self.cn_stopwords = []
         with open('/Users/luobu/workspace/projiects/calcsim/lib/cn_stopwords.txt') as f:
             for line in f.readlines():
                 self.cn_stopwords.append(line.strip().decode('utf-8'))
         self.simthres = 0.95    #相似度阈值，高于该阈值判定为两篇文章为抄袭关系
-        self.__gendict__(dic_path)
-        self.__gencorpus__(corpus_path)
-            
-    def __gendict__(self,dic_path):
-        doc_list = []
-        for root, dirs, files in os.walk(dic_path):
+        self.mindocsize = 1000
+        self.savepath = savepath
+        self.dockeys = []
+        self.newdocs = []
+        self.dictpath = os.path.join(savepath,'mydict.dict')
+        self.corpuspath = os.path.join(savepath,'mycorpus.mm')
+        self.dockeyspath = os.path.join(savepath,'dockeys.txt')
+        self.indexpath = os.path.join(savepath,'simMat.index')
+        self.lsipath = os.path.join(savepath,'model.lsi')
+        if os.path.exists(savepath) == False:
+                os.makedirs(savepath) 
+        if os.path.exists(self.dictpath):
+            self.dictionary = corpora.Dictionary.load(self.dictpath)
+        if os.path.exists(self.corpuspath):
+            self.corpus = corpora.MmCorpus(self.corpuspath)
+        if os.path.exists(self.dockeyspath):
+            self.dockeys = self.__loadkeys__()
+        if os.path.exists(self.lsipath):
+            self.lsi = models.LsiModel.load(self.lsipath)
+    def extract_docs(self,corpus_path):
+        self.dockeys = self.__loadkeys__()
+        self.newdocs = []
+        for root, dirs, files in os.walk(corpus_path):
             for f in files:
-                with open(os.path.join(root,f),'r') as fdoc:
-                    doc = fdoc.read()
-                doc_cutted = jieba.cut(doc)
-                doc_list.append(doc_cutted)
-        
-        self.dictionary = corpora.Dictionary(doc_list)   
+                try:
+                    if self.__getdocid__(f) not in self.dockeys:
+                        with open(os.path.join(root,f),'r') as fdoc:
+                            docid = self.__getdocid__(f)
+                            url = fdoc.readline()
+                            doc = fdoc.read()
+                            if len(doc)<self.mindocsize:
+                                continue
+                            doc_cutted = list(jieba.cut(doc))
+                        self.dockeys.append(docid)                
+                        self.newdocs.append(doc_cutted)
+                except Exception,e:
+                    logging.info(Exception)
+                    logging.info(e)
+                    logging.info(f)
+        print 'len of doc_list = %d'%len(self.newdocs)
+        self.__savekeys__()        
+    def add_documents(self,corpus_path):
+        t00 = time.time()
+        self.extract_docs(corpus_path)
+        t01 = time.time()
+        logging.debug('extract docs time = %f'%(t01-t00))
+        if len(self.newdocs) > 0:
+            if os.path.exists(self.dictpath) == False:  #第一次添加语料
+                t0 = time.time()
+                self.__gendict__()
+                t1 = time.time()
+                self.__gencorpus__()
+                t2 = time.time()
+                self.__genlsi__()
+                t3 = time.time()
+                logging.debug('first gendict time = %f'%(t1-t0))
+                logging.debug('first gencorpus time = %f'%(t2-t1))
+                logging.debug('first genlsi time = %f'%(t3-t2))
+            else:
+                t0 = time.time()
+                self.__adddict__()
+                t1 = time.time()
+                self.__addcorpus__()
+                t2 = time.time()
+                self.__addlsi__()
+                t3 = time.time()
+                logging.debug('again gendict time  = %f'%(t1-t0))
+                logging.debug('again gencorpus time = %f'%(t2-t1))        
+                logging.debug('again genlsi time = %f'%(t3-t2))               
+#        self.__gendict__(dic_path)
+#        self.__gencorpus__(corpus_path)
+    def __getdocid__(self,fname):
+        return fname.split('_')[0]
+    def __adddict__(self):
+        #print len(doc_list)
+        self.dictionary = corpora.Dictionary.load(self.dictpath)
+        self.dictionary.add_documents(self.newdocs)
+        stop_ids = [self.dictionary.token2id[stopword] for stopword in self.cn_stopwords \
+                     if stopword in self.dictionary.token2id]
+        #once_ids = [tokenid for tokenid, docfreq in self.dictionary.dfs.iteritems() if docfreq == 1]    
+        self.dictionary.filter_tokens(stop_ids)
+        self.dictionary.compactify()
+        os.remove(self.dictpath)
+        self.dictionary.save(self.dictpath)    
+    def __gendict__(self):
+        self.dictionary = corpora.Dictionary(self.newdocs)   
         #dictionary.add_documents  
         stop_ids = [self.dictionary.token2id[stopword] for stopword in self.cn_stopwords \
                      if stopword in self.dictionary.token2id]
         once_ids = [tokenid for tokenid, docfreq in self.dictionary.dfs.iteritems() if docfreq == 1]    
         self.dictionary.filter_tokens(stop_ids+once_ids)
         self.dictionary.compactify()
+        self.dictionary.save(self.dictpath)
         #print self.dictionary
 
         #self.dictionary = corpora.Dictionary(line.lower().split() for line in open('mycorpus.txt'))
-    def __gencorpus__(self,corpus_path):
-        self.docids = [] 
-        doc_list = []
-        for root, dirs, files in os.walk(corpus_path):
-            for f in files:
-                try:
-                    with open(os.path.join(root,f),'r') as fdoc:
-                        url = fdoc.readline()
-                        doc = fdoc.read()
-                        doc_cutted = jieba.cut(doc)
-                        docid = url.split('&')[3].split('=')[1]
-                    if len(doc)<1000:
-                        continue
-                    self.docids.append(docid)                
-                    doc_list.append(list(doc_cutted))
-                except Exception,e:
-                    logging.info(Exception)
-                    logging.info(e)
-                    logging.info(f)
-                    
-        corpustmp = (self.dictionary.doc2bow(doc) for doc in doc_list)
-        corpora.MmCorpus.serialize('/tmp/corpus.mm', corpustmp)
-        self.corpus = corpora.MmCorpus('/tmp/corpus.mm')
-
-    def gensim(self):
-        t0 = time.time()
+    def __addcorpus__(self):
+        self.corpus = list(corpora.MmCorpus(self.corpuspath))
+        newcorpus = [self.dictionary.doc2bow(doc) for doc in self.newdocs]
+        self.corpus = self.corpus+newcorpus
+        os.remove(self.corpuspath)
+        corpora.MmCorpus.serialize(self.corpuspath, self.corpus)
+    def __gencorpus__(self):            
+        self.corpus = (self.dictionary.doc2bow(doc) for doc in self.newdocs)
+        corpora.MmCorpus.serialize(self.corpuspath, self.corpus)
+        #self.corpus = corpora.MmCorpus(self.corpuspath)
+    def __savekeys__(self):
+        with open(self.dockeyspath,'w') as f:
+            for key in self.dockeys:
+                f.write(key+'\r\n')
+    def __loadkeys__(self):
+        dockeys = []
+        if os.path.exists(self.dockeyspath):
+            with open(self.dockeyspath,'r') as f:
+                for line in f.readlines():
+                    dockeys.append(line.strip())
+        return dockeys
+    def __genlsi__(self):
+        self.corpus = corpora.MmCorpus(self.corpuspath)
         tfidf = models.TfidfModel(self.corpus)
-        t1 = time.time()
         mycorpus_tfidf = tfidf[self.corpus]
-        t2 = time.time()
-        lsi = models.LsiModel(mycorpus_tfidf, id2word=self.dictionary, num_topics=400)
-        t3 = time.time()
-        index = similarities.MatrixSimilarity(lsi[self.corpus]) 
-        t4 = time.time()
-        index.save('/tmp/wechat.index')
+        self.lsi = models.LsiModel(mycorpus_tfidf, id2word=self.dictionary, num_topics=400)
+        self.lsi.save(self.lsipath)
+        
+    def __addlsi__(self):
+        self.newcorpus = [self.dictionary.doc2bow(doc) for doc in self.newdocs]
+        self.lsi = models.LsiModel.load(self.lsipath)
+        newtfidf = models.TfidfModel(self.newcorpus)
+        newcorpus_tfidf = newtfidf[self.newcorpus]
+        self.lsi.add_documents(newcorpus_tfidf)
+        corpus_lsi = self.lsi[newcorpus_tfidf]
+        print len(self.newcorpus)
+        print len(newcorpus_tfidf)
+        print len(corpus_lsi)
+        for item in corpus_lsi:
+            print item
+        self.lsi.save(self.lsipath)
+    def gensim(self):
+        self.corpus = corpora.MmCorpus(self.corpuspath)
+        index = similarities.MatrixSimilarity(self.lsi[self.corpus]) 
+        index.save(self.indexpath)
         #index = similarities.MatrixSimilarity.load('/tmp/deerwester.index')
         i=0
         thres = self.simthres
         simdict = {}
-        for item in index:
-            for j in range(i+1,len(item)):
-                if item[j]>thres:
-                    simdict[(self.docids[i],self.docids[j])] = item[j]
-            i +=1
+        try:
+            for item in index:
+                for j in range(i+1,len(item)):
+                    if item[j]>thres:
+                        simdict[(self.dockeys[i],self.dockeys[j])] = item[j]
+                i +=1
+        except Exception,e:
+            print Exception
+            print e
+            print i,j
+            print len(self.dockeys)
         print len(simdict)
-        t5 = time.time()
-        #=======================================================================
-        # print 'tfidf_gen time = %f'%(t1-t0)
-        # print 'tfidf_read time = %f'%(t2-t1)
-        # print 'lsi time = %f'%(t3-t2)
-        # print 'simmat time = %f'%(t4-t3)
-        # print 'extract high sim time = %f'%(t5-t4)
-        #=======================================================================
-        
         return simdict
         #=======================================================================
         # sort_sims = sorted(simdict.iteritems(), key=lambda item: item[1],reverse=True)

@@ -4109,3 +4109,218 @@
 2015-12-13 17:48:01,262 docsim.py[line:501] WARNING scanning corpus to determine the number of features (consider setting `num_features` explicitly)
 2015-12-13 17:48:02,289 docsim.py[line:514] INFO creating matrix with 628 documents and 400 features
 2015-12-13 17:48:03,353 utils.py[line:352] INFO saving MatrixSimilarity object under /tmp/wechat.index, separately None
+2015-12-13 21:40:38,316 dictionary.py[line:124] INFO adding document #0 to Dictionary(0 unique tokens: [])
+2015-12-13 21:40:38,317 __init__.py[line:106] DEBUG Building prefix dict from /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/jieba/dict.txt ...
+2015-12-13 21:40:38,321 __init__.py[line:125] DEBUG Loading model from cache /var/folders/w5/htnljvlj6k17skl9kfckrlnm0000gn/T/jieba.cache
+2015-12-13 21:40:38,978 __init__.py[line:157] DEBUG Loading model cost 0.661 seconds.
+2015-12-13 21:40:38,979 __init__.py[line:158] DEBUG Prefix dict has been built succesfully.
+2015-12-13 21:40:46,437 dictionary.py[line:130] INFO built Dictionary(47463 unique tokens: [u'\u5e73\u5b9e', u'\u7b2c\u4e8c', u'\u5c0f\u817f', u'\u7f16\u8bd1', u'\u5e73\u5b89']...) from 965 documents (total 611163 corpus positions)
+2015-12-13 21:40:46,507 dictionary.py[line:251] DEBUG rebuilding dictionary, shrinking gaps
+2015-12-13 21:40:46,544 dictionary.py[line:251] DEBUG rebuilding dictionary, shrinking gaps
+2015-12-13 21:40:46,565 utils.py[line:352] INFO saving Dictionary object under /tmp/wechat/mydict.dict, separately None
+2015-12-13 21:40:47,113 mmcorpus.py[line:47] INFO storing corpus in Matrix Market format to /tmp/wechat/mycorpus.mm
+2015-12-13 21:40:47,114 matutils.py[line:445] INFO saving sparse matrix to /tmp/wechat/mycorpus.mm
+2015-12-13 21:40:47,129 matutils.py[line:509] INFO PROGRESS: saving document #0
+2015-12-13 21:40:55,476 matutils.py[line:531] INFO saved 628x20170 matrix, density=1.079% (136699/12666760)
+2015-12-13 21:40:55,484 matutils.py[line:553] DEBUG closing /tmp/wechat/mycorpus.mm
+2015-12-13 21:40:55,485 matutils.py[line:553] DEBUG closing /tmp/wechat/mycorpus.mm
+2015-12-13 21:40:55,485 indexedcorpus.py[line:105] INFO saving MmCorpus index to /tmp/wechat/mycorpus.mm.index
+2015-12-13 21:40:55,486 mycorpus.py[line:47] DEBUG first gendict time = 8.855818
+2015-12-13 21:40:55,486 mycorpus.py[line:48] DEBUG first gencorpus time = 8.854031
+2015-12-13 21:40:55,486 tfidfmodel.py[line:112] INFO collecting document frequencies
+2015-12-13 21:40:55,487 tfidfmodel.py[line:130] INFO calculating IDF weights for 0 documents and 0 features (0 matrix non-zeros)
+2015-12-13 21:40:55,489 lsimodel.py[line:306] INFO using serial LSI version on this node
+2015-12-13 21:40:55,489 lsimodel.py[line:347] INFO updating model with new documents
+2015-12-13 21:47:21,157 utils.py[line:252] INFO loading Dictionary object from /tmp/wechat/mydict.dict
+2015-12-13 21:47:21,664 dictionary.py[line:124] INFO adding document #0 to Dictionary(20170 unique tokens: [u'\u6c89\u9759', u'\u6709\u53d8', u'\u65b0\u9510', u'\u8fc7\u65e5\u5b50', u'\u7231\u6155']...)
+2015-12-13 21:47:21,664 __init__.py[line:106] DEBUG Building prefix dict from /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/jieba/dict.txt ...
+2015-12-13 21:47:21,668 __init__.py[line:125] DEBUG Loading model from cache /var/folders/w5/htnljvlj6k17skl9kfckrlnm0000gn/T/jieba.cache
+2015-12-13 21:47:22,290 __init__.py[line:157] DEBUG Loading model cost 0.625 seconds.
+2015-12-13 21:47:22,290 __init__.py[line:158] DEBUG Prefix dict has been built succesfully.
+2015-12-13 21:47:29,922 dictionary.py[line:130] INFO built Dictionary(47463 unique tokens: [u'\u5e73\u5b9e', u'\u7b2c\u4e8c', u'\u5c0f\u817f', u'\u7f16\u8bd1', u'\u5e73\u5b89']...) from 1930 documents (total 1222326 corpus positions)
+2015-12-13 21:47:29,953 dictionary.py[line:251] DEBUG rebuilding dictionary, shrinking gaps
+2015-12-13 21:47:29,968 dictionary.py[line:251] DEBUG rebuilding dictionary, shrinking gaps
+2015-12-13 21:47:29,981 utils.py[line:352] INFO saving Dictionary object under /tmp/wechat/mydict.dict, separately None
+2015-12-13 21:47:30,038 indexedcorpus.py[line:53] INFO loaded corpus index from /tmp/wechat/mycorpus.mm.index
+2015-12-13 21:47:30,038 matutils.py[line:580] INFO initializing corpus reader from /tmp/wechat/mycorpus.mm
+2015-12-13 21:47:30,039 matutils.py[line:601] INFO accepted corpus with 628 documents, 20170 features, 136699 non-zero entries
+2015-12-13 21:48:06,309 utils.py[line:252] INFO loading Dictionary object from /tmp/wechat/mydict.dict
+2015-12-13 21:48:06,347 dictionary.py[line:124] INFO adding document #0 to Dictionary(20170 unique tokens: [u'\u6c89\u9759', u'\u6709\u53d8', u'\u65b0\u9510', u'\u8fc7\u65e5\u5b50', u'\u7231\u6155']...)
+2015-12-13 21:48:06,347 __init__.py[line:106] DEBUG Building prefix dict from /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/jieba/dict.txt ...
+2015-12-13 21:48:06,349 __init__.py[line:125] DEBUG Loading model from cache /var/folders/w5/htnljvlj6k17skl9kfckrlnm0000gn/T/jieba.cache
+2015-12-13 21:48:06,934 __init__.py[line:157] DEBUG Loading model cost 0.587 seconds.
+2015-12-13 21:48:06,935 __init__.py[line:158] DEBUG Prefix dict has been built succesfully.
+2015-12-13 21:48:14,532 dictionary.py[line:130] INFO built Dictionary(47463 unique tokens: [u'\u5e73\u5b9e', u'\u7b2c\u4e8c', u'\u5c0f\u817f', u'\u7f16\u8bd1', u'\u5e73\u5b89']...) from 2895 documents (total 1833489 corpus positions)
+2015-12-13 21:48:14,567 dictionary.py[line:251] DEBUG rebuilding dictionary, shrinking gaps
+2015-12-13 21:48:14,586 dictionary.py[line:251] DEBUG rebuilding dictionary, shrinking gaps
+2015-12-13 21:48:14,602 utils.py[line:352] INFO saving Dictionary object under /tmp/wechat/mydict.dict, separately None
+2015-12-13 21:48:14,646 indexedcorpus.py[line:53] INFO loaded corpus index from /tmp/wechat/mycorpus.mm.index
+2015-12-13 21:48:14,646 matutils.py[line:580] INFO initializing corpus reader from /tmp/wechat/mycorpus.mm
+2015-12-13 21:48:14,647 matutils.py[line:601] INFO accepted corpus with 628 documents, 20170 features, 136699 non-zero entries
+2015-12-13 21:48:22,692 mmcorpus.py[line:47] INFO storing corpus in Matrix Market format to /tmp/wechat/mycorpus.mm
+2015-12-13 21:48:22,701 matutils.py[line:445] INFO saving sparse matrix to /tmp/wechat/mycorpus.mm
+2015-12-13 21:48:22,701 matutils.py[line:509] INFO PROGRESS: saving document #0
+2015-12-13 21:48:23,934 matutils.py[line:509] INFO PROGRESS: saving document #1000
+2015-12-13 21:48:24,209 matutils.py[line:531] INFO saved 1256x20170 matrix, density=1.079% (273398/25333520)
+2015-12-13 21:48:24,210 matutils.py[line:553] DEBUG closing /tmp/wechat/mycorpus.mm
+2015-12-13 21:48:24,249 matutils.py[line:553] DEBUG closing /tmp/wechat/mycorpus.mm
+2015-12-13 21:48:24,249 indexedcorpus.py[line:105] INFO saving MmCorpus index to /tmp/wechat/mycorpus.mm.index
+2015-12-13 21:48:24,250 mycorpus.py[line:55] DEBUG again gendict time  = 8.334579
+2015-12-13 21:48:24,250 mycorpus.py[line:56] DEBUG again gencorpus time = 9.606737
+2015-12-13 21:48:24,252 indexedcorpus.py[line:53] INFO loaded corpus index from /tmp/wechat/mycorpus.mm.index
+2015-12-13 21:48:24,252 matutils.py[line:580] INFO initializing corpus reader from /tmp/wechat/mycorpus.mm
+2015-12-13 21:48:24,253 matutils.py[line:601] INFO accepted corpus with 1256 documents, 20170 features, 273398 non-zero entries
+2015-12-13 21:48:24,273 tfidfmodel.py[line:112] INFO collecting document frequencies
+2015-12-13 21:48:24,275 tfidfmodel.py[line:117] INFO PROGRESS: processing document #0
+2015-12-13 21:48:25,786 tfidfmodel.py[line:130] INFO calculating IDF weights for 1256 documents and 20169 features (273398 matrix non-zeros)
+2015-12-13 21:48:25,802 lsimodel.py[line:306] INFO using serial LSI version on this node
+2015-12-13 21:48:25,802 lsimodel.py[line:347] INFO updating model with new documents
+2015-12-13 21:48:27,680 lsimodel.py[line:371] INFO preparing a new chunk of documents
+2015-12-13 21:48:27,680 lsimodel.py[line:375] DEBUG converting corpus to csc format
+2015-12-13 21:48:27,746 lsimodel.py[line:645] INFO using 100 extra samples and 2 power iterations
+2015-12-13 21:48:27,747 lsimodel.py[line:653] INFO 1st phase: constructing (20170, 500) action matrix
+2015-12-13 21:48:28,066 lsimodel.py[line:668] INFO orthonormalizing (20170, 500) action matrix
+2015-12-13 21:48:28,358 matutils.py[line:396] DEBUG computing QR of (20170, 500) dense matrix
+2015-12-13 21:48:29,847 lsimodel.py[line:672] DEBUG running 2 power iterations
+2015-12-13 21:48:30,432 matutils.py[line:396] DEBUG computing QR of (20170, 500) dense matrix
+2015-12-13 21:48:32,513 matutils.py[line:396] DEBUG computing QR of (20170, 500) dense matrix
+2015-12-13 21:48:34,259 lsimodel.py[line:717] INFO 2nd phase: running dense svd on (500, 1256) matrix
+2015-12-13 21:48:34,616 lsimodel.py[line:741] INFO computing the final decomposition
+2015-12-13 21:48:34,616 lsimodel.py[line:89] INFO keeping 400 factors (discarding 7.991% of energy spectrum)
+2015-12-13 21:48:35,006 lsimodel.py[line:391] INFO processed documents up to #1256
+2015-12-13 21:48:35,014 lsimodel.py[line:522] INFO topic #0(10.911): 0.844*"白天鹅" + 0.435*"
+" + 0.086*"经验" + 0.048*" " + 0.047*"路程" + 0.044*"寿光" + 0.043*"生个" + 0.029*"阴凉" + 0.028*"雏鸟" + 0.027*"调味品"
+2015-12-13 21:48:35,016 lsimodel.py[line:522] INFO topic #1(10.697): 0.850*"
+" + -0.450*"白天鹅" + 0.092*" " + 0.047*"孩子" + -0.045*"经验" + 0.043*"说" + 0.042*"女人" + 0.029*"男人" + 0.028*"做" + 0.028*"朋友"
+2015-12-13 21:48:35,017 lsimodel.py[line:522] INFO topic #2(3.099): -0.615*"群主" + -0.551*"古典" + -0.076*" " + -0.067*"群" + -0.065*"四有" + -0.063*"经验" + -0.062*"讲" + -0.059*"税收" + -0.057*"戏份" + -0.057*"发展"
+2015-12-13 21:48:35,018 lsimodel.py[line:522] INFO topic #3(3.048): 0.618*"古典" + -0.564*"群主" + 0.072*"经验" + -0.068*" " + 0.066*"税收" + 0.064*"戏份" + 0.063*"拉开" + -0.061*"群" + 0.061*"酸" + -0.060*"四有"
+2015-12-13 21:48:35,019 lsimodel.py[line:522] INFO topic #4(2.975): -0.502*"夫" + -0.289*"路程" + -0.273*"孩子" + -0.207*"佛法" + -0.189*"妻子" + -0.139*"生活费" + -0.138*"心" + -0.128*"工作" + -0.119*"天生" + -0.117*"寿光"
+2015-12-13 21:48:35,081 docsim.py[line:501] WARNING scanning corpus to determine the number of features (consider setting `num_features` explicitly)
+2015-12-13 21:48:36,879 docsim.py[line:514] INFO creating matrix with 1256 documents and 400 features
+2015-12-13 21:48:37,544 docsim.py[line:520] DEBUG PROGRESS: at document #0/1256
+2015-12-13 21:48:38,471 docsim.py[line:520] DEBUG PROGRESS: at document #1000/1256
+2015-12-13 21:48:38,848 utils.py[line:352] INFO saving MatrixSimilarity object under /tmp/wechat.index, separately None
+2015-12-13 21:49:10,326 utils.py[line:252] INFO loading Dictionary object from /tmp/wechat/mydict.dict
+2015-12-13 21:49:10,808 dictionary.py[line:124] INFO adding document #0 to Dictionary(20170 unique tokens: [u'\u6c89\u9759', u'\u6709\u53d8', u'\u65b0\u9510', u'\u8fc7\u65e5\u5b50', u'\u7231\u6155']...)
+2015-12-13 21:49:10,809 __init__.py[line:106] DEBUG Building prefix dict from /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/jieba/dict.txt ...
+2015-12-13 21:49:10,811 __init__.py[line:125] DEBUG Loading model from cache /var/folders/w5/htnljvlj6k17skl9kfckrlnm0000gn/T/jieba.cache
+2015-12-13 21:49:11,412 __init__.py[line:157] DEBUG Loading model cost 0.603 seconds.
+2015-12-13 21:49:11,413 __init__.py[line:158] DEBUG Prefix dict has been built succesfully.
+2015-12-13 21:49:19,227 dictionary.py[line:130] INFO built Dictionary(47463 unique tokens: [u'\u5e73\u5b9e', u'\u7b2c\u4e8c', u'\u5c0f\u817f', u'\u7f16\u8bd1', u'\u5e73\u5b89']...) from 3860 documents (total 2444652 corpus positions)
+2015-12-13 21:49:19,261 dictionary.py[line:251] DEBUG rebuilding dictionary, shrinking gaps
+2015-12-13 21:49:19,277 dictionary.py[line:251] DEBUG rebuilding dictionary, shrinking gaps
+2015-12-13 21:49:19,292 utils.py[line:352] INFO saving Dictionary object under /tmp/wechat/mydict.dict, separately None
+2015-12-13 21:49:19,324 indexedcorpus.py[line:53] INFO loaded corpus index from /tmp/wechat/mycorpus.mm.index
+2015-12-13 21:49:19,324 matutils.py[line:580] INFO initializing corpus reader from /tmp/wechat/mycorpus.mm
+2015-12-13 21:49:19,325 matutils.py[line:601] INFO accepted corpus with 1256 documents, 20170 features, 273398 non-zero entries
+2015-12-13 21:49:27,969 mmcorpus.py[line:47] INFO storing corpus in Matrix Market format to /tmp/wechat/mycorpus.mm
+2015-12-13 21:49:27,969 matutils.py[line:445] INFO saving sparse matrix to /tmp/wechat/mycorpus.mm
+2015-12-13 21:49:27,970 matutils.py[line:509] INFO PROGRESS: saving document #0
+2015-12-13 21:49:29,173 matutils.py[line:509] INFO PROGRESS: saving document #1000
+2015-12-13 21:49:30,173 matutils.py[line:531] INFO saved 1884x20170 matrix, density=1.079% (410097/38000280)
+2015-12-13 21:49:30,174 matutils.py[line:553] DEBUG closing /tmp/wechat/mycorpus.mm
+2015-12-13 21:49:30,229 matutils.py[line:553] DEBUG closing /tmp/wechat/mycorpus.mm
+2015-12-13 21:49:30,229 indexedcorpus.py[line:105] INFO saving MmCorpus index to /tmp/wechat/mycorpus.mm.index
+2015-12-13 21:49:30,230 mycorpus.py[line:55] DEBUG again gendict time  = 8.996445
+2015-12-13 21:49:30,231 mycorpus.py[line:56] DEBUG again gencorpus time = 10.907758
+2015-12-13 21:49:30,239 indexedcorpus.py[line:53] INFO loaded corpus index from /tmp/wechat/mycorpus.mm.index
+2015-12-13 21:49:30,239 matutils.py[line:580] INFO initializing corpus reader from /tmp/wechat/mycorpus.mm
+2015-12-13 21:49:30,240 matutils.py[line:601] INFO accepted corpus with 1884 documents, 20170 features, 410097 non-zero entries
+2015-12-13 21:49:30,265 tfidfmodel.py[line:112] INFO collecting document frequencies
+2015-12-13 21:49:30,268 tfidfmodel.py[line:117] INFO PROGRESS: processing document #0
+2015-12-13 21:49:32,560 tfidfmodel.py[line:130] INFO calculating IDF weights for 1884 documents and 20169 features (410097 matrix non-zeros)
+2015-12-13 21:49:32,575 lsimodel.py[line:306] INFO using serial LSI version on this node
+2015-12-13 21:49:32,575 lsimodel.py[line:347] INFO updating model with new documents
+2015-12-13 21:49:35,597 lsimodel.py[line:371] INFO preparing a new chunk of documents
+2015-12-13 21:49:35,598 lsimodel.py[line:375] DEBUG converting corpus to csc format
+2015-12-13 21:49:35,717 lsimodel.py[line:645] INFO using 100 extra samples and 2 power iterations
+2015-12-13 21:49:35,718 lsimodel.py[line:653] INFO 1st phase: constructing (20170, 500) action matrix
+2015-12-13 21:49:36,175 lsimodel.py[line:668] INFO orthonormalizing (20170, 500) action matrix
+2015-12-13 21:49:36,469 matutils.py[line:396] DEBUG computing QR of (20170, 500) dense matrix
+2015-12-13 21:49:38,081 lsimodel.py[line:672] DEBUG running 2 power iterations
+2015-12-13 21:49:38,842 matutils.py[line:396] DEBUG computing QR of (20170, 500) dense matrix
+2015-12-13 21:49:41,225 matutils.py[line:396] DEBUG computing QR of (20170, 500) dense matrix
+2015-12-13 21:49:43,120 lsimodel.py[line:717] INFO 2nd phase: running dense svd on (500, 1884) matrix
+2015-12-13 21:49:43,660 lsimodel.py[line:741] INFO computing the final decomposition
+2015-12-13 21:49:43,660 lsimodel.py[line:89] INFO keeping 400 factors (discarding 5.873% of energy spectrum)
+2015-12-13 21:49:44,035 lsimodel.py[line:391] INFO processed documents up to #1884
+2015-12-13 21:49:44,047 lsimodel.py[line:522] INFO topic #0(13.911): 0.822*"削减" + 0.470*"致人" + 0.197*"
+" + 0.077*"福大" + 0.046*"从零开始" + 0.037*"费时间" + 0.036*"路程" + 0.033*"兴" + 0.024*"孩子" + 0.023*"菜肴"
+2015-12-13 21:49:44,049 lsimodel.py[line:522] INFO topic #1(13.743): -0.834*"致人" + 0.503*"削减" + -0.081*"从零开始" + -0.076*"
+" + 0.046*"福大" + -0.037*"新疆" + -0.031*"寿光" + -0.031*"孩子" + -0.023*"山水" + -0.023*"首要条件"
+2015-12-13 21:49:44,051 lsimodel.py[line:522] INFO topic #2(13.480): -0.948*"
+" + 0.174*"致人" + 0.139*"削减" + -0.095*" " + -0.044*"说" + -0.037*"女人" + -0.028*"孩子" + -0.027*"做" + -0.027*"中" + -0.025*"男人"
+2015-12-13 21:49:44,052 lsimodel.py[line:522] INFO topic #3(3.021): 0.745*"孩子" + 0.189*"独一无二" + 0.138*"路程" + -0.128*" " + 0.105*"会致" + 0.096*"夫" + 0.095*"寿光" + 0.091*"女人" + 0.085*"妻子" + -0.083*"从零开始"
+2015-12-13 21:49:44,053 lsimodel.py[line:522] INFO topic #4(2.989): -0.496*" " + -0.448*"群主" + -0.330*"从零开始" + -0.299*"空腹" + -0.227*"福大" + -0.163*"事儿" + -0.090*"独一无二" + 0.088*"
+" + 0.064*"致人" + 0.056*"削减"
+2015-12-13 21:49:44,173 docsim.py[line:501] WARNING scanning corpus to determine the number of features (consider setting `num_features` explicitly)
+2015-12-13 21:49:47,008 docsim.py[line:514] INFO creating matrix with 1884 documents and 400 features
+2015-12-13 21:49:47,741 docsim.py[line:520] DEBUG PROGRESS: at document #0/1884
+2015-12-13 21:49:48,842 docsim.py[line:520] DEBUG PROGRESS: at document #1000/1884
+2015-12-13 21:49:50,239 utils.py[line:352] INFO saving MatrixSimilarity object under /tmp/wechat.index, separately None
+2015-12-13 22:00:55,717 utils.py[line:252] INFO loading Dictionary object from /tmp/wechat/mydict.dict
+2015-12-13 22:00:56,248 dictionary.py[line:124] INFO adding document #0 to Dictionary(20170 unique tokens: [u'\u6c89\u9759', u'\u6709\u53d8', u'\u65b0\u9510', u'\u8fc7\u65e5\u5b50', u'\u7231\u6155']...)
+2015-12-13 22:00:56,248 __init__.py[line:106] DEBUG Building prefix dict from /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/jieba/dict.txt ...
+2015-12-13 22:00:56,253 __init__.py[line:125] DEBUG Loading model from cache /var/folders/w5/htnljvlj6k17skl9kfckrlnm0000gn/T/jieba.cache
+2015-12-13 22:00:56,904 __init__.py[line:157] DEBUG Loading model cost 0.655 seconds.
+2015-12-13 22:00:56,904 __init__.py[line:158] DEBUG Prefix dict has been built succesfully.
+2015-12-13 22:01:04,771 dictionary.py[line:130] INFO built Dictionary(47463 unique tokens: [u'\u5e73\u5b9e', u'\u7b2c\u4e8c', u'\u5c0f\u817f', u'\u7f16\u8bd1', u'\u5e73\u5b89']...) from 4825 documents (total 3055815 corpus positions)
+2015-12-13 22:01:04,819 dictionary.py[line:251] DEBUG rebuilding dictionary, shrinking gaps
+2015-12-13 22:01:04,834 dictionary.py[line:251] DEBUG rebuilding dictionary, shrinking gaps
+2015-12-13 22:01:04,850 utils.py[line:352] INFO saving Dictionary object under /tmp/wechat/mydict.dict, separately None
+2015-12-13 22:01:04,881 indexedcorpus.py[line:53] INFO loaded corpus index from /tmp/wechat/mycorpus.mm.index
+2015-12-13 22:01:04,882 matutils.py[line:580] INFO initializing corpus reader from /tmp/wechat/mycorpus.mm
+2015-12-13 22:01:04,882 matutils.py[line:601] INFO accepted corpus with 1884 documents, 20170 features, 410097 non-zero entries
+2015-12-13 22:01:15,039 mmcorpus.py[line:47] INFO storing corpus in Matrix Market format to /tmp/wechat/mycorpus.mm
+2015-12-13 22:01:15,049 matutils.py[line:445] INFO saving sparse matrix to /tmp/wechat/mycorpus.mm
+2015-12-13 22:01:15,049 matutils.py[line:509] INFO PROGRESS: saving document #0
+2015-12-13 22:01:16,346 matutils.py[line:509] INFO PROGRESS: saving document #1000
+2015-12-13 22:01:17,598 matutils.py[line:509] INFO PROGRESS: saving document #2000
+2015-12-13 22:01:18,309 matutils.py[line:531] INFO saved 2512x20170 matrix, density=1.079% (546796/50667040)
+2015-12-13 22:01:18,309 matutils.py[line:553] DEBUG closing /tmp/wechat/mycorpus.mm
+2015-12-13 22:01:18,318 matutils.py[line:553] DEBUG closing /tmp/wechat/mycorpus.mm
+2015-12-13 22:01:18,318 indexedcorpus.py[line:105] INFO saving MmCorpus index to /tmp/wechat/mycorpus.mm.index
+2015-12-13 22:01:18,320 mycorpus.py[line:56] DEBUG again gendict time  = 9.161586
+2015-12-13 22:01:18,320 mycorpus.py[line:57] DEBUG again gencorpus time = 13.441054
+2015-12-13 22:01:18,321 indexedcorpus.py[line:53] INFO loaded corpus index from /tmp/wechat/mycorpus.mm.index
+2015-12-13 22:01:18,321 matutils.py[line:580] INFO initializing corpus reader from /tmp/wechat/mycorpus.mm
+2015-12-13 22:01:18,321 matutils.py[line:601] INFO accepted corpus with 2512 documents, 20170 features, 546796 non-zero entries
+2015-12-13 22:01:18,349 tfidfmodel.py[line:112] INFO collecting document frequencies
+2015-12-13 22:01:18,351 tfidfmodel.py[line:117] INFO PROGRESS: processing document #0
+2015-12-13 22:01:21,542 tfidfmodel.py[line:130] INFO calculating IDF weights for 2512 documents and 20169 features (546796 matrix non-zeros)
+2015-12-13 22:01:21,557 lsimodel.py[line:306] INFO using serial LSI version on this node
+2015-12-13 22:01:21,557 lsimodel.py[line:347] INFO updating model with new documents
+2015-12-13 22:01:25,175 lsimodel.py[line:371] INFO preparing a new chunk of documents
+2015-12-13 22:01:25,185 lsimodel.py[line:375] DEBUG converting corpus to csc format
+2015-12-13 22:01:25,329 lsimodel.py[line:645] INFO using 100 extra samples and 2 power iterations
+2015-12-13 22:01:25,330 lsimodel.py[line:653] INFO 1st phase: constructing (20170, 500) action matrix
+2015-12-13 22:01:25,976 lsimodel.py[line:668] INFO orthonormalizing (20170, 500) action matrix
+2015-12-13 22:01:26,298 matutils.py[line:396] DEBUG computing QR of (20170, 500) dense matrix
+2015-12-13 22:01:27,912 lsimodel.py[line:672] DEBUG running 2 power iterations
+2015-12-13 22:01:28,842 matutils.py[line:396] DEBUG computing QR of (20170, 500) dense matrix
+2015-12-13 22:01:31,230 matutils.py[line:396] DEBUG computing QR of (20170, 500) dense matrix
+2015-12-13 22:01:33,210 lsimodel.py[line:717] INFO 2nd phase: running dense svd on (500, 2512) matrix
+2015-12-13 22:01:33,887 lsimodel.py[line:741] INFO computing the final decomposition
+2015-12-13 22:01:33,887 lsimodel.py[line:89] INFO keeping 400 factors (discarding 4.683% of energy spectrum)
+2015-12-13 22:01:34,243 lsimodel.py[line:391] INFO processed documents up to #2512
+2015-12-13 22:01:34,249 lsimodel.py[line:522] INFO topic #0(15.520): 0.720*"2002" + 0.603*"
+" + 0.180*"技术" + 0.176*"随之" + 0.079*" " + 0.031*"身躯" + 0.029*"一笑而过" + 0.026*"说" + 0.026*"一集" + 0.024*"孩子"
+2015-12-13 22:01:34,250 lsimodel.py[line:522] INFO topic #1(15.320): 0.749*"
+" + -0.641*"2002" + 0.035*"技术" + 0.032*"说" + 0.029*"孩子" + -0.027*"身躯" + 0.026*"女人" + -0.025*"一笑而过" + -0.022*"一集" + 0.020*"中"
+2015-12-13 22:01:34,252 lsimodel.py[line:522] INFO topic #2(15.092): -0.708*"随之" + -0.618*"技术" + 0.190*"
+" + 0.185*"2002" + -0.068*"王凯" + -0.059*"回眸" + -0.044*"1600" + -0.031*"心事" + -0.027*"利他" + -0.025*"纤瘦"
+2015-12-13 22:01:34,253 lsimodel.py[line:522] INFO topic #3(15.014): 0.733*"技术" + -0.649*"随之" + 0.070*"回眸" + -0.062*"王凯" + 0.032*"利他" + -0.032*"
+" + -0.028*"心事" + 0.025*"手工" + -0.022*"纤瘦" + 0.020*"身处"
+2015-12-13 22:01:34,254 lsimodel.py[line:522] INFO topic #4(3.181): -0.887*" " + -0.183*"回眸" + -0.141*"王凯" + -0.125*"群主" + -0.108*"事儿" + 0.077*"2002" + 0.076*"
+" + -0.048*"1600" + -0.046*"朴信惠" + -0.040*"做"
+2015-12-13 22:01:34,303 docsim.py[line:501] WARNING scanning corpus to determine the number of features (consider setting `num_features` explicitly)
+2015-12-13 22:01:38,286 docsim.py[line:514] INFO creating matrix with 2512 documents and 400 features
+2015-12-13 22:01:38,994 docsim.py[line:520] DEBUG PROGRESS: at document #0/2512
+2015-12-13 22:01:40,086 docsim.py[line:520] DEBUG PROGRESS: at document #1000/2512
+2015-12-13 22:01:41,775 docsim.py[line:520] DEBUG PROGRESS: at document #2000/2512
+2015-12-13 22:01:42,546 utils.py[line:352] INFO saving MatrixSimilarity object under /tmp/wechat.index, separately None
+2015-12-13 22:01:44,221 mycorpus.py[line:192] DEBUG tfidf_gen time = 3.206480
+2015-12-13 22:01:44,221 mycorpus.py[line:193] DEBUG tfidf_read time = 0.000017
+2015-12-13 22:01:44,221 mycorpus.py[line:194] DEBUG lsi time = 12.747849
+2015-12-13 22:01:44,222 mycorpus.py[line:195] DEBUG simmat time = 8.242108
+2015-12-13 22:01:44,222 mycorpus.py[line:196] DEBUG extract high sim time = 1.675250

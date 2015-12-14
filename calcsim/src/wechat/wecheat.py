@@ -22,20 +22,20 @@ class WeCheat(object):
     '''
     classdocs
     '''
-    def __init__(self, docspath,corpus_path,dic_path):
+    def __init__(self, docstatpath,savepath):
         '''
         Constructor
         '''
         self.r = redis.Redis(db=2)
         self.p = self.r.pipeline()
-        self.docspath = docspath
+        self.docstatpath = docstatpath
         self.redisdocs = 'docs' #包含所有文章id的集合 
         self.cheatsrc = 'cheatsrc'
         self.cheatset = 'cheatset'       
-        self.corpus_path = corpus_path
-        self.dic_path = dic_path
-    def calccheatdocs(self):
-        self.CC = mycorpus.MyCorpus(self.corpus_path,self.dic_path)
+        self.CC = mycorpus.MyCorpus(savepath)
+    def add_documents(self,docspath):
+        self.CC.add_documents(docspath)
+    def calc_cheatdocs(self):
         cheatpairs = self.CC.gensim()
         for (doc1,doc2) in cheatpairs:
             if not self.__cheatsame__(doc1, doc2):
@@ -81,7 +81,7 @@ class WeCheat(object):
         return docid
        
     def save_basicinfo(self):
-        for root,dirs,files in os.walk(self.docspath):
+        for root,dirs,files in os.walk(self.docstatpath):
             for f in files:
                 if os.path.splitext(f)[1]!= '.csv':
                     continue

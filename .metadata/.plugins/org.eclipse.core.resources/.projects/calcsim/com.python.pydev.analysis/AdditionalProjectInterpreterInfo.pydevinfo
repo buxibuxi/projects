@@ -1,46 +1,49 @@
 -- VERSION_4
 -- START DISKCACHE_2
 /Users/luobu/workspace/projiects/.metadata/.plugins/org.eclipse.core.resources/.projects/calcsim/com.python.pydev.analysis/v2_indexcache
-wechat.main|1449993378000000000|/Users/luobu/workspace/projiects/calcsim/src/wechat/main.py
+wechat.main|1450100295000000000|/Users/luobu/workspace/projiects/calcsim/src/wechat/main.py
 mynlp.mysimserver|1449997778000000000|/Users/luobu/workspace/projiects/calcsim/src/mynlp/mysimserver.py
 wechat.__init__|1449976754000000000|/Users/luobu/workspace/projiects/calcsim/src/wechat/__init__.py
 test.mytest|1449976997000000000|/Users/luobu/workspace/projiects/calcsim/src/test/mytest.py
 wechat.WeCheat|1449923140000000000|/Users/luobu/workspace/projiects/calcsim/src/wechat/WeCheat.py
-wechat.wecheat|1449993363000000000|/Users/luobu/workspace/projiects/calcsim/src/wechat/wecheat.py
+wechat.wecheat|1450095984000000000|/Users/luobu/workspace/projiects/calcsim/src/wechat/wecheat.py
 test.__init__|1449317937000000000|/Users/luobu/workspace/projiects/calcsim/src/test/__init__.py
 mynlp.__init__|1449317937000000000|/Users/luobu/workspace/projiects/calcsim/src/mynlp/__init__.py
 test.haha|1449317937000000000|/Users/luobu/workspace/projiects/calcsim/src/test/haha.py
 -- END DISKCACHE
 -- START DICTIONARY
-14
+13
 3=wechat.main
 1=test.mytest
 10=MyCorpus
-14=MyCorpus.__gendict__
-12=MyCorpus.__init__
+13=MyCorpus.__gendict__
+11=MyCorpus.__init__
 6=wechat.wecheat
-8=WeCheat.calccheatdocs
 4=mynlp.mysimserver
 7=wechat.WeCheat
 2=test.__init__
 9=WeCheat
 5=test.haha
-13=MyCorpus.__gencorpus__
-11=WeCheat.__init__
+12=MyCorpus.__gencorpus__
+8=WeCheat.__init__
 -- END DICTIONARY
 -- START TREE 1
-37
+42
 M|1|M!11@
+__a|0|
+__g|0|
+__l|0|
+__s|0|
 a|1|a!11@
 art|1|article!19@
 b|1|b!11@
 che|1|cheatcase!27@
 cn_|1|cn_stopwords!19@
-cor|5|corpus!19@corpus_path!35@corpus!35@corpus_path!27@corpus_path!11@
+cor|7|corpus!19@corpus_path2!27@corpus_path!35@corpus!35@corpus_path1!27@corpus_path!27@corpus_path!11@
 cou|0|
 dat|0|
 dic|2|dic_path!27@dictionary!19@
-doc|5|docid!35@docdict!35@doc!35@docspath!27@doc_cutted!35@
+doc|5|docid!35@docdict!35@docstatpath!27@doc!35@doc_cutted!35@
 e_p|0|
 e_s|0|
 f|1|f!43@
@@ -55,8 +58,9 @@ ind|1|index!11@
 lsi|1|lsi!11@
 myc|5|MyCorpus!9@mycorpus_tfidf!11@mycorpus0!11@mycorpus!11@MyCorpus!41@
 res|0|
-sav|0|
+sav|2|savepath2!27@savepath1!27@
 seg|1|seg_list!19@
+sel|0|
 ser|1|service!35@
 sim|2|simdict!11@sim!11@
 sor|1|sort_sims!11@
@@ -69,28 +73,37 @@ url|1|url!35@
 wec|2|WeCheat!49@WeCheat!57@
 -- END TREE
 -- START TREE 2
-23
+32
 |0|
 CC|1|CC!8&51@
 __|0|
+__a|0|
 __c|2|__cheatunion__!9&50@__cheatsame__!9&50@
 __g|3|__getsrc__!9&50@__gencorpus__!10&10@__gendict__!10&10@
 __i|5|__init__!9&58@__init__!9&50@__init__!10&10@__init__!10&42@__iter__!10&42@
+__l|0|
+__s|0|
 __u|1|__updatecheatdoc__!9&50@
-cal|1|calccheatdocs!9&50@
-che|2|cheatset!11&51@cheatsrc!11&51@
-cn_|1|cn_stopwords!12&11@
-cor|2|corpus!13&11@corpus_path!11&51@
+add|1|add_documents!9&50@
+cal|1|calc_cheatdocs!9&50@
+che|2|cheatset!8&51@cheatsrc!8&51@
+cn_|1|cn_stopwords!11&11@
+cor|1|corpus!12&11@
 csv|0|
 def|0|
-dic|2|dic_path!11&51@dictionary!14&11@
-doc|4|doc_list1!14&11@docspath!11&59@doc_list!14&11@docspath!11&51@
-fil|1|file_list!14&11@
+dic|1|dictionary!13&11@
+doc|4|doc_list1!13&11@docspath!8&59@doc_list!13&11@docstatpath!8&51@
+ext|0|
+fil|1|file_list!13&11@
 gen|0|
-n|1|n!12&43@
-p|2|p!11&59@p!11&51@
-r|2|r!11&59@r!11&51@
-red|1|redisdocs!11&51@
+ind|0|
+lsi|0|
+min|0|
+n|1|n!11&43@
+new|0|
+p|2|p!8&59@p!8&51@
+r|2|r!8&59@r!8&51@
+red|1|redisdocs!8&51@
 sav|2|save_basicinfo!9&58@save_basicinfo!9&50@
 sim|0|
 -- END TREE

@@ -1,6 +1,7 @@
 MODULES_MANAGER_V2
 mynlp.__init__|/Users/luobu/workspace/projiects/calcsim/src/mynlp/__init__.py
 mynlp.mycorpus|/Users/luobu/workspace/projiects/calcsim/src/mynlp/mycorpus.py
+mynlp.mysimserver|/Users/luobu/workspace/projiects/calcsim/src/mynlp/mysimserver.py
 test.__init__|/Users/luobu/workspace/projiects/calcsim/src/test/__init__.py
 test.haha|/Users/luobu/workspace/projiects/calcsim/src/test/haha.py
 test.mytest|/Users/luobu/workspace/projiects/calcsim/src/test/mytest.py

@@ -33,16 +33,24 @@
 
 ##性能分析
 
+###场景1
+
 语料
 	
-	corpus_path ='/Users/luobu/workspace/data/wechat/articles/2015-12-04'
-    dic_path = '/Users/luobu/workspace/data/wechat/articles/'
+- corpus_path ='/Users/luobu/workspace/data/wechat/articles/2015-12-04'
+	语料文件总数为1000个
+- dic_path = '/Users/luobu/workspace/data/wechat/articles/'
+    字典文件比较多，有31000个文件
 
 性能
 
-- **gendict time = 325.625399** 
+- **gendict time = 325.625399**， 生成字典
 - gencorpus time = 8.640846
 - tfidf time = 0.897012
 - **lsi time = 77.871721*
 - simmat time = 2.090350
 - extract high sim time = 0.376324
+
+###场景2
+first gendict time = 8.855818
+first gencorpus time = 8.854031
